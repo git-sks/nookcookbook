@@ -1,52 +1,9 @@
 """Models for ACNH recipes lookup and calculator app."""
 
+import os
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
-
-
-class Category(db.Model):
-    """A category."""
-
-    # table name
-    __tablename__ = "categories"
-
-    # table columns
-    cat_code = db.Column(db.String,
-                        primary_key=True,
-                        nullable=False,
-                        )
-    name = db.Column(db.String, unique=True, nullable=False,)
-
-    # relationships
-    # TODO: Fill in
-
-    def __repr__(self):
-        """A human-readable summary of a category."""
-
-        return f'<Category cat_code={self.cat_code} name={self.name}>'
-
-
-class Season(db.Model):
-    """A season."""
-
-    # table name
-    __tablename__ = "seasons"
-
-    # table columns
-    season_code = db.Column(db.String,
-                            primary_key=True,
-                            nullable=False,
-                            )
-    name = db.Column(db.String, unique=True, nullable=False,)
-
-    # relationships
-    # TODO: Fill in
-
-    def __repr__(self):
-        """A human-readable summary of a season."""
-
-        return f'<Season season_code={self.season_code} name={self.name}>'
 
 
 class Recipe(db.Model):
@@ -62,24 +19,27 @@ class Recipe(db.Model):
                         nullable=False,
                         )
     name = db.Column(db.String, unique=True, nullable=False,)
-    category = db.Column(db.String,
+    cat_code = db.Column(db.String,
                         db.ForeignKey('categories.cat_code'),
                         nullable=False,
                         )
-    season = db.Column(db.String,
+    season_code = db.Column(db.String,
                         db.ForeignKey('seasons.season_code'),
                         )
 
     # relationships
-    # TODO: Fill in
+    recipe_materials = db.relationship('RecipeMaterial')
+    category = db.relationship('Category')
+    season = db.relationship('Season')
+    medias = db.relationship('Media', secondary='recipe_medias')
 
     def __repr__(self):
         """A human-readable summary of a recipe."""
 
         return (f'<Recipe recipe_id={self.recipe_id} '
                 + f'name={self.name} '
-                + f'category={self.category} '
-                + f'season={self.season}>'
+                + f'cat_code={self.cat_code} '
+                + f'season_code={self.season_code}>'
                 )
 
 
@@ -98,7 +58,8 @@ class Material(db.Model):
     name = db.Column(db.String, unique=True, nullable=False,)
 
     # relationships
-    # TODO: Fill in
+    recipes = db.relationship('Recipe', secondary='recipe_materials')
+    medias = db.relationship('Media', secondary='material_medias')
 
     def __repr__(self):
         """Human-readable summary of a material."""
@@ -110,7 +71,7 @@ class RecipeMaterial(db.Model):
     """An individual material needed for a specific recipe."""
 
     # table name
-    __tablename__ = "recipematerials"
+    __tablename__ = "recipe_materials"
 
     # table columns
     rcpmat_id = db.Column(db.Integer,
@@ -158,7 +119,8 @@ class Media(db.Model):
     media_type = db.Column(db.String, nullable=False,)
 
     # relationships
-    # TODO: Fill in
+    recipes = db.relationship('Recipe', secondary='recipe_medias')
+    materials = db.relationship('Material', secondary='material_medias')
 
     def __repr__(self):
         """Human-readable summary of a media object."""
@@ -173,7 +135,7 @@ class RecipeMedia(db.Model):
     """An individual media object for a recipe."""
 
     # table name
-    __tablename__ = "recipemedias"
+    __tablename__ = "recipe_medias"
 
     # table columns
     rcpmed_id = db.Column(db.Integer,
@@ -190,9 +152,6 @@ class RecipeMedia(db.Model):
                         nullable=False,
                         )
 
-    # relationships
-    # TODO: fill in
-
     def __repr__(self):
         """Human-readable summary of a recipemedia object."""
 
@@ -205,7 +164,7 @@ class MaterialMedia(db.Model):
     """An individual media object for a material."""
 
     # table name
-    __tablename__ = "materialmedias"
+    __tablename__ = "material_medias"
 
     # table columns
     matmed_id = db.Column(db.Integer,
@@ -222,15 +181,56 @@ class MaterialMedia(db.Model):
                         nullable=False,
                         )
 
-    # relationships
-    # TODO: fill in
-
     def __repr__(self):
         """Human-readable summary of a materialmedia object."""
 
         return (f'<MaterialMedia matmed_id={self.matmed_id} '
                 + f'material_id={self.material_id} '
                 + f'media_id={self.media_id}>')
+
+
+class Category(db.Model):
+    """A category."""
+
+    # table name
+    __tablename__ = "categories"
+
+    # table columns
+    cat_code = db.Column(db.String,
+                        primary_key=True,
+                        nullable=False,
+                        )
+    name = db.Column(db.String, unique=True, nullable=False,)
+
+    # relationships
+    recipes = db.relationship("Recipe")
+
+    def __repr__(self):
+        """A human-readable summary of a category."""
+
+        return f'<Category cat_code={self.cat_code} name={self.name}>'
+
+
+class Season(db.Model):
+    """A season."""
+
+    # table name
+    __tablename__ = "seasons"
+
+    # table columns
+    season_code = db.Column(db.String,
+                            primary_key=True,
+                            nullable=False,
+                            )
+    name = db.Column(db.String, unique=True, nullable=False,)
+
+    # relationships
+    recipes = db.relationship("Recipe")
+
+    def __repr__(self):
+        """A human-readable summary of a season."""
+
+        return f'<Season season_code={self.season_code} name={self.name}>'
 
 
 def connect_to_db(flask_app, db_uri='postgresql:///nookcookbook', echo=True):
@@ -247,8 +247,12 @@ def connect_to_db(flask_app, db_uri='postgresql:///nookcookbook', echo=True):
     print('Connected to the db!')
 
 
-# if __name__ == '__main__':
-    # from server import app
+if __name__ == '__main__':
+    from server import app
 
-    # connect_to_db(app)
+    os.system('dropdb nookcookbook')
+    os.system('createdb nookcookbook')
+
+    connect_to_db(app)
+    db.create_all()
     # connect_to_db(app, echo=False) # if want turn off SQLAlchemy query echoing
