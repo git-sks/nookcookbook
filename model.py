@@ -23,14 +23,14 @@ class Recipe(db.Model):
                         db.ForeignKey('categories.cat_code'),
                         nullable=False,
                         )
-    season_code = db.Column(db.String,
-                        db.ForeignKey('seasons.season_code'),
+    series_code = db.Column(db.String,
+                        db.ForeignKey('series.series_code'),
                         )
 
     # relationships
     recipe_materials = db.relationship('RecipeMaterial')
     category = db.relationship('Category')
-    season = db.relationship('Season')
+    series = db.relationship('Series')
     medias = db.relationship('Media', secondary='recipe_medias')
 
     def __repr__(self):
@@ -119,8 +119,8 @@ class Media(db.Model):
     media_type = db.Column(db.String, nullable=False,)
 
     # relationships
-    recipes = db.relationship('Recipe', secondary='recipe_medias')
-    materials = db.relationship('Material', secondary='material_medias')
+    recipe = db.relationship('Recipe', secondary='recipe_medias')
+    material = db.relationship('Material', secondary='material_medias')
 
     def __repr__(self):
         """Human-readable summary of a media object."""
@@ -211,14 +211,14 @@ class Category(db.Model):
         return f'<Category cat_code={self.cat_code} name={self.name}>'
 
 
-class Season(db.Model):
-    """A season."""
+class Series(db.Model):
+    """A series."""
 
     # table name
-    __tablename__ = "seasons"
+    __tablename__ = "series"
 
     # table columns
-    season_code = db.Column(db.String,
+    series_code = db.Column(db.String,
                             primary_key=True,
                             nullable=False,
                             )
@@ -230,7 +230,7 @@ class Season(db.Model):
     def __repr__(self):
         """A human-readable summary of a season."""
 
-        return f'<Season season_code={self.season_code} name={self.name}>'
+        return f'<Series series_code={self.series_code} name={self.name}>'
 
 
 def connect_to_db(flask_app, db_uri='postgresql:///nookcookbook', echo=True):
