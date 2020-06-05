@@ -58,9 +58,6 @@ def create_media(path, media_type):
     return media
 
 
-def create_recipe_media(recipe, media):
-
-
 
 def create_category(code, name):
     """Create and return a new category."""
@@ -79,6 +76,6 @@ def create_series(code, name):
     series = Series(series_code=code, name=name)
 
     db.session.add(series)
-    db.series.commit()
+    db.session.commit()
 
     return series
