@@ -1,0 +1,78 @@
+[
+    {
+        "series_code": "spring",
+        "name": "Spring Bamboo"
+    },
+    {
+        "series_code": "sakura",
+        "name": "Cherry Blossom"
+    },
+    {
+        "series_code": "bounty",
+        "name": "Tree's Bounty"
+    },
+    {
+        "series_code": "maple",
+        "name": "Maple Leaf"
+    },
+    {
+        "series_code": "festive",
+        "name": "Festive"
+    },
+    {
+        "series_code": "bunny",
+        "name": "Bunny Day"
+    },
+    {
+        "series_code": "mush",
+        "name": "Mushroom"
+    },
+    {
+        "series_code": "zod",
+        "name": "Zodiac"
+    },
+    {
+        "series_code": "summer",
+        "name": "Summer Shell"
+    },
+    {
+        "series_code": "ice",
+        "name": "Ice (Frozen)"
+    },
+    {
+        "series_code": "snow",
+        "name": "Snowflake"
+    },
+    {
+        "series_code": "bamboo",
+        "name": "Bamboo"
+    },
+    {
+        "series_code": "apple",
+        "name": "Apple"
+    },
+    {
+        "series_code": "pear",
+        "name": "Pear"
+    },
+    {
+        "series_code": "peach",
+        "name": "Peach"
+    },
+    {
+        "series_code": "cherry",
+        "name": "Cherry"
+    },
+    {
+        "series_code": "orange",
+        "name": "Orange"
+    },
+    {
+        "series_code": "shell",
+        "name": "Shell"
+    },
+    {
+        "series_code": "coco",
+        "name": "Coconut"
+    }
+]

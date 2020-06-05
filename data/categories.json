@@ -1,0 +1,70 @@
+[
+    {
+        "cat_code": "bag",
+        "name": "Bags"
+    },
+    {
+        "cat_code": "house",
+        "name": "Housewares"
+    },
+    {
+        "cat_code": "dress",
+        "name": "Dress-Up"
+    },
+    {
+        "cat_code": "head",
+        "name": "Headwear"
+    },
+    {
+        "cat_code": "rug",
+        "name": "Rugs"
+    },
+    {
+        "cat_code": "umbrella",
+        "name": "Umbrellas"
+    },
+    {
+        "cat_code": "wall",
+        "name": "Wallpaper"
+    },
+    {
+        "cat_code": "shoe",
+        "name": "Shoes"
+    },
+    {
+        "cat_code": "misc",
+        "name": "Miscellaneous"
+    },
+    {
+        "cat_code": "tool",
+        "name": "Tools"
+    },
+    {
+        "cat_code": "floor",
+        "name": "Floors"
+    },
+    {
+        "cat_code": "fence",
+        "name": "Fencing"
+    },
+    {
+        "cat_code": "mount",
+        "name": "Wall-mounted"
+    },
+    {
+        "cat_code": "other",
+        "name": "Other"
+    },
+    {
+        "cat_code": "btm",
+        "name": "Bottoms"
+    },
+    {
+        "cat_code": "acc",
+        "name": "Accessories"
+    },
+    {
+        "cat_code": "top",
+        "name": "Tops"
+    }
+]

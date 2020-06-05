@@ -1,0 +1,2595 @@
+[
+    {
+        "name": "acorn pochette",
+        "cat_code": "bag",
+        "series_code": "bounty"
+    },
+    {
+        "name": "acoustic guitar",
+        "cat_code": "house"
+    },
+    {
+        "name": "angled signpost",
+        "cat_code": "house"
+    },
+    {
+        "name": "apple chair",
+        "cat_code": "house",
+        "series_code": "apple"
+    },
+    {
+        "name": "apple dress",
+        "cat_code": "dress",
+        "series_code": "apple"
+    },
+    {
+        "name": "apple hat",
+        "cat_code": "head",
+        "series_code": "apple"
+    },
+    {
+        "name": "apple rug",
+        "cat_code": "rug",
+        "series_code": "apple"
+    },
+    {
+        "name": "apple umbrella",
+        "cat_code": "umbrella",
+        "series_code": "apple"
+    },
+    {
+        "name": "apple wall",
+        "cat_code": "wall",
+        "series_code": "apple"
+    },
+    {
+        "name": "Aquarius urn",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "Aries rocking chair",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "armor shoes",
+        "cat_code": "shoe"
+    },
+    {
+        "name": "aroma pot",
+        "cat_code": "misc"
+    },
+    {
+        "name": "asteroid",
+        "cat_code": "house"
+    },
+    {
+        "name": "astronaut suit",
+        "cat_code": "house"
+    },
+    {
+        "name": "autumn wall",
+        "cat_code": "wall",
+        "series_code": "maple"
+    },
+    {
+        "name": "axe",
+        "cat_code": "tool"
+    },
+    {
+        "name": "backyard lawn",
+        "cat_code": "floor"
+    },
+    {
+        "name": "bamboo basket",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo bench",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo candleholder",
+        "cat_code": "misc",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo doll",
+        "cat_code": "house",
+        "series_code": "spring"
+    },
+    {
+        "name": "bamboo drum",
+        "cat_code": "misc",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo floor lamp",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo flooring",
+        "cat_code": "floor",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo hat",
+        "cat_code": "head",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo lattice fence",
+        "cat_code": "fence",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo lunch box",
+        "cat_code": "misc",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo noodle slide",
+        "cat_code": "house",
+        "series_code": "spring"
+    },
+    {
+        "name": "bamboo partition",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo shelf",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo speaker",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo sphere",
+        "cat_code": "misc",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo stool",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo stopblock",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo wall",
+        "cat_code": "wall",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo wall decoration",
+        "cat_code": "mount",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "bamboo wand",
+        "cat_code": "tool",
+        "series_code": "spring"
+    },
+    {
+        "name": "bamboo-grove wall",
+        "cat_code": "wall",
+        "series_code": "spring"
+    },
+    {
+        "name": "bamboo-shoot lamp",
+        "cat_code": "misc",
+        "series_code": "spring"
+    },
+    {
+        "name": "barbed-wire fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "barbell",
+        "cat_code": "house"
+    },
+    {
+        "name": "barrel",
+        "cat_code": "house"
+    },
+    {
+        "name": "basement flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "basket pack",
+        "cat_code": "bag",
+        "series_code": "spring"
+    },
+    {
+        "name": "beekeeper's hive",
+        "cat_code": "house"
+    },
+    {
+        "name": "big festive tree",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "birdbath",
+        "cat_code": "house"
+    },
+    {
+        "name": "birdcage",
+        "cat_code": "house"
+    },
+    {
+        "name": "birdhouse",
+        "cat_code": "house"
+    },
+    {
+        "name": "blossom-viewing lantern",
+        "cat_code": "house",
+        "series_code": "sakura"
+    },
+    {
+        "name": "blue rose crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "blue rose wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "bone doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "bonfire",
+        "cat_code": "house"
+    },
+    {
+        "name": "bonsai shelf",
+        "cat_code": "house"
+    },
+    {
+        "name": "boomerang",
+        "cat_code": "mount"
+    },
+    {
+        "name": "brick fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "brick oven",
+        "cat_code": "house"
+    },
+    {
+        "name": "brick well",
+        "cat_code": "house"
+    },
+    {
+        "name": "bridge construction kit",
+        "cat_code": "other"
+    },
+    {
+        "name": "brown herringbone wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "Bunny Day arch",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day bag",
+        "cat_code": "bag",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day bed",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day crown",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day fence",
+        "cat_code": "fence",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day festive balloons",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day flooring",
+        "cat_code": "floor",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day glowy garland",
+        "cat_code": "mount",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day lamp",
+        "cat_code": "misc",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day merry balloons",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day rug",
+        "cat_code": "rug",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day stool",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day table",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day vanity",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day wall",
+        "cat_code": "wall",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day wall clock",
+        "cat_code": "mount",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day wand",
+        "cat_code": "tool",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day wardrobe",
+        "cat_code": "house",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Bunny Day wreath",
+        "cat_code": "mount",
+        "series_code": "bunny"
+    },
+    {
+        "name": "butter churn",
+        "cat_code": "house"
+    },
+    {
+        "name": "cabin wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "campfire",
+        "cat_code": "house"
+    },
+    {
+        "name": "campsite construction kit",
+        "cat_code": "other"
+    },
+    {
+        "name": "Cancer table",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "Capricorn ornament",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "cardboard bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "cardboard chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "cardboard sofa",
+        "cat_code": "house"
+    },
+    {
+        "name": "cardboard table",
+        "cat_code": "house"
+    },
+    {
+        "name": "cherry dress",
+        "cat_code": "dress",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry hat",
+        "cat_code": "head",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry lamp",
+        "cat_code": "mount",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry rug",
+        "cat_code": "rug",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry speakers",
+        "cat_code": "misc",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry umbrella",
+        "cat_code": "umbrella",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry wall",
+        "cat_code": "wall",
+        "series_code": "cherry"
+    },
+    {
+        "name": "cherry-blossom bonsai",
+        "cat_code": "misc",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom branches",
+        "cat_code": "house",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom clock",
+        "cat_code": "mount",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom flooring",
+        "cat_code": "floor",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom pochette",
+        "cat_code": "bag",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom pond stone",
+        "cat_code": "house",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom umbrella",
+        "cat_code": "umbrella",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom wand",
+        "cat_code": "tool",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom-petal pile",
+        "cat_code": "house",
+        "series_code": "sakura"
+    },
+    {
+        "name": "cherry-blossom-trees wall",
+        "cat_code": "wall",
+        "series_code": "sakura"
+    },
+    {
+        "name": "chic cosmos wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "chic mum crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "chic rose crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "chic tulip crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "chic windflower wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "chocolate herringbone wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "clackercart",
+        "cat_code": "house"
+    },
+    {
+        "name": "classic pitcher",
+        "cat_code": "misc"
+    },
+    {
+        "name": "classic-library wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "clothesline",
+        "cat_code": "house"
+    },
+    {
+        "name": "coconut juice",
+        "cat_code": "misc",
+        "series_code": "coco"
+    },
+    {
+        "name": "coconut wall planter",
+        "cat_code": "mount",
+        "series_code": "coco"
+    },
+    {
+        "name": "colored-leaves flooring",
+        "cat_code": "floor",
+        "series_code": "maple"
+    },
+    {
+        "name": "cool hyacinth crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cool hyacinth wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "cool pansy crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cool pansy wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "cool windflower crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cool windflower wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "corral fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "cosmos crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cosmos shower",
+        "cat_code": "house"
+    },
+    {
+        "name": "cosmos wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "cosmos wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "country fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "crescent-moon chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "crest doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "crewed spaceship",
+        "cat_code": "house"
+    },
+    {
+        "name": "cute lily crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cute rose crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "cutting board",
+        "cat_code": "misc"
+    },
+    {
+        "name": "dark bamboo rug",
+        "cat_code": "rug",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "dark cosmos crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "dark lily crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "dark lily wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "dark rose wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "dark tulip crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "dark tulip wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "dark wooden-mosaic wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "decoy duck",
+        "cat_code": "misc"
+    },
+    {
+        "name": "deer decoration",
+        "cat_code": "mount"
+    },
+    {
+        "name": "deer scare",
+        "cat_code": "house"
+    },
+    {
+        "name": "destinations signpost",
+        "cat_code": "house"
+    },
+    {
+        "name": "DIY workbench",
+        "cat_code": "house"
+    },
+    {
+        "name": "document stack",
+        "cat_code": "misc"
+    },
+    {
+        "name": "doghouse",
+        "cat_code": "house"
+    },
+    {
+        "name": "drinking fountain",
+        "cat_code": "house"
+    },
+    {
+        "name": "earth-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "earth-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "earth-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "egg party dress",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "egg party hat",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "fancy lily wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "fancy mum wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "fancy rose wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "festive top set",
+        "cat_code": "misc",
+        "series_code": "festive"
+    },
+    {
+        "name": "festive tree",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "firewood",
+        "cat_code": "misc"
+    },
+    {
+        "name": "fish bait",
+        "cat_code": "other"
+    },
+    {
+        "name": "fishing rod",
+        "cat_code": "tool"
+    },
+    {
+        "name": "flat garden rock",
+        "cat_code": "house"
+    },
+    {
+        "name": "flimsy axe",
+        "cat_code": "tool"
+    },
+    {
+        "name": "flimsy fishing rod",
+        "cat_code": "tool"
+    },
+    {
+        "name": "flimsy net",
+        "cat_code": "tool"
+    },
+    {
+        "name": "flimsy shovel",
+        "cat_code": "tool"
+    },
+    {
+        "name": "flimsy watering can",
+        "cat_code": "tool"
+    },
+    {
+        "name": "floral swag",
+        "cat_code": "mount"
+    },
+    {
+        "name": "flower stand",
+        "cat_code": "house"
+    },
+    {
+        "name": "flying saucer",
+        "cat_code": "house"
+    },
+    {
+        "name": "forest flooring",
+        "cat_code": "floor",
+        "series_code": "mush"
+    },
+    {
+        "name": "forest wall",
+        "cat_code": "wall",
+        "series_code": "mush"
+    },
+    {
+        "name": "fossil doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "fountain",
+        "cat_code": "house"
+    },
+    {
+        "name": "frozen arch",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen bed",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen chair",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen counter",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen partition",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen pillar",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen sculpture",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen table",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen tree",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "frozen-treat set",
+        "cat_code": "misc",
+        "series_code": "ice"
+    },
+    {
+        "name": "fruit basket",
+        "cat_code": "misc"
+    },
+    {
+        "name": "fruit wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "frying pan",
+        "cat_code": "misc"
+    },
+    {
+        "name": "galaxy flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "garbage-heap flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "garbage-heap wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "garden bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "garden rock",
+        "cat_code": "house"
+    },
+    {
+        "name": "garden wagon",
+        "cat_code": "house"
+    },
+    {
+        "name": "Gemini closet",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "giant teddy bear",
+        "cat_code": "house"
+    },
+    {
+        "name": "gold armor",
+        "cat_code": "dress"
+    },
+    {
+        "name": "gold bars",
+        "cat_code": "misc"
+    },
+    {
+        "name": "gold helmet",
+        "cat_code": "head"
+    },
+    {
+        "name": "gold rose crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "gold rose wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "gold-armor shoes",
+        "cat_code": "shoe"
+    },
+    {
+        "name": "gold-screen wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "golden arowana model",
+        "cat_code": "misc"
+    },
+    {
+        "name": "golden axe",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden candlestick",
+        "cat_code": "misc"
+    },
+    {
+        "name": "golden casket",
+        "cat_code": "house"
+    },
+    {
+        "name": "golden dishes",
+        "cat_code": "misc"
+    },
+    {
+        "name": "golden dung beetle",
+        "cat_code": "misc"
+    },
+    {
+        "name": "golden flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "golden gears",
+        "cat_code": "mount"
+    },
+    {
+        "name": "golden net",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden rod",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden seat",
+        "cat_code": "house"
+    },
+    {
+        "name": "golden shovel",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden slingshot",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden toilet",
+        "cat_code": "house"
+    },
+    {
+        "name": "golden wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "golden wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "golden watering can",
+        "cat_code": "tool"
+    },
+    {
+        "name": "gong",
+        "cat_code": "house"
+    },
+    {
+        "name": "grass skirt",
+        "cat_code": "btm"
+    },
+    {
+        "name": "grass standee",
+        "cat_code": "house"
+    },
+    {
+        "name": "green grass skirt",
+        "cat_code": "btm"
+    },
+    {
+        "name": "green-leaf pile",
+        "cat_code": "house",
+        "series_code": "spring"
+    },
+    {
+        "name": "hanging terrarium",
+        "cat_code": "mount"
+    },
+    {
+        "name": "hay bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "hearth",
+        "cat_code": "house",
+        "series_code": "bamboo"
+    },
+    {
+        "name": "hedge",
+        "cat_code": "fence"
+    },
+    {
+        "name": "hedge standee",
+        "cat_code": "house"
+    },
+    {
+        "name": "holiday candle",
+        "cat_code": "misc",
+        "series_code": "festive"
+    },
+    {
+        "name": "honeycomb flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "honeycomb wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "hyacinth crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "hyacinth lamp",
+        "cat_code": "misc"
+    },
+    {
+        "name": "hyacinth wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "hyacinth wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "ice flooring",
+        "cat_code": "floor",
+        "series_code": "ice"
+    },
+    {
+        "name": "ice wall",
+        "cat_code": "wall",
+        "series_code": "ice"
+    },
+    {
+        "name": "ice wand",
+        "cat_code": "tool",
+        "series_code": "ice"
+    },
+    {
+        "name": "iceberg flooring",
+        "cat_code": "floor",
+        "series_code": "snow"
+    },
+    {
+        "name": "iceberg wall",
+        "cat_code": "wall",
+        "series_code": "snow"
+    },
+    {
+        "name": "illuminated present",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "illuminated reindeer",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "illuminated snowflakes",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "illuminated tree",
+        "cat_code": "house",
+        "series_code": "festive"
+    },
+    {
+        "name": "imperial fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "infused-water dispenser",
+        "cat_code": "misc"
+    },
+    {
+        "name": "iron armor",
+        "cat_code": "dress"
+    },
+    {
+        "name": "iron closet",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "iron fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "iron frame",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron garden bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron garden chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron garden table",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron hanger stand",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron shelf",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron wall lamp",
+        "cat_code": "mount"
+    },
+    {
+        "name": "iron wall rack",
+        "cat_code": "mount"
+    },
+    {
+        "name": "iron wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "iron worktable",
+        "cat_code": "house"
+    },
+    {
+        "name": "iron-and-stone fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "ironwood bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood cart",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood clock",
+        "cat_code": "mount"
+    },
+    {
+        "name": "ironwood cupboard",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood DIY workbench",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood dresser",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood kitchenette",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood low table",
+        "cat_code": "house"
+    },
+    {
+        "name": "ironwood table",
+        "cat_code": "house"
+    },
+    {
+        "name": "jail bars",
+        "cat_code": "house"
+    },
+    {
+        "name": "Jingle wall",
+        "cat_code": "wall",
+        "series_code": "festive"
+    },
+    {
+        "name": "juicy-apple TV",
+        "cat_code": "house",
+        "series_code": "apple"
+    },
+    {
+        "name": "jungle flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "jungle wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "kettle bathtub",
+        "cat_code": "house"
+    },
+    {
+        "name": "kettlebell",
+        "cat_code": "misc"
+    },
+    {
+        "name": "key holder",
+        "cat_code": "mount"
+    },
+    {
+        "name": "knight's helmet",
+        "cat_code": "head"
+    },
+    {
+        "name": "knitted-grass backpack",
+        "cat_code": "bag"
+    },
+    {
+        "name": "ladder",
+        "cat_code": "tool"
+    },
+    {
+        "name": "large cardboard boxes",
+        "cat_code": "house"
+    },
+    {
+        "name": "lattice fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "leaf",
+        "cat_code": "acc"
+    },
+    {
+        "name": "leaf campfire",
+        "cat_code": "house",
+        "series_code": "bounty"
+    },
+    {
+        "name": "leaf mask",
+        "cat_code": "head"
+    },
+    {
+        "name": "leaf stool",
+        "cat_code": "house",
+        "series_code": "maple"
+    },
+    {
+        "name": "leaf umbrella",
+        "cat_code": "umbrella"
+    },
+    {
+        "name": "leaf-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "leaf-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "leaf-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "Leo sculpture",
+        "cat_code": "mount",
+        "series_code": "zod"
+    },
+    {
+        "name": "Libra scale",
+        "cat_code": "misc",
+        "series_code": "zod"
+    },
+    {
+        "name": "light bamboo rug",
+        "cat_code": "rug",
+        "series_code": "spring"
+    },
+    {
+        "name": "lily crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "lily record player",
+        "cat_code": "house"
+    },
+    {
+        "name": "lily wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "lily wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "log bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "log bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "log chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "log decorative shelves",
+        "cat_code": "house"
+    },
+    {
+        "name": "log dining table",
+        "cat_code": "house"
+    },
+    {
+        "name": "log extra-long sofa",
+        "cat_code": "house"
+    },
+    {
+        "name": "log garden lounge",
+        "cat_code": "house"
+    },
+    {
+        "name": "log pack",
+        "cat_code": "bag"
+    },
+    {
+        "name": "log round table",
+        "cat_code": "house"
+    },
+    {
+        "name": "log stakes",
+        "cat_code": "house"
+    },
+    {
+        "name": "log stool",
+        "cat_code": "house"
+    },
+    {
+        "name": "log wall-mounted clock",
+        "cat_code": "mount"
+    },
+    {
+        "name": "lovely cosmos crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "lucky gold cat",
+        "cat_code": "misc"
+    },
+    {
+        "name": "lunar lander",
+        "cat_code": "house"
+    },
+    {
+        "name": "lunar rover",
+        "cat_code": "house"
+    },
+    {
+        "name": "lunar surface",
+        "cat_code": "floor"
+    },
+    {
+        "name": "magazine rack",
+        "cat_code": "misc"
+    },
+    {
+        "name": "manga-library wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "manhole cover",
+        "cat_code": "house"
+    },
+    {
+        "name": "maple-leaf pochette",
+        "cat_code": "bag",
+        "series_code": "maple"
+    },
+    {
+        "name": "maple-leaf pond stone",
+        "cat_code": "house",
+        "series_code": "maple"
+    },
+    {
+        "name": "maple-leaf umbrella",
+        "cat_code": "umbrella",
+        "series_code": "maple"
+    },
+    {
+        "name": "matryoshka",
+        "cat_code": "misc"
+    },
+    {
+        "name": "medicine",
+        "cat_code": "other"
+    },
+    {
+        "name": "medium cardboard boxes",
+        "cat_code": "house"
+    },
+    {
+        "name": "mini DIY workbench",
+        "cat_code": "house"
+    },
+    {
+        "name": "modeling clay",
+        "cat_code": "misc"
+    },
+    {
+        "name": "modern wood wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "money flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "moon",
+        "cat_code": "house"
+    },
+    {
+        "name": "mossy garden rock",
+        "cat_code": "house"
+    },
+    {
+        "name": "mountain standee",
+        "cat_code": "house"
+    },
+    {
+        "name": "mum crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "mum cushion",
+        "cat_code": "house"
+    },
+    {
+        "name": "mum wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "mums wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "mush lamp",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush log",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush low stool",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush parasol",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush partition",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush table",
+        "cat_code": "house",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush umbrella",
+        "cat_code": "umbrella",
+        "series_code": "mush"
+    },
+    {
+        "name": "mush wall",
+        "cat_code": "wall",
+        "series_code": "mush"
+    },
+    {
+        "name": "mushroom wand",
+        "cat_code": "tool",
+        "series_code": "mush"
+    },
+    {
+        "name": "mushroom wreath",
+        "cat_code": "mount",
+        "series_code": "mush"
+    },
+    {
+        "name": "music stand",
+        "cat_code": "house"
+    },
+    {
+        "name": "natural garden chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "natural garden table",
+        "cat_code": "house"
+    },
+    {
+        "name": "natural mum wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "natural square table",
+        "cat_code": "house"
+    },
+    {
+        "name": "net",
+        "cat_code": "tool"
+    },
+    {
+        "name": "nova light",
+        "cat_code": "misc"
+    },
+    {
+        "name": "ocarina",
+        "cat_code": "tool"
+    },
+    {
+        "name": "oil-barrel bathtub",
+        "cat_code": "house"
+    },
+    {
+        "name": "old-fashioned washtub",
+        "cat_code": "misc"
+    },
+    {
+        "name": "orange dress",
+        "cat_code": "dress",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange end table",
+        "cat_code": "house",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange hat",
+        "cat_code": "head",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange rug",
+        "cat_code": "rug",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange umbrella",
+        "cat_code": "umbrella",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange wall",
+        "cat_code": "wall",
+        "series_code": "orange"
+    },
+    {
+        "name": "orange wall-mounted clock",
+        "cat_code": "mount",
+        "series_code": "orange"
+    },
+    {
+        "name": "ornament mobile",
+        "cat_code": "mount",
+        "series_code": "festive"
+    },
+    {
+        "name": "ornament wreath",
+        "cat_code": "mount",
+        "series_code": "festive"
+    },
+    {
+        "name": "outdoor bath",
+        "cat_code": "house"
+    },
+    {
+        "name": "outdoor picnic set",
+        "cat_code": "house",
+        "series_code": "sakura"
+    },
+    {
+        "name": "palm-tree lamp",
+        "cat_code": "house",
+        "series_code": "coco"
+    },
+    {
+        "name": "pan flute",
+        "cat_code": "tool",
+        "series_code": "spring"
+    },
+    {
+        "name": "pansy crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "pansy table",
+        "cat_code": "house"
+    },
+    {
+        "name": "pansy wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "pansy wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "paw-print doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "peach chair",
+        "cat_code": "house",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach dress",
+        "cat_code": "dress",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach hat",
+        "cat_code": "head",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach rug",
+        "cat_code": "rug",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach surprise box",
+        "cat_code": "misc",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach umbrella",
+        "cat_code": "umbrella",
+        "series_code": "peach"
+    },
+    {
+        "name": "peach wall",
+        "cat_code": "wall",
+        "series_code": "peach"
+    },
+    {
+        "name": "pear bed",
+        "cat_code": "house",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear dress",
+        "cat_code": "dress",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear hat",
+        "cat_code": "head",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear rug",
+        "cat_code": "rug",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear umbrella",
+        "cat_code": "umbrella",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear wall",
+        "cat_code": "wall",
+        "series_code": "pear"
+    },
+    {
+        "name": "pear wardrobe",
+        "cat_code": "house",
+        "series_code": "pear"
+    },
+    {
+        "name": "pile of leaves",
+        "cat_code": "house",
+        "series_code": "bounty"
+    },
+    {
+        "name": "pile of zen cushions",
+        "cat_code": "house"
+    },
+    {
+        "name": "pine bonsai tree",
+        "cat_code": "misc",
+        "series_code": "bounty"
+    },
+    {
+        "name": "Pisces lamp",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "pitfall seed",
+        "cat_code": "other"
+    },
+    {
+        "name": "plain sink",
+        "cat_code": "house"
+    },
+    {
+        "name": "plain wooden shop sign",
+        "cat_code": "house"
+    },
+    {
+        "name": "pond stone",
+        "cat_code": "house"
+    },
+    {
+        "name": "pot",
+        "cat_code": "misc"
+    },
+    {
+        "name": "potted ivy",
+        "cat_code": "mount"
+    },
+    {
+        "name": "pretty cosmos wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "pretty tulip wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "purple hyacinth crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "purple hyacinth wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "purple pansy crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "purple windflower crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "raccoon figurine",
+        "cat_code": "house"
+    },
+    {
+        "name": "recycled boots",
+        "cat_code": "shoe"
+    },
+    {
+        "name": "recycled-can thumb piano",
+        "cat_code": "misc"
+    },
+    {
+        "name": "red-leaf pile",
+        "cat_code": "house",
+        "series_code": "maple"
+    },
+    {
+        "name": "ringtoss",
+        "cat_code": "misc"
+    },
+    {
+        "name": "robot hero",
+        "cat_code": "house"
+    },
+    {
+        "name": "rocket",
+        "cat_code": "house"
+    },
+    {
+        "name": "rocking chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "rocking horse",
+        "cat_code": "house"
+    },
+    {
+        "name": "rope fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "rose bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "rose crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "rose wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "rose wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "rustic-stone wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "Sagittarius arrow",
+        "cat_code": "mount",
+        "series_code": "zod"
+    },
+    {
+        "name": "sakura-wood flooring",
+        "cat_code": "floor",
+        "series_code": "sakura"
+    },
+    {
+        "name": "sakura-wood wall",
+        "cat_code": "wall",
+        "series_code": "sakura"
+    },
+    {
+        "name": "sandy-beach flooring",
+        "cat_code": "floor",
+        "series_code": "shell"
+    },
+    {
+        "name": "satellite",
+        "cat_code": "house"
+    },
+    {
+        "name": "sauna heater",
+        "cat_code": "house"
+    },
+    {
+        "name": "scarecrow",
+        "cat_code": "house"
+    },
+    {
+        "name": "scattered papers",
+        "cat_code": "house"
+    },
+    {
+        "name": "sci-fi flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "sci-fi wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "Scorpio lamp",
+        "cat_code": "misc",
+        "series_code": "zod"
+    },
+    {
+        "name": "shell arch",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell bed",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell fountain",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell lamp",
+        "cat_code": "misc",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell partition",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell rug",
+        "cat_code": "rug",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell speaker",
+        "cat_code": "misc",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell stool",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell table",
+        "cat_code": "house",
+        "series_code": "shell"
+    },
+    {
+        "name": "shell wand",
+        "cat_code": "tool",
+        "series_code": "summer"
+    },
+    {
+        "name": "shell wreath",
+        "cat_code": "mount",
+        "series_code": "summer"
+    },
+    {
+        "name": "shellfish pochette",
+        "cat_code": "bag",
+        "series_code": "summer"
+    },
+    {
+        "name": "shovel",
+        "cat_code": "tool"
+    },
+    {
+        "name": "signpost",
+        "cat_code": "house"
+    },
+    {
+        "name": "silo",
+        "cat_code": "house"
+    },
+    {
+        "name": "simple DIY workbench",
+        "cat_code": "house"
+    },
+    {
+        "name": "simple mum crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "simple well",
+        "cat_code": "house"
+    },
+    {
+        "name": "simple wooden fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "ski-slope flooring",
+        "cat_code": "floor",
+        "series_code": "snow"
+    },
+    {
+        "name": "ski-slope wall",
+        "cat_code": "wall",
+        "series_code": "snow"
+    },
+    {
+        "name": "sky-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "sky-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "sky-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "sleigh",
+        "cat_code": "house"
+    },
+    {
+        "name": "slingshot",
+        "cat_code": "tool"
+    },
+    {
+        "name": "small cardboard boxes",
+        "cat_code": "house"
+    },
+    {
+        "name": "snazzy pansy wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "snowflake pochette",
+        "cat_code": "bag",
+        "series_code": "snow"
+    },
+    {
+        "name": "snowflake wall",
+        "cat_code": "wall",
+        "series_code": "snow"
+    },
+    {
+        "name": "snowflake wreath",
+        "cat_code": "mount",
+        "series_code": "snow"
+    },
+    {
+        "name": "snowperson head",
+        "cat_code": "head",
+        "series_code": "ice"
+    },
+    {
+        "name": "space shuttle",
+        "cat_code": "house"
+    },
+    {
+        "name": "spiky fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "stack of books",
+        "cat_code": "misc"
+    },
+    {
+        "name": "stacked magazines",
+        "cat_code": "misc"
+    },
+    {
+        "name": "stacked-wood wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "stall",
+        "cat_code": "house"
+    },
+    {
+        "name": "standard umbrella stand",
+        "cat_code": "house"
+    },
+    {
+        "name": "star clock",
+        "cat_code": "misc"
+    },
+    {
+        "name": "star head",
+        "cat_code": "head"
+    },
+    {
+        "name": "star pochette",
+        "cat_code": "bag"
+    },
+    {
+        "name": "star wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "starry garland",
+        "cat_code": "mount"
+    },
+    {
+        "name": "starry wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "starry-sands flooring",
+        "cat_code": "floor",
+        "series_code": "summer"
+    },
+    {
+        "name": "starry-sky wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "steamer-basket set",
+        "cat_code": "misc",
+        "series_code": "spring"
+    },
+    {
+        "name": "steel flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "steel-frame wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "stone arch",
+        "cat_code": "house"
+    },
+    {
+        "name": "stone axe",
+        "cat_code": "tool"
+    },
+    {
+        "name": "stone fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "stone lion-dog",
+        "cat_code": "house"
+    },
+    {
+        "name": "stone stool",
+        "cat_code": "house"
+    },
+    {
+        "name": "stone table",
+        "cat_code": "house"
+    },
+    {
+        "name": "stone tablet",
+        "cat_code": "house"
+    },
+    {
+        "name": "stone wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "stone-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "stone-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "stone-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "straw fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "straw umbrella hat",
+        "cat_code": "head"
+    },
+    {
+        "name": "street piano",
+        "cat_code": "house"
+    },
+    {
+        "name": "succulent plant",
+        "cat_code": "misc"
+    },
+    {
+        "name": "swinging bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "tabletop festive tree",
+        "cat_code": "misc",
+        "series_code": "festive"
+    },
+    {
+        "name": "tall garden rock",
+        "cat_code": "house"
+    },
+    {
+        "name": "tall lantern",
+        "cat_code": "house"
+    },
+    {
+        "name": "Taurus bathtub",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "tea table",
+        "cat_code": "house"
+    },
+    {
+        "name": "terrarium",
+        "cat_code": "misc"
+    },
+    {
+        "name": "three-tiered snowperson",
+        "cat_code": "house",
+        "series_code": "ice"
+    },
+    {
+        "name": "tiki torch",
+        "cat_code": "house"
+    },
+    {
+        "name": "timber doorplate",
+        "cat_code": "mount"
+    },
+    {
+        "name": "tiny library",
+        "cat_code": "house"
+    },
+    {
+        "name": "tire stack",
+        "cat_code": "house"
+    },
+    {
+        "name": "tire toy",
+        "cat_code": "house"
+    },
+    {
+        "name": "traditional balancing toy",
+        "cat_code": "misc"
+    },
+    {
+        "name": "traditional straw coat",
+        "cat_code": "top"
+    },
+    {
+        "name": "trash bags",
+        "cat_code": "misc"
+    },
+    {
+        "name": "tree branch wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "tree standee",
+        "cat_code": "house"
+    },
+    {
+        "name": "tree-branch wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "tree's bounty arch",
+        "cat_code": "house",
+        "series_code": "bounty"
+    },
+    {
+        "name": "tree's bounty big tree",
+        "cat_code": "house",
+        "series_code": "bounty"
+    },
+    {
+        "name": "tree's bounty lamp",
+        "cat_code": "misc",
+        "series_code": "bounty"
+    },
+    {
+        "name": "tree's bounty little tree",
+        "cat_code": "misc",
+        "series_code": "bounty"
+    },
+    {
+        "name": "tree's bounty mobile",
+        "cat_code": "mount",
+        "series_code": "bounty"
+    },
+    {
+        "name": "trophy case",
+        "cat_code": "house"
+    },
+    {
+        "name": "tropical vista",
+        "cat_code": "wall",
+        "series_code": "summer"
+    },
+    {
+        "name": "tulip crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "tulip surprise box",
+        "cat_code": "house"
+    },
+    {
+        "name": "tulip wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "tulip wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "ukulele",
+        "cat_code": "misc"
+    },
+    {
+        "name": "underwater flooring",
+        "cat_code": "floor",
+        "series_code": "summer"
+    },
+    {
+        "name": "underwater wall",
+        "cat_code": "wall",
+        "series_code": "summer"
+    },
+    {
+        "name": "unglazed dish set",
+        "cat_code": "misc"
+    },
+    {
+        "name": "vaulting pole",
+        "cat_code": "tool"
+    },
+    {
+        "name": "vertical-board fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "Virgo harp",
+        "cat_code": "house",
+        "series_code": "zod"
+    },
+    {
+        "name": "wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "water flooring",
+        "cat_code": "floor"
+    },
+    {
+        "name": "water pump",
+        "cat_code": "house"
+    },
+    {
+        "name": "water-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "water-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "water-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "watering can",
+        "cat_code": "tool"
+    },
+    {
+        "name": "wave breaker",
+        "cat_code": "house"
+    },
+    {
+        "name": "wedding fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "wedding wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "western-style stone",
+        "cat_code": "house"
+    },
+    {
+        "name": "wild log bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "wild-wood wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "windflower crown",
+        "cat_code": "head"
+    },
+    {
+        "name": "windflower fan",
+        "cat_code": "misc"
+    },
+    {
+        "name": "windflower wand",
+        "cat_code": "tool"
+    },
+    {
+        "name": "windflower wreath",
+        "cat_code": "mount"
+    },
+    {
+        "name": "Wobbling Zipper toy",
+        "cat_code": "misc",
+        "series_code": "bunny"
+    },
+    {
+        "name": "wood-egg outfit",
+        "cat_code": "dress",
+        "series_code": "bunny"
+    },
+    {
+        "name": "wood-egg shell",
+        "cat_code": "head",
+        "series_code": "bunny"
+    },
+    {
+        "name": "wood-egg shoes",
+        "cat_code": "shoe",
+        "series_code": "bunny"
+    },
+    {
+        "name": "wooden bookshelf",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden bucket",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden chest",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden double bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden end table",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden fish",
+        "cat_code": "misc"
+    },
+    {
+        "name": "wooden full-length mirror",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden low table",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden mini table",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden simple bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden stool",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden table",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden table mirror",
+        "cat_code": "misc"
+    },
+    {
+        "name": "wooden toolbox",
+        "cat_code": "misc"
+    },
+    {
+        "name": "wooden wardrobe",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden waste bin",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block bed",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block bench",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block bookshelf",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block chair",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block chest",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block stereo",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block stool",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block table",
+        "cat_code": "house"
+    },
+    {
+        "name": "wooden-block toy",
+        "cat_code": "misc"
+    },
+    {
+        "name": "wooden-block wall clock",
+        "cat_code": "mount"
+    },
+    {
+        "name": "wooden-knot wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "wooden-mosaic wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "wooden-plank sign",
+        "cat_code": "mount"
+    },
+    {
+        "name": "woodland wall",
+        "cat_code": "wall"
+    },
+    {
+        "name": "yellow-leaf pile",
+        "cat_code": "house",
+        "series_code": "bounty"
+    },
+    {
+        "name": "zen fence",
+        "cat_code": "fence"
+    },
+    {
+        "name": "zen-style stone",
+        "cat_code": "house"
+    }
+]

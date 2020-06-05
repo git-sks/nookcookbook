@@ -39,7 +39,7 @@ class Recipe(db.Model):
         return (f'<Recipe recipe_id={self.recipe_id} '
                 + f'name={self.name} '
                 + f'cat_code={self.cat_code} '
-                + f'season_code={self.season_code}>'
+                + f'series_code={self.series_code}>'
                 )
 
 
@@ -119,8 +119,8 @@ class Media(db.Model):
     media_type = db.Column(db.String, nullable=False,)
 
     # relationships
-    recipe = db.relationship('Recipe', secondary='recipe_medias')
-    material = db.relationship('Material', secondary='material_medias')
+    recipes = db.relationship('Recipe', secondary='recipe_medias')
+    materials = db.relationship('Material', secondary='material_medias')
 
     def __repr__(self):
         """Human-readable summary of a media object."""
