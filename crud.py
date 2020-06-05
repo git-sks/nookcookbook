@@ -60,7 +60,7 @@ def create_media(path, media_type):
 
     media = Media(file_path=path, media_type=media_type)
 
-    db.session.add(create_media)
+    db.session.add(media)
     db.session.commit()
 
     return media

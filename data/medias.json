@@ -1,0 +1,2662 @@
+[
+    {
+        "file_path": "/static/img/AccessoryMouthLeafGreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Apple.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/AutumnLeaf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagBackpackBasket0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagBackpackEgg0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagBackpackGrass0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagBackpackWood0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderAcorn0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderCherryblossoms0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderMaple0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderShell0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderSnow0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BagShoulderStar0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BambooShoot.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BottomsTexSkirtBoxGrass0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BottomsTexSkirtBoxGrass1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/BridgeLogReserveKit.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CampsiteReserveKit.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapCostumeSnowball0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapCostumeStar0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapFullfaceKnightGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapFullfaceKnightIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatAjiroBeige.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatApple0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatCherry0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggfish0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggforest0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggground0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggleaf0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggparty0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggrock0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatEggsky0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatOrange.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatPeach0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatPear0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapHatSandogasa0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapMaskLeaf0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentAnemone1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentAnemone2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentAnemone3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentCEgg0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentCosmos1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentCosmos2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentCosmos3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentHyacinth1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentHyacinth2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentHyacinth3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentMum1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentMum2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentMum3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentPansy1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentPansy2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentPansy3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentRose1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentRose2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentRose3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentRose4.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentRose5.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentTulip1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentTulip2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentTulip3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentYuri1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentYuri2.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/CapOrnamentYuri3.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Cherry.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Coconut.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYAcorn.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYBamboo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYBambooSpring.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYBranch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYClay.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYOrnamentBlue.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYOrnamentGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYOrnamentRed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYPinecone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYRecipe.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYStone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYWoodHard.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYWoodNormal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/DIYWoodSoft.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggFish.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggForest.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggGround.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggLeaf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggRock.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/EggSky.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FishBait.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Fossil.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrAcorsticguitar.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrAlomapot.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBalancingtoy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooBall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooBasket.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooCandle.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooCarstop.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooChairL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooFlowerwall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooLunch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooMusic.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooScreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooShelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooSomen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooStool.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooSurprisedbox.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBamboodrum.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBambooshootLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBarbell.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBasketsteamer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBearXL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBeekeepingbox.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBirdbus.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBirdcage.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBirdhouse.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockBrick.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockChairL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockChest.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockClock.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockCompo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockShelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockStoolS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBlockTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBonfire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBonsaiPine.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBonsaiSakura.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBonsaiShelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBooks.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBookshelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBoomerang.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrBucketWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrButtermixer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCampfire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCandleXmas.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCardboardBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCardboardChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCardboardSofaL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCardboardTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrClaytoy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrClothesline.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCoconutjuice.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCushionJapanPile.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrCuttingboard.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDecoy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDiningtableJapan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDishesUnglazed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoghouse.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDollPyn.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentCrest.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentFossil.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentLog.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentPaw.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathAnemone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathAnemoneMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathAnemoneRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathBranch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathCosmos.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathCosmosMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathCosmosRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathEaster.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathFruit.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathHyacinth.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathHyacinthMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathHyacinthRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathIce.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathMum.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathMumMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathMumRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathMushroom.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathOrnament.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathPansy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathPansyMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathPansyRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathRose.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathRoseGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathRoseMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathRoseRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathRoseUrtraRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathShell.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathTulip.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathTulipMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathTulipRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathYuri.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathYuriMix.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorOrnamentWreathYuriRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDoorPlateBone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDrinkingfountain.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrDrumcanbath.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggArch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggBalloonA.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggBalloonB.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggClock.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggClosetLR.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggDresser.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggLampWall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggStool.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrEggTableS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleaves.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleavesChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleavesGreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleavesRed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleavesYellow.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFallenleavesfire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFestivaltop.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFirewood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFishArowanaGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFloat.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFloorpapers.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerFan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerRecordplayer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerShower.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerStoolS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerSurprisedbox.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerSwag.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFlowerTableS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFountain.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitbasket.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsBox.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsChairApple.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsChairPeach.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsClockW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsClosetLR.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsLampW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsMusic.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsTV.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitsTableS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrFruitswater.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGarbagebag.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenChairNatural.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenTableNatural.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenTableSNatural.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenrock.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenrockLow.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenrockMoss.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenrockTall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGardenwagon.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGearWallGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoemonburo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldCandlestand.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldCoffin.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldDishes.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldWC.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldbar.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGoldbench.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGravestoneEuropean.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrGravestoneJapan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHandpump.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHariboteGrass.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHariboteHedge.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHariboteMountain.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHariboteTree.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHaybed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHerorobot.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrHuntingtrophy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceArt.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceCandy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceCounter.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceGate.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIcePillar.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceScreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIceTree.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIllumiPresent.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIllumiReindeer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIllumiSnow.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIllumiTree.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrInsectKabutomushiGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronClosetLR.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronHanger.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronLampW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronShelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronShelfW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronTableM.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronframe.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIrongardenBench.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIrongardenChair.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIrongardenTable.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodChest.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodClockW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodCupboard.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodKitchen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodServingcart.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIronwoodTableM.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrIrori.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrKalimbaCan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrKame.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrKatakatatoy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrKettlebell.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrKeyhanger.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLeafWall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogClockWall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogShelf.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogSofaL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogSofaS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogStoolL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogStoolS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrLogTableLRound.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMagagine.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMagazinerack.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrManekinekoGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrManhole.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMatryoshka.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMeteo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMicrolibrary.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrModule.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMokugyo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMoon.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMoonrover.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMovingboxL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMovingboxM.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMovingboxS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomParasol.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomPulpwood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomScreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMushroomTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrMusicstand.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrNutArch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrNutLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrNutMobile.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrNutTreeL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrNutTreeS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrOfficePapers.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrOpenairbath.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrOrnamentMobile.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrOrnamentTanuki.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPalmtreelamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrParkbenche.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPianoStreet.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPirateBarrel.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPlantSucculents.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPlanterPalm.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPlayingtire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrPotteryjug.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrQuoits.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrRockArch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrRockMonument.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrRocket.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrRockingchair.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrRockinghorse.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSakuraBranch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSakuraClockW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSakuraLantern.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSakuraPetal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSakuraPicnicset.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSatellite.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrScarecrow.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrScreenCage.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSekishishi.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellArch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellFountain.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellMusic.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellScreen.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellStoolS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShellTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShishiodoshi.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrShuttle.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSignWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSignboardWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSignpost.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSignpostTilt.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSignpostWorld.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSilo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSled.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSnowman.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSpacecraft.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSpacesuit.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStandflower.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStarClock.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStarDecorationWall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStarLamp.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStarMoonChairL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStoneChair.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStoneTable.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStonelantern.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStoneoven.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStonewaterbowl.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStonewaterbowlAutumun.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStonewaterbowlSakura.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrStoveSauna.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrSwingWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTamtam.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTerrarium.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTerrariumWall.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTetrapod.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrToolboxWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTorch.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTrashboxWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTreeXmasL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTreeXmasMini.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTreeXmasS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTrophycase.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrTyres.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrUFO.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrUkulele.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrUmbrellastand.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWashstandBowl.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWashtub.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWell.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWellBrick.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodBench.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodPile.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenBedS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenBedW.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenChairS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenChest.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenCloset.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenMirror.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenMirrorS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenStoolS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenTableL.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenTableM.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenTableMini.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWoodenTableS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWorkbench.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWorkbenchIronwood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWorkbenchS.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrWorkbenchStump.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacAquarius.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacAries.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacCancer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacCapricornus.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacGemini.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacLeo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacLibra.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacPisces.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacSagittarius.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacScorpio.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacTaurus.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/FtrZodiacVirgo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Honeycomb.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceBamboo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceBarbedWire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceChinese.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceDriedStraw.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceEgg.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceHorizontalWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceIkegaki.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceIronAndStone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceJapanese.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceJuneBride.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceLatiiceNatural.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceLog.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceNatural.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFencePegRope.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceSharply.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceSteel.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceStone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceVerticalWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemFenceWallRenga.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ItemMedicine.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/JohnnyQuestDust1.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/LongWoodenStick.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/MushFlat.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/MushRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/MushRound.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/MushSlender.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/MushSplendid.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Orange.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Peach.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Pear.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/PhotoStudioBellBag.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/PhotoStudioClams.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/PhotoStudioSnail.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/PitfallSeed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/PltWeed.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorFishTank00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorGalaxy00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorIce00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorIceFloe00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorSF00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpFloorWater00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallAutumun00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallFishTank00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallGelande00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallIce00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallSF00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallSakura00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallStarPrint00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallStarSky00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallTropical00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomSpWallXmas00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorAutumun00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorBamboo00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorBasement00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorBill00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorEaster00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorGarbage00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorGelande00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorGold00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorHoney00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorJungle00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorLawn00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorLunar00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorMushForest00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorSakura00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorSand00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorSandStar00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorSolidWood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexFloorSteel00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallApple00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallBamboo00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallBasement00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallCedar00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallCherry00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallChikurin00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallEaster00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallFireWood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallFusumaGorgeous00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallGarbage00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallGold00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallHerringbone00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallHerringbone01.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallHoney00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallIceFloe00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallJukai00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallJungle00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallLibrary00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallLibrary01.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallLog00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallMixPlankWood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallMixPlankWood01.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallMixwood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallMush00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallMushForest00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallOrange00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallPeach00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallPear00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallSnowCrystal00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallSolidWood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallSteel00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallStone00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RoomTexWallWildWood00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherAppleM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherCherryM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherEasterM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherOrangeM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherPeachM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherPearM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugOtherShellM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugRectBambooM00.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/RugRectBambooM01.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Sakurapetal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftEbisu.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftHone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftHora.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftSanddollar.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftSango.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftSummer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftSyako.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShellDriftTakara.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesKneeKnightGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesKneeKnightIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesKneeRecyclingboots0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggfish0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggforest0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggground0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggleaf0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggrock0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ShoesLowcutEggsky0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/SnowCrystal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/SnowCrystalLarge.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/Starpiece.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceAquarius.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceAries.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceCancer.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceCapricornus.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceGemini.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceLeo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceLibra.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpiecePisces.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceRare.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceSagittarius.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceScorpio.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceTaurus.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/StarpieceVirgo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolAngling.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolAxe.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolAxeGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolAxeStone.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolAxeStoneNormal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolChangeStick.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolFishingrodGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolFishingrodWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolLadder.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolNet.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolNetGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolNetNormal.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolOcarina.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolPanpipe.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolScoop.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolScoopGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolShovelWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolSlingshot.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolSlingshotGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickAnemones.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickBamboo.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickCherryblossom.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickChrysanthemum.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickCosmos.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickEgg.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickGolden.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickHyacinth.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickJune.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickMushroom.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickPansy.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickRose.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickShell.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickSnow.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickTree.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickTulip.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolStickYuri.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolWatering.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolWateringGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/ToolWateringWood.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceAlineNApple0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceAlineNCherry0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceAlineNOrange.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceAlineNPeach0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceAlineNPear0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceBalloonLEgg0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceOverallLPlatearmorGold.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceOverallLPlatearmorIron.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggfish0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggforest0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggground0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggleaf0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggrock0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexOnepieceRibNEggsky0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TopsTexTopCoatLStrawBeige.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TrashBoot.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TrashCan.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/TrashTire.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaApple0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaAutumn0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaCherry0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaCherryblossom0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaLeaf0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaMushroom0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaOrange0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaPeach0.png",
+        "media_type": "image"
+    },
+    {
+        "file_path": "/static/img/UmbrellaPear0.png",
+        "media_type": "image"
+    }
+]

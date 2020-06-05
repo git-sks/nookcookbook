@@ -68,3 +68,10 @@ with open('data/recipematerials.json') as f:
                                             rcpmat_material, 
                                             entry['qty'])
 
+# seed medias table
+## get medias data from file
+with open('data/medias.json') as f:
+    medias_data = json.loads(f.read())
+
+    for entry in medias_data:
+        media = crud.create_media(entry['file_path'], entry['media_type'])
