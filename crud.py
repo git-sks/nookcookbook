@@ -25,10 +25,10 @@ def get_recipe_by_name(name):
     return recipe
 
 
-def create_material(name):
+def create_material(name, is_craftable):
     """Create and return a new material."""
 
-    material = Material(name=name)
+    material = Material(name=name, is_craftable=is_craftable)
 
     db.session.add(material)
     db.session.commit()

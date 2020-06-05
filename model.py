@@ -55,6 +55,7 @@ class Material(db.Model):
                             nullable=False,
                             )
     name = db.Column(db.String, unique=True, nullable=False,)
+    is_craftable = db.Column(db.Boolean, nullable=False)
 
     # relationships
     recipes = db.relationship('Recipe', secondary='recipe_materials')

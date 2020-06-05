@@ -11,8 +11,8 @@ import server
 # script begin
 
 # reset database
-os.system('dropdb ratings')
-os.system('createdb ratings')
+os.system('dropdb nookcookbook')
+os.system('createdb nookcookbook')
 
 model.connect_to_db(server.app)
 model.db.create_all()
@@ -46,3 +46,11 @@ for entry in recipes_data:
 
     recipe = crud.create_recipe(entry['name'], entry['cat_code'], series_code)
 
+
+# seed materials table
+## get materials data from file
+with open('data/materials.json') as f:
+    mat_data = json.loads(f.read())
+
+    for entry in mat_data:
+        material = crud.create_material(entry['name'], entry['is_craftable'])
