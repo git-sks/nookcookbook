@@ -20,7 +20,7 @@ def create_recipe(name, cat_code, series_code=None):
 def get_recipe_by_name(name):
     """Return a recipe with the given name."""
 
-    recipe = Recipe.query.filter(Recipe.name == name)
+    recipe = Recipe.query.filter(Recipe.name == name).one()
 
     return recipe
 
@@ -32,6 +32,14 @@ def create_material(name, is_craftable):
 
     db.session.add(material)
     db.session.commit()
+
+    return material
+
+
+def get_material_by_name(name):
+    """Return a material with the given name."""
+
+    material = Material.query.filter(Material.name == name).one()
 
     return material
 

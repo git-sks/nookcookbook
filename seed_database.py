@@ -54,3 +54,17 @@ with open('data/materials.json') as f:
 
     for entry in mat_data:
         material = crud.create_material(entry['name'], entry['is_craftable'])
+
+
+# seed recipe_materials table
+## get recipematerials data from file
+with open('data/recipematerials.json') as f:
+    rcpmat_data = json.loads(f.read())
+
+    for entry in rcpmat_data:
+        rcpmat_recipe = crud.get_recipe_by_name(entry['recipe'])
+        rcpmat_material = crud.get_material_by_name(entry['material'])
+        rcpmat = crud.create_recipe_material(rcpmat_recipe,
+                                            rcpmat_material, 
+                                            entry['qty'])
+

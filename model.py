@@ -5,6 +5,38 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
+# HELPER TABLES
+
+# Helper table for recipes and medias tables
+recipe_medias = db.Table('recipe_medias',
+                        db.Column('recipe_id',
+                                    db.Integer,
+                                    db.ForeignKey('recipes.recipe_id'),
+                                    primary_key=True,
+                                    ),
+                        db.Column('media_id',
+                                    db.Integer,
+                                    db.ForeignKey('medias.media_id'),
+                                    primary_key=True,
+                                    ),
+                        )
+
+
+# Helper table for materials and medias tables
+material_medias = db.Table('material_medias',
+                            db.Column('material_id',
+                                        db.Integer,
+                                        db.ForeignKey('materials.material_id'),
+                                        primary_key=True,
+                                        ),
+                            db.Column('media_id',
+                                        db.Integer,
+                                        db.ForeignKey('medias.media_id'),
+                                        primary_key=True,
+                                        ),
+                            )
+
+
 class Recipe(db.Model):
     """A recipe."""
 
@@ -30,7 +62,7 @@ class Recipe(db.Model):
     recipe_materials = db.relationship('RecipeMaterial')
     category = db.relationship('Category')
     series = db.relationship('Series')
-    medias = db.relationship('Media', secondary='recipe_medias')
+    medias = db.relationship('Media', secondary=recipe_medias)
 
     def __repr__(self):
         """A human-readable summary of a recipe."""
@@ -59,7 +91,7 @@ class Material(db.Model):
 
     # relationships
     recipes = db.relationship('Recipe', secondary='recipe_materials')
-    medias = db.relationship('Media', secondary='material_medias')
+    medias = db.relationship('Media', secondary=material_medias)
 
     def __repr__(self):
         """Human-readable summary of a material."""
@@ -119,8 +151,8 @@ class Media(db.Model):
     media_type = db.Column(db.String, nullable=False,)
 
     # relationships
-    recipes = db.relationship('Recipe', secondary='recipe_medias')
-    materials = db.relationship('Material', secondary='material_medias')
+    recipes = db.relationship('Recipe', secondary=recipe_medias)
+    materials = db.relationship('Material', secondary=material_medias)
 
     def __repr__(self):
         """Human-readable summary of a media object."""
@@ -129,64 +161,6 @@ class Media(db.Model):
                 + f'file_path={self.file_path} '
                 + f'media_type={self.media_type}>'
                 )
-
-
-class RecipeMedia(db.Model):
-    """An individual media object for a recipe."""
-
-    # table name
-    __tablename__ = "recipe_medias"
-
-    # table columns
-    rcpmed_id = db.Column(db.Integer,
-                        primary_key=True,
-                        autoincrement=True,
-                        nullable=False,
-                        )
-    recipe_id = db.Column(db.Integer,
-                        db.ForeignKey('recipes.recipe_id'),
-                        nullable=False,
-                        )
-    media_id = db.Column(db.Integer,
-                        db.ForeignKey('medias.media_id'),
-                        nullable=False,
-                        )
-
-    def __repr__(self):
-        """Human-readable summary of a recipemedia object."""
-
-        return (f'<RecipeMedia rcpmed_id={self.rcpmed_id} '
-                + f'recipe_id={self.recipe_id} '
-                + f'media_id={self.media_id}>')
-
-
-class MaterialMedia(db.Model):
-    """An individual media object for a material."""
-
-    # table name
-    __tablename__ = "material_medias"
-
-    # table columns
-    matmed_id = db.Column(db.Integer,
-                        primary_key=True,
-                        autoincrement=True,
-                        nullable=False,
-                        )
-    material_id = db.Column(db.Integer,
-                            db.ForeignKey('materials.material_id'),
-                            nullable=False,
-                            )
-    media_id = db.Column(db.Integer,
-                        db.ForeignKey('medias.media_id'),
-                        nullable=False,
-                        )
-
-    def __repr__(self):
-        """Human-readable summary of a materialmedia object."""
-
-        return (f'<MaterialMedia matmed_id={self.matmed_id} '
-                + f'material_id={self.material_id} '
-                + f'media_id={self.media_id}>')
 
 
 class Category(db.Model):
