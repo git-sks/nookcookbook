@@ -75,3 +75,26 @@ with open('data/medias.json') as f:
 
     for entry in medias_data:
         media = crud.create_media(entry['file_path'], entry['media_type'])
+
+
+# associate medias with recipes/materials
+## get media associations from file
+with open('data/media_assocs.json') as f:
+    assocs_data = json.loads(f.read())
+
+    for entry in assocs_data:
+        media = crud.get_media_by_path(entry['media_path'])
+        rcp_data = entry.get('recipes', None)
+        mat_data = entry.get('materials', None)
+
+        if rcp_data != None:
+            rcp_data = rcp_data.split(',')
+            for rcp_name in rcp_data:
+                recipe = crud.get_recipe_by_name(rcp_name)
+                crud.add_recipe_to_media(media, recipe)
+
+        if mat_data != None:
+            mat_data = mat_data.split(',')
+            for mat_name in mat_data:
+                material = crud.get_material_by_name(mat_name)
+                crud.add_material_to_media(media, material)

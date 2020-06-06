@@ -17,6 +17,12 @@ def create_recipe(name, cat_code, series_code=None):
     return recipe
 
 
+def get_recipes():
+    """Return a list of all recipes."""
+
+    return Recipe.query.all()
+
+
 def get_recipe_by_name(name):
     """Return a recipe with the given name."""
 
@@ -34,6 +40,12 @@ def create_material(name, is_craftable):
     db.session.commit()
 
     return material
+
+
+def get_materials():
+    """Return a list of all materials."""
+
+    return Material.query.all()
 
 
 def get_material_by_name(name):
@@ -65,6 +77,33 @@ def create_media(path, media_type):
 
     return media
 
+
+def get_medias():
+    """Return all media."""
+
+    return Media.query.all()
+
+
+def get_media_by_path(path):
+    """Return a media with the given path."""
+
+    media = Media.query.filter(Media.file_path == path).one()
+
+    return media
+
+
+def add_recipe_to_media(media, recipe):
+    """Associate a media file to a recipe."""
+
+    media.recipes.append(recipe)
+    db.session.commit()
+
+
+def add_material_to_media(media, material):
+    """Associate a media file to a material."""
+
+    media.materials.append(material)
+    db.session.commit()
 
 
 def create_category(code, name):

@@ -1,0 +1,15 @@
+[
+    {
+        "media_path": "/static/img/Apple.png",
+        "materials": "apple"
+    },
+    {
+        "media_path": "/static/img/FtrAcorsticguitar.png",
+        "recipes": "acoustic guitar"
+    },
+    {
+        "media_path": "/static/img/FtrCampfire.png",
+        "recipes": "campfire",
+        "materials": "campfire"
+    }
+]
