@@ -551,412 +551,549 @@
         "recipes": "holiday candle"
     },
     {
-        "mediapath": "/static/img/FtrCardboardBedS.png"
+        "mediapath": "/static/img/FtrCardboardBedS.png",
+        "recipes": "cardboard bed"
     },
     {
-        "mediapath": "/static/img/FtrCardboardChairS.png"
+        "mediapath": "/static/img/FtrCardboardChairS.png",
+        "recipes": "cardboard chair"
     },
     {
-        "mediapath": "/static/img/FtrCardboardSofaL.png"
+        "mediapath": "/static/img/FtrCardboardSofaL.png",
+        "recipes": "cardboard sofa"
     },
     {
-        "mediapath": "/static/img/FtrCardboardTableL.png"
+        "mediapath": "/static/img/FtrCardboardTableL.png",
+        "recipes": "cardboard table"
     },
     {
-        "mediapath": "/static/img/FtrClaytoy.png"
+        "mediapath": "/static/img/FtrClaytoy.png",
+        "recipes": "modeling clay"
     },
     {
-        "mediapath": "/static/img/FtrClothesline.png"
+        "mediapath": "/static/img/FtrClothesline.png",
+        "recipes": "clothesline"
     },
     {
-        "mediapath": "/static/img/FtrCoconutjuice.png"
+        "mediapath": "/static/img/FtrCoconutjuice.png",
+        "recipes": "coconut juice"
     },
     {
-        "mediapath": "/static/img/FtrCushionJapanPile.png"
+        "mediapath": "/static/img/FtrCushionJapanPile.png",
+        "recipes": "pile of zen cushions"
     },
     {
-        "mediapath": "/static/img/FtrCuttingboard.png"
+        "mediapath": "/static/img/FtrCuttingboard.png",
+        "recipes": "cutting board",
+        "materials": "cutting board"
     },
     {
-        "mediapath": "/static/img/FtrDecoy.png"
+        "mediapath": "/static/img/FtrDecoy.png",
+        "recipes": "decoy duck"
     },
     {
-        "mediapath": "/static/img/FtrDiningtableJapan.png"
+        "mediapath": "/static/img/FtrDiningtableJapan.png",
+        "recipes": "tea table"
     },
     {
-        "mediapath": "/static/img/FtrDishesUnglazed.png"
+        "mediapath": "/static/img/FtrDishesUnglazed.png",
+        "recipes": "unglazed dish set"
     },
     {
-        "mediapath": "/static/img/FtrDoghouse.png"
+        "mediapath": "/static/img/FtrDoghouse.png",
+        "recipes": "doghouse"
     },
     {
-        "mediapath": "/static/img/FtrDollPyn.png"
+        "mediapath": "/static/img/FtrDollPyn.png",
+        "recipes": "Wobbling Zipper toy"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentCrest.png"
+        "mediapath": "/static/img/FtrDoorOrnamentCrest.png",
+        "recipes": "crest doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentFossil.png"
+        "mediapath": "/static/img/FtrDoorOrnamentFossil.png",
+        "recipes": "fossil doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentIron.png"
+        "mediapath": "/static/img/FtrDoorOrnamentIron.png",
+        "recipes": "iron doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentLog.png"
+        "mediapath": "/static/img/FtrDoorOrnamentLog.png",
+        "recipes": "timber doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentPaw.png"
+        "mediapath": "/static/img/FtrDoorOrnamentPaw.png",
+        "recipes": "paw-print doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemone.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemone.png",
+        "recipes": "windflower wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemoneMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemoneMix.png",
+        "recipes": "cool windflower wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemoneRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathAnemoneRare.png",
+        "recipes": "chic windflower wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathBranch.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathBranch.png",
+        "recipes": "tree branch wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmos.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmos.png",
+        "recipes": "cosmos wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmosMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmosMix.png",
+        "recipes": "pretty cosmos wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmosRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathCosmosRare.png",
+        "recipes": "chic cosmos wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathEaster.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathEaster.png",
+        "recipes": "Bunny Day wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathFruit.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathFruit.png",
+        "recipes": "fruit wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinth.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinth.png",
+        "recipes": "hyacinth wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinthMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinthMix.png",
+        "recipes": "cool hyacinth wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinthRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathHyacinthRare.png",
+        "recipes": "purple hyacinth wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathIce.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathIce.png",
+        "recipes": "snowflake wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathMum.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathMum.png",
+        "recipes": "mum wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathMumMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathMumMix.png",
+        "recipes": "fancy mum wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathMumRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathMumRare.png",
+        "recipes": "natural mum wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathMushroom.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathMushroom.png",
+        "recipes": "mushroom wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathOrnament.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathOrnament.png",
+        "recipes": "ornament wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathPansy.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathPansy.png",
+        "recipes": "pansy wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathPansyMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathPansyMix.png",
+        "recipes": "snazzy pansy wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathPansyRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathPansyRare.png",
+        "recipes": "cool pansy wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathRose.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathRose.png",
+        "recipes": "rose wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseGold.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseGold.png",
+        "recipes": "gold rose wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseMix.png",
+        "recipes": "fancy rose wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseRare.png",
+        "recipes": "dark rose wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseUrtraRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathRoseUrtraRare.png",
+        "recipes": "blue rose wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathShell.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathShell.png",
+        "recipes": "shell wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathTulip.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathTulip.png",
+        "recipes": "tulip wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathTulipMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathTulipMix.png",
+        "recipes": "pretty tulip wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathTulipRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathTulipRare.png",
+        "recipes": "dark tulip wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathYuri.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathYuri.png",
+        "recipes": "lily wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathYuriMix.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathYuriMix.png",
+        "recipes": "fancy lily wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorOrnamentWreathYuriRare.png"
+        "mediapath": "/static/img/FtrDoorOrnamentWreathYuriRare.png",
+        "recipes": "dark lily wreath"
     },
     {
-        "mediapath": "/static/img/FtrDoorPlateBone.png"
+        "mediapath": "/static/img/FtrDoorPlateBone.png",
+        "recipes": "bone doorplate"
     },
     {
-        "mediapath": "/static/img/FtrDrinkingfountain.png"
+        "mediapath": "/static/img/FtrDrinkingfountain.png",
+        "recipes": "drinking fountain"
     },
     {
-        "mediapath": "/static/img/FtrDrumcanbath.png"
+        "mediapath": "/static/img/FtrDrumcanbath.png",
+        "recipes": "oil-barrel bathtub"
     },
     {
-        "mediapath": "/static/img/FtrEggArch.png"
+        "mediapath": "/static/img/FtrEggArch.png",
+        "recipes": "Bunny Day arch"
     },
     {
-        "mediapath": "/static/img/FtrEggBalloonA.png"
+        "mediapath": "/static/img/FtrEggBalloonA.png",
+        "recipes": "Bunny Day merry balloons"
     },
     {
-        "mediapath": "/static/img/FtrEggBalloonB.png"
+        "mediapath": "/static/img/FtrEggBalloonB.png",
+        "recipes": "Bunny Day festive balloons"
     },
     {
-        "mediapath": "/static/img/FtrEggBedW.png"
+        "mediapath": "/static/img/FtrEggBedW.png",
+        "recipes": "Bunny Day bed"
     },
     {
-        "mediapath": "/static/img/FtrEggClock.png"
+        "mediapath": "/static/img/FtrEggClock.png",
+        "recipes": "Bunny Day wall clock"
     },
     {
-        "mediapath": "/static/img/FtrEggClosetLR.png"
+        "mediapath": "/static/img/FtrEggClosetLR.png",
+        "recipes": "Bunny Day wardrobe"
     },
     {
-        "mediapath": "/static/img/FtrEggDresser.png"
+        "mediapath": "/static/img/FtrEggDresser.png",
+        "recipes": "Bunny Day vanity"
     },
     {
-        "mediapath": "/static/img/FtrEggLamp.png"
+        "mediapath": "/static/img/FtrEggLamp.png",
+        "recipes": "Bunny Day lamp"
     },
     {
-        "mediapath": "/static/img/FtrEggLampWall.png"
+        "mediapath": "/static/img/FtrEggLampWall.png",
+        "recipes": "Bunny Day glowy garland"
     },
     {
-        "mediapath": "/static/img/FtrEggStool.png"
+        "mediapath": "/static/img/FtrEggStool.png",
+        "recipes": "Bunny Day stool"
     },
     {
-        "mediapath": "/static/img/FtrEggTableS.png"
+        "mediapath": "/static/img/FtrEggTableS.png",
+        "recipes": "Bunny Day table"
     },
     {
-        "mediapath": "/static/img/FtrFallenleaves.png"
+        "mediapath": "/static/img/FtrFallenleaves.png",
+        "recipes": "pile of leaves"
     },
     {
-        "mediapath": "/static/img/FtrFallenleavesChairS.png"
+        "mediapath": "/static/img/FtrFallenleavesChairS.png",
+        "recipes": "leaf stool"
     },
     {
-        "mediapath": "/static/img/FtrFallenleavesGreen.png"
+        "mediapath": "/static/img/FtrFallenleavesGreen.png",
+        "recipes": "green-leaf pile"
     },
     {
-        "mediapath": "/static/img/FtrFallenleavesRed.png"
+        "mediapath": "/static/img/FtrFallenleavesRed.png",
+        "recipes": "red-leaf pile"
     },
     {
-        "mediapath": "/static/img/FtrFallenleavesYellow.png"
+        "mediapath": "/static/img/FtrFallenleavesYellow.png",
+        "recipes": "yellow-leaf pile"
     },
     {
-        "mediapath": "/static/img/FtrFallenleavesfire.png"
+        "mediapath": "/static/img/FtrFallenleavesfire.png",
+        "recipes": "leaf campfire"
     },
     {
-        "mediapath": "/static/img/FtrFestivaltop.png"
+        "mediapath": "/static/img/FtrFestivaltop.png",
+        "recipes": "festive top set"
     },
     {
-        "mediapath": "/static/img/FtrFirewood.png"
+        "mediapath": "/static/img/FtrFirewood.png",
+        "recipes": "firewood"
     },
     {
-        "mediapath": "/static/img/FtrFishArowanaGold.png"
+        "mediapath": "/static/img/FtrFishArowanaGold.png",
+        "recipes": "golden arowana model"
     },
     {
-        "mediapath": "/static/img/FtrFloat.png"
+        "mediapath": "/static/img/FtrFloat.png",
+        "recipes": "stall"
     },
     {
-        "mediapath": "/static/img/FtrFloorpapers.png"
+        "mediapath": "/static/img/FtrFloorpapers.png",
+        "recipes": "scattered papers"
     },
     {
-        "mediapath": "/static/img/FtrFlowerBedW.png"
+        "mediapath": "/static/img/FtrFlowerBedW.png",
+        "recipes": "rose bed"
     },
     {
-        "mediapath": "/static/img/FtrFlowerFan.png"
+        "mediapath": "/static/img/FtrFlowerFan.png",
+        "recipes": "windflower fan"
     },
     {
-        "mediapath": "/static/img/FtrFlowerLamp.png"
+        "mediapath": "/static/img/FtrFlowerLamp.png",
+        "recipes": "hyacinth lamp"
     },
     {
-        "mediapath": "/static/img/FtrFlowerRecordplayer.png"
+        "mediapath": "/static/img/FtrFlowerRecordplayer.png",
+        "recipes": "lily record player"
     },
     {
-        "mediapath": "/static/img/FtrFlowerShower.png"
+        "mediapath": "/static/img/FtrFlowerShower.png",
+        "recipes": "cosmos shower"
     },
     {
-        "mediapath": "/static/img/FtrFlowerStoolS.png"
+        "mediapath": "/static/img/FtrFlowerStoolS.png",
+        "recipes": "mum cushion"
     },
     {
-        "mediapath": "/static/img/FtrFlowerSurprisedbox.png"
+        "mediapath": "/static/img/FtrFlowerSurprisedbox.png",
+        "recipes": "tulip surprise box"
     },
     {
-        "mediapath": "/static/img/FtrFlowerSwag.png"
+        "mediapath": "/static/img/FtrFlowerSwag.png",
+        "recipes": "floral swag"
     },
     {
-        "mediapath": "/static/img/FtrFlowerTableS.png"
+        "mediapath": "/static/img/FtrFlowerTableS.png",
+        "recipes": "pansy table"
     },
     {
-        "mediapath": "/static/img/FtrFountain.png"
+        "mediapath": "/static/img/FtrFountain.png",
+        "recipes": "fountain"
     },
     {
-        "mediapath": "/static/img/FtrFruitbasket.png"
+        "mediapath": "/static/img/FtrFruitbasket.png",
+        "recipes": "fruit basket"
     },
     {
-        "mediapath": "/static/img/FtrFruitsBedS.png"
+        "mediapath": "/static/img/FtrFruitsBedS.png",
+        "recipes": "pear bed"
     },
     {
-        "mediapath": "/static/img/FtrFruitsBox.png"
+        "mediapath": "/static/img/FtrFruitsBox.png",
+        "recipes": "peach surprise box"
     },
     {
-        "mediapath": "/static/img/FtrFruitsChairApple.png"
+        "mediapath": "/static/img/FtrFruitsChairApple.png",
+        "recipes": "apple chair"
     },
     {
-        "mediapath": "/static/img/FtrFruitsChairPeach.png"
+        "mediapath": "/static/img/FtrFruitsChairPeach.png",
+        "recipes": "peach chair"
     },
     {
-        "mediapath": "/static/img/FtrFruitsClockW.png"
+        "mediapath": "/static/img/FtrFruitsClockW.png",
+        "recipes": "orange wall-mounted clock"
     },
     {
-        "mediapath": "/static/img/FtrFruitsClosetLR.png"
+        "mediapath": "/static/img/FtrFruitsClosetLR.png",
+        "recipes": "pear wardrobe"
     },
     {
-        "mediapath": "/static/img/FtrFruitsLampW.png"
+        "mediapath": "/static/img/FtrFruitsLampW.png",
+        "recipes": "cherry lamp"
     },
     {
-        "mediapath": "/static/img/FtrFruitsMusic.png"
+        "mediapath": "/static/img/FtrFruitsMusic.png",
+        "recipes": "cherry speakers"
     },
     {
-        "mediapath": "/static/img/FtrFruitsTV.png"
+        "mediapath": "/static/img/FtrFruitsTV.png",
+        "recipes": "orange end table"
     },
     {
-        "mediapath": "/static/img/FtrFruitsTableS.png"
+        "mediapath": "/static/img/FtrFruitsTableS.png",
+        "recipes": "juicy-apple TV"
     },
     {
-        "mediapath": "/static/img/FtrFruitswater.png"
+        "mediapath": "/static/img/FtrFruitswater.png",
+        "recipes": "infused-water dispenser"
     },
     {
-        "mediapath": "/static/img/FtrGarbagebag.png"
+        "mediapath": "/static/img/FtrGarbagebag.png",
+        "recipes": "trash bags"
     },
     {
-        "mediapath": "/static/img/FtrGardenChairNatural.png"
+        "mediapath": "/static/img/FtrGardenChairNatural.png",
+        "recipes": "natural garden chair"
     },
     {
-        "mediapath": "/static/img/FtrGardenTableNatural.png"
+        "mediapath": "/static/img/FtrGardenTableNatural.png",
+        "recipes": "natural garden table"
     },
     {
-        "mediapath": "/static/img/FtrGardenTableSNatural.png"
+        "mediapath": "/static/img/FtrGardenTableSNatural.png",
+        "recipes": "natural square table"
     },
     {
-        "mediapath": "/static/img/FtrGardenrock.png"
+        "mediapath": "/static/img/FtrGardenrock.png",
+        "recipes": "garden rock"
     },
     {
-        "mediapath": "/static/img/FtrGardenrockLow.png"
+        "mediapath": "/static/img/FtrGardenrockLow.png",
+        "recipes": "flat garden rock"
     },
     {
-        "mediapath": "/static/img/FtrGardenrockMoss.png"
+        "mediapath": "/static/img/FtrGardenrockMoss.png",
+        "recipes": "mossy garden rock"
     },
     {
-        "mediapath": "/static/img/FtrGardenrockTall.png"
+        "mediapath": "/static/img/FtrGardenrockTall.png",
+        "recipes": "tall garden rock"
     },
     {
-        "mediapath": "/static/img/FtrGardenwagon.png"
+        "mediapath": "/static/img/FtrGardenwagon.png",
+        "recipes": "garden wagon"
     },
     {
-        "mediapath": "/static/img/FtrGearWallGold.png"
+        "mediapath": "/static/img/FtrGearWallGold.png",
+        "recipes": "golden gears"
     },
     {
-        "mediapath": "/static/img/FtrGoemonburo.png"
+        "mediapath": "/static/img/FtrGoemonburo.png",
+        "recipes": "kettle bathtub"
     },
     {
-        "mediapath": "/static/img/FtrGoldCandlestand.png"
+        "mediapath": "/static/img/FtrGoldCandlestand.png",
+        "recipes": "golden candlestick"
     },
     {
-        "mediapath": "/static/img/FtrGoldCoffin.png"
+        "mediapath": "/static/img/FtrGoldCoffin.png",
+        "recipes": "golden casket"
     },
     {
-        "mediapath": "/static/img/FtrGoldDishes.png"
+        "mediapath": "/static/img/FtrGoldDishes.png",
+        "recipes": "golden dishes"
     },
     {
-        "mediapath": "/static/img/FtrGoldWC.png"
+        "mediapath": "/static/img/FtrGoldWC.png",
+        "recipes": "golden toilet"
     },
     {
-        "mediapath": "/static/img/FtrGoldbar.png"
+        "mediapath": "/static/img/FtrGoldbar.png",
+        "recipes": "gold bars"
     },
     {
-        "mediapath": "/static/img/FtrGoldbench.png"
+        "mediapath": "/static/img/FtrGoldbench.png",
+        "recipes": "golden seat"
     },
     {
-        "mediapath": "/static/img/FtrGravestoneEuropean.png"
+        "mediapath": "/static/img/FtrGravestoneEuropean.png",
+        "recipes": "western-style stone"
     },
     {
-        "mediapath": "/static/img/FtrGravestoneJapan.png"
+        "mediapath": "/static/img/FtrGravestoneJapan.png",
+        "recipes": "zen-style stone"
     },
     {
-        "mediapath": "/static/img/FtrHandpump.png"
+        "mediapath": "/static/img/FtrHandpump.png",
+        "recipes": "water pump"
     },
     {
-        "mediapath": "/static/img/FtrHariboteGrass.png"
+        "mediapath": "/static/img/FtrHariboteGrass.png",
+        "recipes": "grass standee"
     },
     {
-        "mediapath": "/static/img/FtrHariboteHedge.png"
+        "mediapath": "/static/img/FtrHariboteHedge.png",
+        "recipes": "hedge standee"
     },
     {
-        "mediapath": "/static/img/FtrHariboteMountain.png"
+        "mediapath": "/static/img/FtrHariboteMountain.png",
+        "recipes": "mountain standee"
     },
     {
-        "mediapath": "/static/img/FtrHariboteTree.png"
+        "mediapath": "/static/img/FtrHariboteTree.png",
+        "recipes": "tree standee"
     },
     {
-        "mediapath": "/static/img/FtrHaybed.png"
+        "mediapath": "/static/img/FtrHaybed.png",
+        "recipes": "hay bed"
     },
     {
-        "mediapath": "/static/img/FtrHerorobot.png"
+        "mediapath": "/static/img/FtrHerorobot.png",
+        "recipes": "robot hero"
     },
     {
-        "mediapath": "/static/img/FtrHuntingtrophy.png"
+        "mediapath": "/static/img/FtrHuntingtrophy.png",
+        "recipes": "deer decoration"
     },
     {
-        "mediapath": "/static/img/FtrIceArt.png"
+        "mediapath": "/static/img/FtrIceArt.png",
+        "recipes": "frozen sculpture"
     },
     {
-        "mediapath": "/static/img/FtrIceBedW.png"
+        "mediapath": "/static/img/FtrIceBedW.png",
+        "recipes": "frozen bed"
     },
     {
-        "mediapath": "/static/img/FtrIceCandy.png"
+        "mediapath": "/static/img/FtrIceCandy.png",
+        "recipes": "frozen-treat set"
     },
     {
-        "mediapath": "/static/img/FtrIceChairS.png"
+        "mediapath": "/static/img/FtrIceChairS.png",
+        "recipes": "frozen chair"
     },
     {
-        "mediapath": "/static/img/FtrIceCounter.png"
+        "mediapath": "/static/img/FtrIceCounter.png",
+        "recipes": "frozen counter"
     },
     {
-        "mediapath": "/static/img/FtrIceGate.png"
+        "mediapath": "/static/img/FtrIceGate.png",
+        "recipes": "frozen arch"
     },
     {
-        "mediapath": "/static/img/FtrIcePillar.png"
+        "mediapath": "/static/img/FtrIcePillar.png",
+        "recipes": "frozen pillar"
     },
     {
-        "mediapath": "/static/img/FtrIceScreen.png"
+        "mediapath": "/static/img/FtrIceScreen.png",
+        "recipes": "frozen partition"
     },
     {
-        "mediapath": "/static/img/FtrIceTableL.png"
+        "mediapath": "/static/img/FtrIceTableL.png",
+        "recipes": "frozen table"
     },
     {
-        "mediapath": "/static/img/FtrIceTree.png"
+        "mediapath": "/static/img/FtrIceTree.png",
+        "recipes": "frozen tree"
     },
     {
         "mediapath": "/static/img/FtrIllumiPresent.png"

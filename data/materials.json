@@ -1,654 +1,654 @@
 [
     {
         "name": "acorn",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "apple",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Aquarius fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Aries fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "axe",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "Baby bear",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "bamboo piece",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "bamboo shoot",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "bells",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "black cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "black lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "black roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "black tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "blue hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "blue ornament",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "blue pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "blue roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "blue windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "book",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "boot",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "campfire",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "Cancer fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Capricorn fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "cardboard box",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "cherry",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "cherry-blossom bonsai",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "cherry-blossom petal",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "clay",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "clump of weeds",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "coconut",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "conch",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "coral",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "cowrie",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "cutting board",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "document stack",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "drinking fountain",
-        "is_craftable": false
+        "iscraftable": true
     },
     {
         "name": "earth egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "elegant mushroom",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "empty can",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "fishing rod",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "flat mushroom",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "flimsy axe",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "flimsy fishing rod",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "flimsy net",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "flimsy shovel",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "flimsy watering can",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "fossil",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Gemini fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "giant clam",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "gold armor",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "gold nugget",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "gold ornament",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "gold roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "green mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "hardwood",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "iron nugget",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "ironwood dresser",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "large snowflake",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "large star fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "leaf egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Leo fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Libra fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "log bench",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "log chair",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "log stakes",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "log stool",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "lucky cat",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "magazine",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Mama bear",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "manila clam",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "maple leaf",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "mini DIY workbench",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "net",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "oil barrel",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "old tire",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "orange windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "painting set",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Papa bear",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "peach",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pear",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pine bonsai tree",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "pine cone",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "pink windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Pisces fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "purple windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "rare mushroom",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red ornament",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "red windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "rocket",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "round mushroom",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "rusted part",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Sagittarius fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "sand dollar",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "sandy-beach flooring",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "scattered papers",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "Scorpius fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "screen wall",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "sea snail",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "shovel",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "skinny mushroom",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "sky egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "slingshot",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "snowflake",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "softwood",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "star fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "stone",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "stone egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "summer shell",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Taurus fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "tree branch",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "upright piano",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "venus comb",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "Virgo fragment",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "wasp nest",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "water egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "watering can",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "wedding flower stand",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "white windflowers",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "wobbling Zipper toy",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "wood",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "wood egg",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "wooden-block toy",
-        "is_craftable": true
+        "iscraftable": true
     },
     {
         "name": "yellow cosmos",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow hyacinths",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow lilies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow mums",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow pansies",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow roses",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "yellow tulips",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "young spring bamboo",
-        "is_craftable": false
+        "iscraftable": false
     },
     {
         "name": "zen cushion",
-        "is_craftable": false
+        "iscraftable": false
     }
 ]
