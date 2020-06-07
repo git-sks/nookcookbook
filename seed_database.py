@@ -53,7 +53,7 @@ with open('data/materials.json') as f:
     mat_data = json.loads(f.read())
 
     for entry in mat_data:
-        material = crud.create_material(entry['name'], entry['is_craftable'])
+        material = crud.create_material(entry['name'], entry['iscraftable'])
 
 
 # seed recipe_materials table
@@ -83,7 +83,7 @@ with open('data/media_assocs.json') as f:
     assocs_data = json.loads(f.read())
 
     for entry in assocs_data:
-        media = crud.get_media_by_path(entry['media_path'])
+        media = crud.get_media_by_path(entry['mediapath'])
         rcp_data = entry.get('recipes', None)
         mat_data = entry.get('materials', None)
 
