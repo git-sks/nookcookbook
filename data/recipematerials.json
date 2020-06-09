@@ -1128,5 +1128,585 @@
         "recipe": "cherry-blossom-trees wall",
         "qty": 5,
         "material": "hardwood"
+    },
+    {
+        "recipe": "chic cosmos wreath",
+        "qty": 10,
+        "material": "black cosmos"
+    },
+    {
+        "recipe": "chic mum crown",
+        "qty": 3,
+        "material": "purple mums"
+    },
+    {
+        "recipe": "chic mum crown",
+        "qty": 3,
+        "material": "pink mums"
+    },
+    {
+        "recipe": "chic rose crown",
+        "qty": 3,
+        "material": "purple roses"
+    },
+    {
+        "recipe": "chic rose crown",
+        "qty": 3,
+        "material": "black roses"
+    },
+    {
+        "recipe": "chic tulip crown",
+        "qty": 2,
+        "material": "purple tulips"
+    },
+    {
+        "recipe": "chic tulip crown",
+        "qty": 2,
+        "material": "pink tulips"
+    },
+    {
+        "recipe": "chic tulip crown",
+        "qty": 1,
+        "material": "orange tulips"
+    },
+    {
+        "recipe": "chic windflower wreath",
+        "qty": 10,
+        "material": "purple windflowers"
+    },
+    {
+        "recipe": "chocolate herringbone wall",
+        "qty": 15,
+        "material": "softwood"
+    },
+    {
+        "recipe": "clackercart",
+        "qty": 2,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "clackercart",
+        "qty": 6,
+        "material": "softwood"
+    },
+    {
+        "recipe": "classic pitcher",
+        "qty": 4,
+        "material": "clay"
+    },
+    {
+        "recipe": "classic-library wall",
+        "qty": 10,
+        "material": "book"
+    },
+    {
+        "recipe": "clothesline",
+        "qty": 10,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "coconut juice",
+        "qty": 1,
+        "material": "coconut"
+    },
+    {
+        "recipe": "coconut wall planter",
+        "qty": 1,
+        "material": "coconut"
+    },
+    {
+        "recipe": "coconut wall planter",
+        "qty": 5,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "colored-leaves flooring",
+        "qty": 10,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "colored-leaves flooring",
+        "qty": 15,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "cool hyacinth crown",
+        "qty": 4,
+        "material": "blue hyacinths"
+    },
+    {
+        "recipe": "cool hyacinth crown",
+        "qty": 2,
+        "material": "pink hyacinths"
+    },
+    {
+        "recipe": "cool hyacinth crown",
+        "qty": 2,
+        "material": "orange hyacinths"
+    },
+    {
+        "recipe": "cool hyacinth wreath",
+        "qty": 3,
+        "material": "orange hyacinths"
+    },
+    {
+        "recipe": "cool hyacinth wreath",
+        "qty": 3,
+        "material": "blue hyacinths"
+    },
+    {
+        "recipe": "cool hyacinth wreath",
+        "qty": 3,
+        "material": "pink hyacinths"
+    },
+    {
+        "recipe": "cool pansy crown",
+        "qty": 3,
+        "material": "orange pansies"
+    },
+    {
+        "recipe": "cool pansy crown",
+        "qty": 3,
+        "material": "blue pansies"
+    },
+    {
+        "recipe": "cool pansy wreath",
+        "qty": 10,
+        "material": "purple pansies"
+    },
+    {
+        "recipe": "cool windflower crown",
+        "qty": 3,
+        "material": "blue windflowers"
+    },
+    {
+        "recipe": "cool windflower crown",
+        "qty": 3,
+        "material": "pink windflowers"
+    },
+    {
+        "recipe": "cool windflower wreath",
+        "qty": 3,
+        "material": "blue windflowers"
+    },
+    {
+        "recipe": "cool windflower wreath",
+        "qty": 3,
+        "material": "pink windflowers"
+    },
+    {
+        "recipe": "cool windflower wreath",
+        "qty": 3,
+        "material": "white windflowers"
+    },
+    {
+        "recipe": "corral fence",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "cosmos crown",
+        "qty": 2,
+        "material": "red cosmos"
+    },
+    {
+        "recipe": "cosmos crown",
+        "qty": 2,
+        "material": "yellow cosmos"
+    },
+    {
+        "recipe": "cosmos crown",
+        "qty": 3,
+        "material": "white cosmos"
+    },
+    {
+        "recipe": "cosmos shower",
+        "qty": 5,
+        "material": "pink cosmos"
+    },
+    {
+        "recipe": "cosmos shower",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "cosmos wand",
+        "qty": 1,
+        "material": "white cosmos"
+    },
+    {
+        "recipe": "cosmos wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "cosmos wreath",
+        "qty": 3,
+        "material": "yellow cosmos"
+    },
+    {
+        "recipe": "cosmos wreath",
+        "qty": 3,
+        "material": "white cosmos"
+    },
+    {
+        "recipe": "cosmos wreath",
+        "qty": 3,
+        "material": "red cosmos"
+    },
+    {
+        "recipe": "country fence",
+        "qty": 6,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "crescent-moon chair",
+        "qty": 7,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "crescent-moon chair",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "crest doorplate",
+        "qty": 4,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "crewed spaceship",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "crewed spaceship",
+        "qty": 20,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "cute lily crown",
+        "qty": 2,
+        "material": "pink lilies"
+    },
+    {
+        "recipe": "cute lily crown",
+        "qty": 2,
+        "material": "orange lilies"
+    },
+    {
+        "recipe": "cute lily crown",
+        "qty": 2,
+        "material": "white lilies"
+    },
+    {
+        "recipe": "cute rose crown",
+        "qty": 3,
+        "material": "pink roses"
+    },
+    {
+        "recipe": "cute rose crown",
+        "qty": 3,
+        "material": "orange roses"
+    },
+    {
+        "recipe": "cutting board",
+        "qty": 2,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "cutting board",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "dark bamboo rug",
+        "qty": 6,
+        "material": "bamboo piece"
+    },
+    {
+        "recipe": "dark cosmos crown",
+        "qty": 7,
+        "material": "black cosmos"
+    },
+    {
+        "recipe": "dark lily crown",
+        "qty": 6,
+        "material": "black lilies"
+    },
+    {
+        "recipe": "dark lily wreath",
+        "qty": 10,
+        "material": "black lilies"
+    },
+    {
+        "recipe": "dark rose wreath",
+        "qty": 3,
+        "material": "black roses"
+    },
+    {
+        "recipe": "dark rose wreath",
+        "qty": 6,
+        "material": "purple roses"
+    },
+    {
+        "recipe": "dark tulip crown",
+        "qty": 5,
+        "material": "black tulips"
+    },
+    {
+        "recipe": "dark tulip wreath",
+        "qty": 10,
+        "material": "black tulips"
+    },
+    {
+        "recipe": "dark wooden-mosaic wall",
+        "qty": 15,
+        "material": "wood"
+    },
+    {
+        "recipe": "decoy duck",
+        "qty": 4,
+        "material": "softwood"
+    },
+    {
+        "recipe": "deer decoration",
+        "qty": 8,
+        "material": "softwood"
+    },
+    {
+        "recipe": "deer scare",
+        "qty": 3,
+        "material": "bamboo piece"
+    },
+    {
+        "recipe": "deer scare",
+        "qty": 8,
+        "material": "stone"
+    },
+    {
+        "recipe": "deer scare",
+        "qty": 3,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "destinations signpost",
+        "qty": 4,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "destinations signpost",
+        "qty": 8,
+        "material": "softwood"
+    },
+    {
+        "recipe": "DIY workbench",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "DIY workbench",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "DIY workbench",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "DIY workbench",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "DIY workbench",
+        "qty": 1,
+        "material": "mini DIY workbench"
+    },
+    {
+        "recipe": "document stack",
+        "qty": 1,
+        "material": "scattered papers"
+    },
+    {
+        "recipe": "doghouse",
+        "qty": 10,
+        "material": "wood"
+    },
+    {
+        "recipe": "doghouse",
+        "qty": 7,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "drinking fountain",
+        "qty": 8,
+        "material": "stone"
+    },
+    {
+        "recipe": "drinking fountain",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "earth-egg outfit",
+        "qty": 3,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "earth-egg shell",
+        "qty": 2,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "earth-egg shoes",
+        "qty": 2,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "egg party dress",
+        "qty": 3,
+        "material": "water egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "egg party hat",
+        "qty": 2,
+        "material": "water egg"
+    },
+    {
+        "recipe": "fancy lily wreath",
+        "qty": 3,
+        "material": "orange lilies"
+    },
+    {
+        "recipe": "fancy lily wreath",
+        "qty": 3,
+        "material": "pink lilies"
+    },
+    {
+        "recipe": "fancy lily wreath",
+        "qty": 3,
+        "material": "yellow lilies"
+    },
+    {
+        "recipe": "fancy mum wreath",
+        "qty": 3,
+        "material": "pink mums"
+    },
+    {
+        "recipe": "fancy mum wreath",
+        "qty": 3,
+        "material": "purple mums"
+    },
+    {
+        "recipe": "fancy mum wreath",
+        "qty": 3,
+        "material": "red mums"
+    },
+    {
+        "recipe": "fancy rose wreath",
+        "qty": 3,
+        "material": "orange roses"
+    },
+    {
+        "recipe": "fancy rose wreath",
+        "qty": 3,
+        "material": "pink roses"
+    },
+    {
+        "recipe": "fancy rose wreath",
+        "qty": 3,
+        "material": "yellow roses"
+    },
+    {
+        "recipe": "festive top set",
+        "qty": 2,
+        "material": "gold ornament"
+    },
+    {
+        "recipe": "festive top set",
+        "qty": 1,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "festive tree",
+        "qty": 3,
+        "material": "red ornament"
+    },
+    {
+        "recipe": "festive tree",
+        "qty": 3,
+        "material": "blue ornament"
+    },
+    {
+        "recipe": "festive tree",
+        "qty": 3,
+        "material": "gold ornament"
+    },
+    {
+        "recipe": "festive tree",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "firewood",
+        "qty": 8,
+        "material": "wood"
+    },
+    {
+        "recipe": "fish bait",
+        "qty": 1,
+        "material": "manila clam"
     }
 ]

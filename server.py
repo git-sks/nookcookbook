@@ -2,9 +2,19 @@
 
 from flask import Flask, render_template, request, flash, session, redirect
 from model import connect_to_db
+import crud
 
 app = Flask(__name__)
 app.secret_key = "dev"
+
+
+@app.route('/')
+def show_homepage():
+    """Show the application homepage."""
+
+    categories = crud.get_categories()
+
+    return render_template('index.html')
 
 
 if __name__ == "__main__":

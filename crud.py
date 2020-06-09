@@ -116,6 +116,11 @@ def create_category(code, name):
 
     return category
 
+def get_categories():
+    """Return a list of all categories."""
+
+    return Category.query.all()
+
 
 def create_series(code, name):
     """Create and return a new series."""
@@ -126,3 +131,9 @@ def create_series(code, name):
     db.session.commit()
 
     return series
+
+
+if __name__ == '__main__':
+    from server import app
+
+    connect_to_db(app)
