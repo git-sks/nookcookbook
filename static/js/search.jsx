@@ -1,6 +1,6 @@
 "use strict";
 
-class SearchForm extends React.Component {
+class Search extends React.Component {
   constructor(props) {
     super(props);
 
@@ -18,5 +18,3 @@ class SearchForm extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<SearchForm />, document.getElementById('search'));

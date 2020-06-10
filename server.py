@@ -2,6 +2,7 @@
 
 from flask import Flask, render_template, request, flash, session, redirect
 from model import connect_to_db
+
 import crud
 
 app = Flask(__name__)
@@ -14,7 +15,7 @@ def show_homepage():
 
     categories = crud.get_categories()
 
-    return render_template('index.html')
+    return render_template('index.html', categories=categories)
 
 
 if __name__ == "__main__":

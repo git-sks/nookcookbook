@@ -116,6 +116,7 @@ def create_category(code, name):
 
     return category
 
+
 def get_categories():
     """Return a list of all categories."""
 
