@@ -1,6 +1,6 @@
 """Server for ACNH recipes lookup and calculator app."""
 
-from flask import Flask, render_template, request, flash, session, redirect
+from flask import Flask, render_template, request, flash, session, jsonify
 from model import connect_to_db
 
 import crud
@@ -13,9 +13,44 @@ app.secret_key = "dev"
 def show_homepage():
     """Show the application homepage."""
 
-    categories = crud.get_categories()
+    return render_template('index.html')
 
-    return render_template('index.html', categories=categories)
+
+@app.route('/api/categories')
+def get_categories():
+    """Get a list of category names from the database."""
+
+    categories = []
+
+    cat_data = crud.get_categories()
+
+    for entry in cat_data:
+        categories.append((entry.cat_code, entry.name))
+
+    return jsonify(categories)
+
+
+@app.route('/api/series')
+def get_series():
+    """Get a list of series names from the database."""
+
+    series = []
+
+    series_data = crud.get_series()
+
+    for entry in series_data:
+        series.append((entry.series_code, entry.name))
+
+    return jsonify(series)
+
+
+@app.route('/api/series/<series_name>')
+def filter_recipes_by_series(series_code):
+    """Get the details of a specific series."""
+
+    recipes = crud.get_recipes_by_series(series_code)
+
+    return jsonify(recipes)
 
 
 if __name__ == "__main__":

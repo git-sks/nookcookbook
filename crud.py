@@ -31,6 +31,12 @@ def get_recipe_by_name(name):
     return recipe
 
 
+def get_recipes_by_series(series_code):
+    """Return a list of recipes with the given series."""
+
+    return Series.query.get(series_code).recipes
+
+
 def create_material(name, is_craftable):
     """Create and return a new material."""
 
@@ -132,6 +138,12 @@ def create_series(code, name):
     db.session.commit()
 
     return series
+
+
+def get_series():
+    """Return a list of all series."""
+
+    return Series.query.all()
 
 
 if __name__ == '__main__':
