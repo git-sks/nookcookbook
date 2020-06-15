@@ -16,6 +16,48 @@ def show_homepage():
     return render_template('index.html')
 
 
+@app.route('/api/recipes')
+def get_recipes():
+    """Get a list of all the recipes."""
+
+    rcp_data = crud.get_recipes()
+    recipes = []
+
+    for entry in rcp_data:
+        recipe = {'recipe_id': entry.recipe_id,
+                    'name': entry.name}
+
+        recipes.append(recipe)
+
+    return jsonify(recipes)
+
+
+@app.route('/api/recipes/<recipe_id>')
+def get_recipe_details(recipe_id):
+    """Get the recipe details for the given recipe_id."""
+
+    rcp_data = crud.get_recipe_by_id(recipe_id)
+
+    recipe = {'recipe_id': rcp_data.recipe_id,
+                'name': rcp_data.name,
+                'category': rcp_data.category.name}
+
+    if rcp_data.series != None:
+        recipe['series'] = rcp_data.series.name
+    else:
+        recipe['series'] = ''
+
+    materials = []
+
+    for rcpmat in rcp_data.recipe_materials:
+        materials.append({'name': rcpmat.material.name,
+                            'qty': rcpmat.qty})
+
+    recipe['materials'] = materials
+
+    return jsonify(recipe)
+
+
 @app.route('/api/categories')
 def get_categories():
     """Get a list of category names from the database."""

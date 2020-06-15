@@ -22,6 +22,8 @@ class Search extends React.Component {
           <select name="series" placeholder="+ series filter">
             {seriesOptions}
           </select>
+          <input placeholder="Search..."></input>
+          <button>Search</button>
         </form>
       </div>
     );

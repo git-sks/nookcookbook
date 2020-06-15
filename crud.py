@@ -23,6 +23,12 @@ def get_recipes():
     return Recipe.query.all()
 
 
+def get_recipe_by_id(recipe_id):
+    """Return a recipe with the given id."""
+
+    return Recipe.query.get(recipe_id)
+
+
 def get_recipe_by_name(name):
     """Return a recipe with the given name."""
 
@@ -52,6 +58,12 @@ def get_materials():
     """Return a list of all materials."""
 
     return Material.query.all()
+
+
+def get_material_by_id(mat_id):
+    """Return a material with the given id."""
+
+    return Material.query.get(mat_id)
 
 
 def get_material_by_name(name):
