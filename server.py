@@ -25,7 +25,7 @@ def get_recipes():
 
     for entry in rcp_data:
         recipe = {'recipe_id': entry.recipe_id,
-                    'name': entry.name}
+                    'name': entry.name.title()}
 
         recipes.append(recipe)
 
@@ -39,7 +39,7 @@ def get_recipe_details(recipe_id):
     rcp_data = crud.get_recipe_by_id(recipe_id)
 
     recipe = {'recipe_id': rcp_data.recipe_id,
-                'name': rcp_data.name,
+                'name': rcp_data.name.title(),
                 'category': rcp_data.category.name}
 
     if rcp_data.series != None:
@@ -50,12 +50,34 @@ def get_recipe_details(recipe_id):
     materials = []
 
     for rcpmat in rcp_data.recipe_materials:
-        materials.append({'name': rcpmat.material.name,
+        materials.append({'id': rcpmat.material_id,
+                            'name': rcpmat.material.name.title(),
                             'qty': rcpmat.qty})
 
     recipe['materials'] = materials
 
     return jsonify(recipe)
+
+
+@app.route('/api/materials/<material_id>')
+def get_material_details(material_id):
+    """Get the material details for the given material_id."""
+
+    mat_data = crud.get_material_by_id(material_id)
+
+    material = {'mat_id': mat_data.material_id,
+                'name': mat_data.name.title(),
+                'is_craftable': mat_data.is_craftable}
+
+    recipes = []
+
+    for recipe in mat_data.recipes:
+        recipes.append({'id': recipe.recipe_id,
+                        'name': recipe.name.title()})
+
+    material['recipes'] = recipes
+
+    return jsonify(material)
 
 
 @app.route('/api/categories')

@@ -23,6 +23,8 @@ class App extends React.Component {
         <Switch>
           <Route path="/recipes/:id" component={Recipe} >
           </Route>
+          <Route path="/materials/:id" component={Material} >
+          </Route>
           <Route path="/">
             <Search />
             <Display />
@@ -34,7 +36,7 @@ class App extends React.Component {
 }
 
 
-
+// SEARCH COMPONENTS
 class Search extends React.Component {
   render() {
     const seriesOptions = [];
@@ -115,7 +117,7 @@ class CategoryDropdown extends React.Component {
 }
 
 
-
+// DISPLAY COMPONENTS
 class Display extends React.Component {
   constructor(props) {
     super(props);
@@ -124,7 +126,6 @@ class Display extends React.Component {
       recipes: []
     };
   }
-
 
   componentDidMount() {
     fetch('/api/recipes')
@@ -136,11 +137,9 @@ class Display extends React.Component {
       });
   }
 
-
   filter() {
     // Update props based on search values
   }
-
 
   render() {
     const tiles = [];
@@ -174,7 +173,7 @@ class DisplayTile extends React.Component {
 }
 
 
-
+// RECIPE COMPONENTS
 class Recipe extends React.Component {
   constructor(props) {
     super(props);
@@ -186,7 +185,6 @@ class Recipe extends React.Component {
       materials: []
     };
   }
-
 
   componentDidMount() {
     fetch('/api/recipes/' + this.props.match.params.id)
@@ -215,7 +213,7 @@ class Recipe extends React.Component {
 
     for (const material of this.state.materials) {
       matEls.push(
-        <li>{material['name']} x{material['qty']}</li>
+        <li><Link to={`/materials/${material['id']}`}>{material['name']}</Link> x{material['qty']}</li>
       );
     }
 
@@ -234,5 +232,51 @@ class Recipe extends React.Component {
     );
   }
 }
+
+
+// MATERIAL COMPONENTS
+class Material extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: '',
+      recipes: [],
+      is_craftable: false
+    };
+  }
+
+  componentDidMount() {
+    fetch('/api/materials/' + this.props.match.params.id)
+      .then(response => response.json())
+      .then(data => {
+        this.setState({
+          name: data['name'],
+          recipes: data['recipes'],
+          is_craftable: data['is_craftable']
+        });
+      });
+  }
+
+  render() {
+    const rcpEls = []
+
+    for (const recipe of this.state.recipes) {
+      rcpEls.push(
+          <li><Link to={`/recipes/${recipe['id']}`}>{recipe['name']}</Link></li>
+      );
+    }
+
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+        <img src="/static/img/Apple.png" />
+        <h3>Recipes Requiring {this.state.name}:</h3>
+        {rcpEls}
+      </div>
+    );
+  }
+}
+
 
 ReactDOM.render(<App />, document.getElementById("root"));
