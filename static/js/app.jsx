@@ -38,79 +38,123 @@ class App extends React.Component {
 
 // SEARCH COMPONENTS
 class Search extends React.Component {
-  render() {
-    const seriesOptions = [];
-
-    fetch('/api/series')
-      .then(response => response.json())
-      .then(data => {
-        for (const series of data) {
-          seriesOptions.push(
-            <option value={series[0]}>{series[1]}</option>
-          );
-        }
-      });
-    console.log(seriesOptions);
-
-    return (
-      <div id="search">
-        <form>
-          <CategoryDropdown />
-          <select name="series" placeholder="+ series filter">
-            {seriesOptions}
-          </select>
-          <input placeholder="Search..."></input>
-          <button>Search</button>
-        </form>
-      </div>
-    );
-  }
-}
-
-
-class CategoryDropdown extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      value: ''
+      selectedCategory: '',
+      selectedSeries: '',
+      keywords: '',
+      categories: [],
+      series: []
     };
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleCategoryChange = this.handleCategoryChange.bind(this);
+    this.handleSeriesChange = this.handleSeriesChange.bind(this);
+    this.handleKeywordsChange = this.handleKeywordsChange.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({
-      value: event.target.value
-    });
-  }
-
-  render() {
-    // get categories
-    const categoryOptions = [];
-
+  componentDidMount() {
+    // get categories data
     fetch('/api/categories')
       .then(response => response.json())
       .then(data => {
-        for (const category of data) {
-          categoryOptions.push(
-            <option value={category[0]}>{category[1]}</option>
-          );
-        }
+        this.setState({ categories: data });
       });
-    console.log(categoryOptions);
+
+    // get series data
+    fetch('/api/series')
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ series: data });
+      });
+  }
+
+  handleSubmit(e) {
+
+  }
+
+  handleCategoryChange(e) {
+    this.setState({ selectedCategory: e.target.value });
+  }
+
+  handleSeriesChange(e) {
+    this.setState({ selectedSeries: e.target.value });
+  }
+
+  handleKeywordsChange(e) {
+    this.setState({ keywords: e.target.value });
+  }
+
+  render() {
+    // make category dropdown options
+    const categoryOptions = [];
+
+    for (const category of this.state.categories) {
+      categoryOptions.push(
+        <option key={category['code']}
+                value={category['code']}
+                name='category'>
+
+          {category['name']}
+
+        </option>
+      );
+    }
+
+    // make series dropdown options
+    const seriesOptions = [];
+
+    for (const series of this.state.series) {
+      seriesOptions.push(
+        <option key={series['code']}
+                value={series['code']}
+                name='series'>
+
+          {series['name']}
+
+        </option>
+      );
+    }
 
     return (
-      <div>
-        <select name="category"
+      <div id="search">
+        <form onSubmit={this.handleSubmit}>
+          <select name="category"
                 value={this.state.value}
-                onChange={this.handleChange}
-                placeholder="+ category filter">
+                onChange={this.handleChange}>
 
-            <option value='placeholder'>+ category filter</option>
+            <option value='no-filter'
+                    name='category'>
+              + category filter
+            </option>
             {categoryOptions}
 
-        </select>
+          </select>
+
+          <select name="series" 
+                  value={this.state.series}
+                  onChange={this.handleSeriesChange}>
+
+            <option value='no-filter'
+                    name='series'>
+              + series filter
+            </option>
+            {seriesOptions}
+
+          </select>
+          <br />
+          <input id="keywords"
+                  type="text"
+                  value={this.state.keywords}
+                  onChange={this.handleKeywordsChange}
+                  placeholder="Search..."></input>
+          <br />
+          <label>Search by:</label>
+          <br />
+
+          <button>Search</button>
+        </form>
       </div>
     );
   }

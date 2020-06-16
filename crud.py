@@ -32,15 +32,25 @@ def get_recipe_by_id(recipe_id):
 def get_recipe_by_name(name):
     """Return a recipe with the given name."""
 
-    recipe = Recipe.query.filter(Recipe.name == name).one()
+    return Recipe.query.filter(Recipe.name == name).one()
 
-    return recipe
+
+def get_recipes_by_category(cat_code):
+    """Return a list of recipes with the given category."""
+
+    return Category.query.get(cat_code).recipes
 
 
 def get_recipes_by_series(series_code):
     """Return a list of recipes with the given series."""
 
     return Series.query.get(series_code).recipes
+
+
+def get_recipes_by_keywords(keywords):
+    """Return a list of recipes where the name contains the given keywords."""
+
+    return Recipe.query.filter(Recipe.name.match(keywords))
 
 
 def create_material(name, is_craftable):

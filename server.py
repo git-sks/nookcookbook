@@ -20,10 +20,45 @@ def show_homepage():
 def get_recipes():
     """Get a list of all the recipes."""
 
-    rcp_data = crud.get_recipes()
+    rcps_data = crud.get_recipes()
     recipes = []
 
-    for entry in rcp_data:
+    for entry in rcps_data:
+        recipe = {'recipe_id': entry.recipe_id,
+                    'name': entry.name.title()}
+
+        recipes.append(recipe)
+
+    return jsonify(recipes)
+
+
+@app.route('/api/recipes', methods=['GET'])
+def filter_recipes():
+    """Get the recipes based on the filters from the search form."""
+
+    category = request.form.get('category')
+    series = request.form.get('series')
+    keywords = request.form.get('keywords')
+
+    if category != 'no-filter':
+        rcps_category = set(crud.get_recipes_by_category)
+    else:
+        rcps_category = set(crud.get_recipes)
+
+    if series != 'no-filter':
+        rcps_series = set(crud.get_recipes_by_series)
+    else:
+        rcps_series = set(crud.get_recipes)
+
+    if keywords != 'no-filter':
+        rcps_keywords = set(crud.get_recipes_by_keywords)
+    else:
+        rcps_keywords = set(crud.get_recipes)
+
+    rcps_data = rcps_keywords.intersection(rcps_category, rcps_series)
+    recipes = []
+
+    for entry in rcps_data:
         recipe = {'recipe_id': entry.recipe_id,
                     'name': entry.name.title()}
 
@@ -89,7 +124,8 @@ def get_categories():
     cat_data = crud.get_categories()
 
     for entry in cat_data:
-        categories.append((entry.cat_code, entry.name))
+        categories.append({'code': entry.cat_code,
+                            'name': entry.name})
 
     return jsonify(categories)
 
@@ -103,7 +139,8 @@ def get_series():
     series_data = crud.get_series()
 
     for entry in series_data:
-        series.append((entry.series_code, entry.name))
+        series.append({'code': entry.series_code,
+                        'name': entry.name})
 
     return jsonify(series)
 
