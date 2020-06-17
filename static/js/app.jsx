@@ -13,6 +13,24 @@ const useRouteMatch = window.ReactRouterDOM.useRouteMatch;
 class App extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      recipes: []
+    }
+  }
+
+  // callback function for Display child component
+  updateDisplay = (recipes) => { 
+    this.setState({ recipes: recipes });
+    alert(recipes[1].name);
+  }
+
+  componentDidMount() {
+    fetch('/api/recipes')
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ recipes: data });
+      });
   }
 
   render() {
@@ -26,8 +44,8 @@ class App extends React.Component {
           <Route path="/materials/:id" component={Material} >
           </Route>
           <Route path="/">
-            <Search />
-            <Display />
+            <Search updateDisplay={this.updateDisplay} />
+            <Display recipes={this.state.recipes} />
           </Route>
         </Switch>
       </Router>
@@ -52,6 +70,7 @@ class Search extends React.Component {
     this.handleCategoryChange = this.handleCategoryChange.bind(this);
     this.handleSeriesChange = this.handleSeriesChange.bind(this);
     this.handleKeywordsChange = this.handleKeywordsChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   componentDidMount() {
@@ -71,11 +90,26 @@ class Search extends React.Component {
   }
 
   handleSubmit(e) {
+    e.preventDefault();
 
+    const formData = {
+      'selectedCategory': this.state.selectedCategory,
+      'selectedSeries': this.state.selectedSeries,
+      'keywords': this.state.keywords,
+    }
+
+    fetch('/api/filter_recipes', {
+      method: 'get'
+    })
+      .then(response => response.json())
+      .then(data => {
+        this.props.updateDisplay(data);
+      });
   }
 
   handleCategoryChange(e) {
     this.setState({ selectedCategory: e.target.value });
+    alert(this.state.selectedCategory);
   }
 
   handleSeriesChange(e) {
@@ -119,10 +153,10 @@ class Search extends React.Component {
 
     return (
       <div id="search">
-        <form onSubmit={this.handleSubmit}>
+        <form>
           <select name="category"
                 value={this.state.value}
-                onChange={this.handleChange}>
+                onChange={this.handleCategoryChange}>
 
             <option value='no-filter'
                     name='category'>
@@ -153,7 +187,7 @@ class Search extends React.Component {
           <label>Search by:</label>
           <br />
 
-          <button>Search</button>
+          <button onClick={this.handleSubmit}>Search</button>
         </form>
       </div>
     );
@@ -163,32 +197,10 @@ class Search extends React.Component {
 
 // DISPLAY COMPONENTS
 class Display extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      recipes: []
-    };
-  }
-
-  componentDidMount() {
-    fetch('/api/recipes')
-      .then(response => response.json())
-      .then(data => {
-        this.setState({
-          recipes: data
-        });
-      });
-  }
-
-  filter() {
-    // Update props based on search values
-  }
-
   render() {
     const tiles = [];
 
-    for (const recipe of this.state.recipes) {
+    for (const recipe of this.props.recipes) {
       tiles.push(
         <DisplayTile key={recipe['recipe_id']}
                     recipe_id={recipe['recipe_id']}

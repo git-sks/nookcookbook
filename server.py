@@ -32,39 +32,44 @@ def get_recipes():
     return jsonify(recipes)
 
 
-@app.route('/api/recipes', methods=['GET'])
+@app.route('/api/filter_recipes', methods=['GET'])
 def filter_recipes():
     """Get the recipes based on the filters from the search form."""
 
-    category = request.form.get('category')
-    series = request.form.get('series')
-    keywords = request.form.get('keywords')
+    # category = request.form.get('category')
+    # series = request.form.get('series')
+    # keywords = request.form.get('keywords')
+    print("form" + request.get_json())
 
-    if category != 'no-filter':
-        rcps_category = set(crud.get_recipes_by_category)
-    else:
-        rcps_category = set(crud.get_recipes)
+    # print(f'category is {category}')
+    # print(f'series is {series}')
+    # print(f'keywords are {keywords}')
 
-    if series != 'no-filter':
-        rcps_series = set(crud.get_recipes_by_series)
-    else:
-        rcps_series = set(crud.get_recipes)
+    # if category != 'no-filter':
+    #     rcps_category = set(crud.get_recipes_by_category)
+    # else:
+    #     rcps_category = set(crud.get_recipes)
 
-    if keywords != 'no-filter':
-        rcps_keywords = set(crud.get_recipes_by_keywords)
-    else:
-        rcps_keywords = set(crud.get_recipes)
+    # if series != 'no-filter':
+    #     rcps_series = set(crud.get_recipes_by_series)
+    # else:
+    #     rcps_series = set(crud.get_recipes)
 
-    rcps_data = rcps_keywords.intersection(rcps_category, rcps_series)
-    recipes = []
+    # if keywords != 'no-filter':
+    #     rcps_keywords = set(crud.get_recipes_by_keywords)
+    # else:
+    #     rcps_keywords = set(crud.get_recipes)
 
-    for entry in rcps_data:
-        recipe = {'recipe_id': entry.recipe_id,
-                    'name': entry.name.title()}
+    # rcps_data = rcps_keywords.intersection(rcps_category, rcps_series)
+    # recipes = []
 
-        recipes.append(recipe)
+    # for entry in rcps_data:
+    #     recipe = {'recipe_id': entry.recipe_id,
+    #                 'name': entry.name.title()}
 
-    return jsonify(recipes)
+    #     recipes.append(recipe)
+
+    # return jsonify(recipes)
 
 
 @app.route('/api/recipes/<recipe_id>')
