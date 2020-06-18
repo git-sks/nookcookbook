@@ -22,7 +22,6 @@ class App extends React.Component {
   // callback function for Display child component
   updateDisplay = (recipes) => { 
     this.setState({ recipes: recipes });
-    alert(recipes[1].name);
   }
 
   componentDidMount() {
@@ -71,6 +70,7 @@ class Search extends React.Component {
     this.handleSeriesChange = this.handleSeriesChange.bind(this);
     this.handleKeywordsChange = this.handleKeywordsChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleReset = this.handleReset.bind(this);
   }
 
   componentDidMount() {
@@ -92,9 +92,24 @@ class Search extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    fetch('/api/filter_recipes', {
-      method: 'get'
-    })
+    fetch('/api/filter_recipes' +
+            `?category=${this.state.selectedCategory}`
+            + `&?series=${this.state.selectedSeries}`
+            + `&?keywords=${this.state.keywords}`)
+      .then(response => response.json())
+      .then(data => {
+        this.props.updateDisplay(data);
+      });
+  }
+
+  handleReset(e) {
+    this.setState({ 
+      selectedCategory: '',
+      selectedSeries: '',
+      keywords: ''
+    });
+
+    fetch('/api/filter_recipes')
       .then(response => response.json())
       .then(data => {
         this.props.updateDisplay(data);
@@ -103,7 +118,6 @@ class Search extends React.Component {
 
   handleCategoryChange(e) {
     this.setState({ selectedCategory: e.target.value });
-    alert(this.state.selectedCategory);
   }
 
   handleSeriesChange(e) {
@@ -112,6 +126,10 @@ class Search extends React.Component {
 
   handleKeywordsChange(e) {
     this.setState({ keywords: e.target.value });
+  }
+
+  handleKeyFilterChange(e) {
+    this.setState({ keyfilter: e.target.value });
   }
 
   render() {
@@ -146,8 +164,8 @@ class Search extends React.Component {
     }
 
     return (
-      <div id="search">
-        <form method="GET">
+      <div>
+        <form id="search">
           <select name="category"
                 value={this.state.selectedCategory}
                 onChange={this.handleCategoryChange}>
@@ -178,11 +196,9 @@ class Search extends React.Component {
                   onChange={this.handleKeywordsChange}
                   placeholder="Search..."></input>
           <br />
-          <label>Search by:</label>
-          <br />
-
           <button onClick={this.handleSubmit}>Search</button>
         </form>
+        <button onClick={this.handleReset}>Reset</button>
       </div>
     );
   }

@@ -32,13 +32,13 @@ def get_recipes():
     return jsonify(recipes)
 
 
-@app.route('/api/filter_recipes', methods=['GET'])
+@app.route('/api/filter_recipes')
 def filter_recipes():
     """Get the recipes based on the filters from the search form."""
 
-    category = request.form.get('category')
-    series = request.form.get('series')
-    keywords = request.form.get('keywords')
+    category = request.args.get('category')
+    series = request.args.get('series')
+    keywords = request.args.get('keywords')
 
     print(f'category is {category}')
     print(f'series is {series}')
