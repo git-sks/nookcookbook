@@ -36,40 +36,39 @@ def get_recipes():
 def filter_recipes():
     """Get the recipes based on the filters from the search form."""
 
-    # category = request.form.get('category')
-    # series = request.form.get('series')
-    # keywords = request.form.get('keywords')
-    print("form" + request.get_json())
+    category = request.form.get('category')
+    series = request.form.get('series')
+    keywords = request.form.get('keywords')
 
-    # print(f'category is {category}')
-    # print(f'series is {series}')
-    # print(f'keywords are {keywords}')
+    print(f'category is {category}')
+    print(f'series is {series}')
+    print(f'keywords are {keywords}')
 
-    # if category != 'no-filter':
-    #     rcps_category = set(crud.get_recipes_by_category)
-    # else:
-    #     rcps_category = set(crud.get_recipes)
+    if category != '' and category != None:
+        rcps_category = set(crud.get_recipes_by_category(category))
+    else:
+        rcps_category = set(crud.get_recipes())
 
-    # if series != 'no-filter':
-    #     rcps_series = set(crud.get_recipes_by_series)
-    # else:
-    #     rcps_series = set(crud.get_recipes)
+    if series != '' and series != None:
+        rcps_series = set(crud.get_recipes_by_series(series))
+    else:
+        rcps_series = set(crud.get_recipes())
 
-    # if keywords != 'no-filter':
-    #     rcps_keywords = set(crud.get_recipes_by_keywords)
-    # else:
-    #     rcps_keywords = set(crud.get_recipes)
+    if keywords != '' and keywords != None:
+        rcps_keywords = set(crud.get_recipes_by_keywords(keywords))
+    else:
+        rcps_keywords = set(crud.get_recipes())
 
-    # rcps_data = rcps_keywords.intersection(rcps_category, rcps_series)
-    # recipes = []
+    rcps_data = rcps_keywords.intersection(rcps_category, rcps_series)
+    recipes = []
 
-    # for entry in rcps_data:
-    #     recipe = {'recipe_id': entry.recipe_id,
-    #                 'name': entry.name.title()}
+    for entry in rcps_data:
+        recipe = {'recipe_id': entry.recipe_id,
+                    'name': entry.name.title()}
 
-    #     recipes.append(recipe)
+        recipes.append(recipe)
 
-    # return jsonify(recipes)
+    return jsonify(sorted(recipes, key = lambda i: i['recipe_id']))
 
 
 @app.route('/api/recipes/<recipe_id>')

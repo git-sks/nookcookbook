@@ -92,12 +92,6 @@ class Search extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    const formData = {
-      'selectedCategory': this.state.selectedCategory,
-      'selectedSeries': this.state.selectedSeries,
-      'keywords': this.state.keywords,
-    }
-
     fetch('/api/filter_recipes', {
       method: 'get'
     })
@@ -128,7 +122,7 @@ class Search extends React.Component {
       categoryOptions.push(
         <option key={category['code']}
                 value={category['code']}
-                name='category'>
+                name="category">
 
           {category['name']}
 
@@ -143,7 +137,7 @@ class Search extends React.Component {
       seriesOptions.push(
         <option key={series['code']}
                 value={series['code']}
-                name='series'>
+                name="series">
 
           {series['name']}
 
@@ -153,13 +147,13 @@ class Search extends React.Component {
 
     return (
       <div id="search">
-        <form>
+        <form method="GET">
           <select name="category"
-                value={this.state.value}
+                value={this.state.selectedCategory}
                 onChange={this.handleCategoryChange}>
 
-            <option value='no-filter'
-                    name='category'>
+            <option value=""
+                    name="category">
               + category filter
             </option>
             {categoryOptions}
@@ -167,11 +161,11 @@ class Search extends React.Component {
           </select>
 
           <select name="series" 
-                  value={this.state.series}
+                  value={this.state.selectedSeries}
                   onChange={this.handleSeriesChange}>
 
-            <option value='no-filter'
-                    name='series'>
+            <option value=""
+                    name="series">
               + series filter
             </option>
             {seriesOptions}
