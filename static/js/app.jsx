@@ -14,14 +14,35 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    // calcRcps: { rcpID: {'name': recipe name, 'qty': qty to calculate }}
     this.state = {
-      recipes: []
+      recipes: [],
+      calcRcps: {}
     }
   }
 
   // callback function for Display child component
   updateDisplay = (recipes) => { 
     this.setState({ recipes: recipes });
+  }
+
+  // callback function for DisplayTile child component
+  // recipe argument should be a dictionary
+  // { 'id': recipe id,
+  //   'name': recipe name }
+  addCalcRcp = (recipe) => {
+    const newCalcRcps = this.state.calcRcps;
+
+    if (this.state.calcRcps[recipe['id']] === undefined) {
+      newCalcRcps[recipe['id']] = { 'name': recipe['name'],
+                                    'qty': 1 }
+    }
+    else {
+      newCalcRcps[recipe['id']]['qty'] = newCalcRcps[recipe_id['id']]['qty'] + 1;
+    }
+
+    this.setState({ calcRcps: newCalcRcps });
+    alert(this.state.calcRcps[1]['name']);
   }
 
   componentDidMount() {
@@ -42,12 +63,32 @@ class App extends React.Component {
           </Route>
           <Route path="/materials/:id" component={Material} >
           </Route>
+          <Route path="/calculator">
+            <Calculator />
+          </Route>
           <Route path="/">
             <Search updateDisplay={this.updateDisplay} />
-            <Display recipes={this.state.recipes} />
+            <Display recipes={this.state.recipes}
+                      addCalcRcp={this.addCalcRcp} />
           </Route>
         </Switch>
       </Router>
+    );
+  }
+}
+
+
+// HEADER COMPONENTS
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <Link to="/calculator">Calculator</Link>
+      </div>
     );
   }
 }
@@ -207,6 +248,10 @@ class Search extends React.Component {
 
 // DISPLAY COMPONENTS
 class Display extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     const tiles = [];
 
@@ -214,7 +259,8 @@ class Display extends React.Component {
       tiles.push(
         <DisplayTile key={recipe['recipe_id']}
                     recipe_id={recipe['recipe_id']}
-                    name={recipe['name']} />
+                    name={recipe['name']}
+                    addCalcRcp={this.props.addCalcRcp} />
       );
     }
 
@@ -228,11 +274,117 @@ class Display extends React.Component {
 
 
 class DisplayTile extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.updateCalc = this.updateCalc.bind(this);
+  }
+
+  updateCalc(e) {
+    e.preventDefault();
+
+    this.props.addCalcRcp({ 'id': this.props.recipe_id,
+                            'name': this.props.name });
+  }
+
   render() {
     return (
       <div name={this.props.name}>
         <Link to={`/recipes/${this.props.recipe_id}`}>{this.props.name}</Link>
-        <p>Add to calculator</p>
+        <br />
+        <button onClick={this.updateCalc}>Add to calculator</button>
+      </div>
+    );
+  }
+}
+
+
+// CALCULATOR COMPONENTS
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      calcMats: {}
+    }
+
+    this.addMaterials = this.addMaterials.bind(this);
+  }
+
+  componentDidMount() {
+  }
+
+  addMaterials() {
+    for (const rcp in this.props.calcRcps) {
+      fetch(`/api/recipes/${rcp}`)
+        .then(response => response.json())
+        .then(data => {
+          for (const mat of data['materials']) {
+            newCalcMats = this.state.calcMats;
+
+            if (this.state.calcMats[mat['id']] === undefined) {
+              newCalcMats[mat['id']] = { 'name': mat['name'],
+                                          'qty': mat['qty'] }
+            }
+            else {
+              newCalcMats[mat['id']]['qty'] = newCalcMats[mat['id']]['qty'] + mat['qty'];
+            }
+
+            this.setState({ calcMats: newCalcMats });
+          }
+        });
+    }
+  }
+
+  render() {
+    const rcpTableRowEls = [];
+
+    for (const rcpID in this.props.calcRcps) {
+      const rcp = this.props.calcRcps[rcpID]
+      const rcpName = rcp['name'];
+      const rcpQty = rcp['qty'];
+      console.log(rcpName);
+      console.log(rcpQty);
+
+      rcpTableRowEls.push(
+        <tr>
+          <td>{rcpName}</td>
+          <td>{rcpQty}</td>
+        </tr>
+      );
+    }
+
+    this.addMaterials();
+
+    const matEls = [];
+
+    for (const matID in this.state.calcMats) {
+      const mat = this.state.calcMats[matID];
+
+      matEls.push(
+        <li>{mat['name']} x{mat['qty']}</li>
+      );
+    }
+
+    return (
+      <div>
+        <h1>Calculator</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Recipes</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rcpTableRowEls}
+          </tbody>
+        </table>
+
+        <h4>Required Materials</h4>
+        <ul>
+          {matEls}
+        </ul>
       </div>
     );
   }
@@ -279,7 +431,7 @@ class Recipe extends React.Component {
 
     for (const material of this.state.materials) {
       matEls.push(
-        <li><Link to={`/materials/${material['id']}`}>{material['name']}</Link> x{material['qty']}</li>
+        <li><Link key={material['id']} to={`/materials/${material['id']}`}>{material['name']}</Link> x{material['qty']}</li>
       );
     }
 

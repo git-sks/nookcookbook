@@ -10,6 +10,7 @@ app.secret_key = "dev"
 
 
 @app.route('/')
+@app.route('/calculator')
 def show_homepage():
     """Show the application homepage."""
 
