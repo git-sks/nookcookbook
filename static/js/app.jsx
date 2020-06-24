@@ -316,22 +316,35 @@ class Calculator extends React.Component {
   }
 
   addMaterials() {
-    // go through each 
-    for (const rcp in this.props.calcRcps) {
-      fetch(`/api/recipes/${rcp}`)
+    // go through by key each rcp in the calcRcps dict prop passed from App
+    // get the rcp information from the server
+    // then get the list of materials from the server response
+    for (const rcpID in this.props.calcRcps) {
+      fetch(`/api/recipes/${rcpID}`)
         .then(response => response.json())
         .then(data => {
+          const rcp = this.props.calcRcps[rcpID];
+
+          // for each material dictionary in the list of materials
           for (const mat of data['materials']) {
+            // make a copy of the current calcMats state
             const newCalcMats = this.state.calcMats;
 
-            if (this.state.calcMats[mat['id']] === undefined) {
+            //if the material isn't in the dictionary yet
+            if (newCalcMats[mat['id']] === undefined) {
+              // add it into the dictionary
               newCalcMats[mat['id']] = { 'name': mat['name'],
                                           'qty': mat['qty'] }
             }
             else {
-              newCalcMats[mat['id']]['qty'] = newCalcMats[mat['id']]['qty'] + mat['qty'];
+              // if the material is in the dictionary, update the qty in the
+              // dictionary by the qty of material per recipe * qty of the
+              // recipe in the recipe calculator
+              newCalcMats[mat['id']]['qty'] = newCalcMats[mat['id']]['qty']
+                                              + (mat['qty'] * rcp['qty']);
             }
 
+            // set the state of the current calcMats to the updated newCalcMats
             this.setState({ calcMats: newCalcMats });
           }
         });
@@ -341,6 +354,8 @@ class Calculator extends React.Component {
   render() {
     const rcpTableRowEls = [];
 
+    // go through by key each rcp in the calcRcps dict prop passed from App
+    // get the name and qty from the rcp and create a table row for it
     for (const rcpID in this.props.calcRcps) {
       const rcp = this.props.calcRcps[rcpID]
       const rcpName = rcp['name'];
@@ -355,8 +370,6 @@ class Calculator extends React.Component {
         </tr>
       );
     }
-
-    this.addMaterials();
 
     const matEls = [];
 
