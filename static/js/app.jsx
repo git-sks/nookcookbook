@@ -38,11 +38,11 @@ class App extends React.Component {
                                     'qty': 1 }
     }
     else {
-      newCalcRcps[recipe['id']]['qty'] = newCalcRcps[recipe_id['id']]['qty'] + 1;
+      newCalcRcps[recipe['id']]['qty'] = newCalcRcps[recipe['id']]['qty'] + 1;
     }
 
     this.setState({ calcRcps: newCalcRcps });
-    alert(this.state.calcRcps[1]['name']);
+    console.log("Recipes in calculator:" + this.state.calcRcps);
   }
 
   componentDidMount() {
@@ -64,7 +64,7 @@ class App extends React.Component {
           <Route path="/materials/:id" component={Material} >
           </Route>
           <Route path="/calculator">
-            <Calculator />
+            <Calculator calcRcps={this.state.calcRcps}/>
           </Route>
           <Route path="/">
             <Search updateDisplay={this.updateDisplay} />
@@ -87,7 +87,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/calculator">Calculator</Link>
+        <Link to="/">Search</Link> <Link to="/calculator">Calculator</Link>
       </div>
     );
   }
@@ -312,15 +312,17 @@ class Calculator extends React.Component {
   }
 
   componentDidMount() {
+    this.addMaterials();
   }
 
   addMaterials() {
+    // go through each 
     for (const rcp in this.props.calcRcps) {
       fetch(`/api/recipes/${rcp}`)
         .then(response => response.json())
         .then(data => {
           for (const mat of data['materials']) {
-            newCalcMats = this.state.calcMats;
+            const newCalcMats = this.state.calcMats;
 
             if (this.state.calcMats[mat['id']] === undefined) {
               newCalcMats[mat['id']] = { 'name': mat['name'],
@@ -358,12 +360,19 @@ class Calculator extends React.Component {
 
     const matEls = [];
 
-    for (const matID in this.state.calcMats) {
-      const mat = this.state.calcMats[matID];
-
+    if (this.state.calcMats === {}) {
       matEls.push(
-        <li>{mat['name']} x{mat['qty']}</li>
+        <li>No recipes added yet.</li>
       );
+    }
+    else {
+      for (const matID in this.state.calcMats) {
+        const mat = this.state.calcMats[matID];
+
+        matEls.push(
+          <li>{mat['name']} x{mat['qty']}</li>
+        );
+      }
     }
 
     return (
