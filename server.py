@@ -78,6 +78,15 @@ def filter_recipes():
         recipe = {'recipe_id': entry.recipe_id,
                     'name': entry.name.title()}
 
+        medias = []
+
+        for media in entry.medias:
+            medias.append({'id': media.media_id,
+                            'path': media.file_path,
+                            'type': media.media_type})
+
+        recipe['medias'] = medias
+
         recipes.append(recipe)
 
     return jsonify(sorted(recipes, key = lambda i: i['recipe_id']))

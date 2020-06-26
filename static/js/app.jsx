@@ -298,24 +298,19 @@ class Display extends React.Component {
     super(props);
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.recipes !== prevProps.recipes) {
+      this.render();
+    }
+  }
+
   render() {
     const tiles = [];
 
     for (const recipe of this.props.recipes) {
-      let imgUrl = '';
-
-      if (recipe.medias.length !== 0) {
-        imgUrl = recipe.medias[0]["path"];
-      }
-      else {
-        imgUrl = '/static/img/DIYRecipe.png'; //placeholder image
-      }
-
       tiles.push(
         <DisplayTile key={recipe['recipe_id']}
-                    recipe_id={recipe['recipe_id']}
-                    name={recipe['name']}
-                    imgUrl={imgUrl}
+                    recipe={recipe}
                     addCalcRcp={this.props.addCalcRcp} />
       );
     }
@@ -339,16 +334,25 @@ class DisplayTile extends React.Component {
   updateCalc(e) {
     e.preventDefault();
 
-    this.props.addCalcRcp({ 'id': this.props.recipe_id,
-                            'name': this.props.name });
+    this.props.addCalcRcp({ 'id': this.props.recipe.recipe_id,
+                            'name': this.props.recipe.name });
   }
 
   render() {
+    let imgUrl = '';
+
+    if (this.props.recipe.medias.length !== 0) {
+      imgUrl = this.props.recipe.medias[0]["path"];
+    }
+    else {
+      imgUrl = '/static/img/DIYRecipe.png'; //placeholder image
+    }
+
     return (
-      <div name={this.props.name}>
-        <img src={this.props.imgUrl}></img>
+      <div name={this.props.recipe.name}>
+        <img src={imgUrl}></img>
         <br />
-        <Link to={`/recipes/${this.props.recipe_id}`}>{this.props.name}</Link>
+        <Link to={`/recipes/${this.props.recipe.recipe_id}`}>{this.props.recipe.name}</Link>
         <br />
         <button onClick={this.updateCalc}>Add to calculator</button>
       </div>
