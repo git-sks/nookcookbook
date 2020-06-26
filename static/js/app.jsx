@@ -48,6 +48,11 @@ class App extends React.Component {
     console.log("Recipes in calculator:" + this.state.calcRcps);
   }
 
+  resetCalc = () => {
+    this.setState({ calcRcps: {},
+                    calcMats: {} });
+  }
+
   addMaterials() {
     // go through by key each rcp in the calcRcps dict prop passed from App
     // get the rcp information from the server
@@ -104,7 +109,8 @@ class App extends React.Component {
           <Route path="/calculator">
             <Calculator calcRcps={this.state.calcRcps}
                         calcMats={this.state.calcMats}
-                        addMaterials={this.addMaterials} />
+                        addMaterials={this.addMaterials}
+                        resetCalc={this.resetCalc} />
           </Route>
           <Route path="/">
             <Search updateDisplay={this.updateDisplay} />
@@ -349,31 +355,45 @@ class Calculator extends React.Component {
     this.props.addMaterials();
   }
 
+  // handleReset(e) {
+  //   e.preventDefault();
+
+  //   this.props.resetCalc();
+  // }
+
   render() {
     const rcpTableRowEls = [];
 
-    // go through by key each rcp in the calcRcps dict prop passed from App
-    // get the name and qty from the rcp and create a table row for it
-    for (const rcpID in this.props.calcRcps) {
-      const rcp = this.props.calcRcps[rcpID]
-      const rcpName = rcp['name'];
-      const rcpQty = rcp['qty'];
-      console.log(rcpName);
-      console.log(rcpQty);
-
+    if (Object.keys(this.props.calcRcps).length === 0) {
       rcpTableRowEls.push(
         <tr>
-          <td>{rcpName}</td>
-          <td>{rcpQty}</td>
+          <td>No recipes added</td>
+          <td></td>
         </tr>
       );
+    }
+    else {
+      // go through by key each rcp in the calcRcps dict prop passed from App
+      // get the name and qty from the rcp and create a table row for it
+      for (const rcpID in this.props.calcRcps) {
+        const rcp = this.props.calcRcps[rcpID]
+        const rcpName = rcp['name'];
+        const rcpQty = rcp['qty'];
+
+        rcpTableRowEls.push(
+          <tr>
+            <td>{rcpName}</td>
+            <td>{rcpQty}</td>
+          </tr>
+        );
+      }
     }
 
     const matEls = [];
 
-    if (this.props.calcMats === {}) {
+    if (Object.keys(this.props.calcMats).length === 0) {
       matEls.push(
-        <li>No recipes added yet.</li>
+        <li>No recipes added</li>
       );
     }
     else {
@@ -400,6 +420,9 @@ class Calculator extends React.Component {
             {rcpTableRowEls}
           </tbody>
         </table>
+
+        <br />
+        <button onClick={this.props.resetCalc}>Reset calculator</button>
 
         <h4>Required Materials</h4>
         <ul>

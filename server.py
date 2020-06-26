@@ -9,9 +9,9 @@ app = Flask(__name__)
 app.secret_key = "dev"
 
 
-@app.route('/')
-@app.route('/calculator')
-def show_homepage():
+@app.route('/', defaults={'path':''})
+@app.route('/<path:path>')
+def show_app(path):
     """Show the application homepage."""
 
     return render_template('index.html')
