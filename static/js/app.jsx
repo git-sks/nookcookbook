@@ -179,10 +179,14 @@ class Search extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
 
+    // console.log("category is " + this.state.selectedCategory);
+    // console.log("series is " + this.state.selectedSeries);
+    // console.log("keywords are " + this.state.keywords);
+
     fetch('/api/filter_recipes' +
             `?category=${this.state.selectedCategory}`
-            + `&?series=${this.state.selectedSeries}`
-            + `&?keywords=${this.state.keywords}`)
+            + `&series=${this.state.selectedSeries}`
+            + `&keywords=${this.state.keywords}`)
       .then(response => response.json())
       .then(data => {
         this.props.updateDisplay(data);
@@ -213,10 +217,6 @@ class Search extends React.Component {
 
   handleKeywordsChange(e) {
     this.setState({ keywords: e.target.value });
-  }
-
-  handleKeyFilterChange(e) {
-    this.setState({ keyfilter: e.target.value });
   }
 
   render() {
@@ -302,10 +302,20 @@ class Display extends React.Component {
     const tiles = [];
 
     for (const recipe of this.props.recipes) {
+      let imgUrl = '';
+
+      if (recipe.medias.length !== 0) {
+        imgUrl = recipe.medias[0]["path"];
+      }
+      else {
+        imgUrl = '/static/img/DIYRecipe.png'; //placeholder image
+      }
+
       tiles.push(
         <DisplayTile key={recipe['recipe_id']}
                     recipe_id={recipe['recipe_id']}
                     name={recipe['name']}
+                    imgUrl={imgUrl}
                     addCalcRcp={this.props.addCalcRcp} />
       );
     }
@@ -336,6 +346,8 @@ class DisplayTile extends React.Component {
   render() {
     return (
       <div name={this.props.name}>
+        <img src={this.props.imgUrl}></img>
+        <br />
         <Link to={`/recipes/${this.props.recipe_id}`}>{this.props.name}</Link>
         <br />
         <button onClick={this.updateCalc}>Add to calculator</button>
@@ -443,7 +455,8 @@ class Recipe extends React.Component {
       name: '',
       category: '',
       series: '',
-      materials: []
+      materials: [],
+      medias: []
     };
   }
 
@@ -455,14 +468,15 @@ class Recipe extends React.Component {
           name: data['name'],
           category: data['category'],
           series: data['series'],
-          materials: data['materials']
+          materials: data['materials'],
+          medias: data['medias']
         });
       });
   }
 
   render() {
-    const seriesEls = []
-    const matEls = []
+    const seriesEls = [];
+    const matEls = [];
 
     if (this.state.series !== '') {
       seriesEls.push(
@@ -478,10 +492,19 @@ class Recipe extends React.Component {
       );
     }
 
+    let imgUrl = '';
+
+    if (this.state.medias.length !== 0) {
+      imgUrl = this.state.medias[0]["path"];
+    }
+    else {
+      imgUrl = '/static/img/DIYRecipe.png'; //placeholder image
+    }
+
     return (
       <div>
         <h1>{this.state.name}</h1>
-        <img src="/static/img/Apple.png" />
+        <img src={imgUrl} />
         <h3>Category</h3>
         <p>{this.state.category}</p>
         {seriesEls}
@@ -503,7 +526,8 @@ class Material extends React.Component {
     this.state = {
       name: '',
       recipes: [],
-      is_craftable: false
+      is_craftable: false,
+      medias: []
     };
   }
 
@@ -514,13 +538,14 @@ class Material extends React.Component {
         this.setState({
           name: data['name'],
           recipes: data['recipes'],
-          is_craftable: data['is_craftable']
+          is_craftable: data['is_craftable'],
+          medias: data['medias']
         });
       });
   }
 
   render() {
-    const rcpEls = []
+    const rcpEls = [];
 
     for (const recipe of this.state.recipes) {
       rcpEls.push(
@@ -528,10 +553,19 @@ class Material extends React.Component {
       );
     }
 
+    let imgUrl = '';
+
+    if (this.state.medias.length !== 0) {
+      imgUrl = this.state.medias[0]["path"];
+    }
+    else {
+      imgUrl = '/static/img/DIYRecipe.png'; //placeholder image
+    }
+
     return (
       <div>
         <h1>{this.state.name}</h1>
-        <img src="/static/img/Apple.png" />
+        <img src={imgUrl} />
         <h3>Recipes Requiring {this.state.name}:</h3>
         {rcpEls}
       </div>

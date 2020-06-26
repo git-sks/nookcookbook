@@ -28,6 +28,15 @@ def get_recipes():
         recipe = {'recipe_id': entry.recipe_id,
                     'name': entry.name.title()}
 
+        medias = []
+
+        for media in entry.medias:
+            medias.append({'id': media.media_id,
+                            'path': media.file_path,
+                            'type': media.media_type})
+
+        recipe['medias'] = medias
+
         recipes.append(recipe)
 
     return jsonify(recipes)
@@ -41,9 +50,9 @@ def filter_recipes():
     series = request.args.get('series')
     keywords = request.args.get('keywords')
 
-    print(f'category is {category}')
-    print(f'series is {series}')
-    print(f'keywords are {keywords}')
+    # print(f'category is {category}')
+    # print(f'series is {series}')
+    # print(f'keywords are {keywords}')
 
     if category != '' and category != None:
         rcps_category = set(crud.get_recipes_by_category(category))
@@ -57,6 +66,8 @@ def filter_recipes():
 
     if keywords != '' and keywords != None:
         rcps_keywords = set(crud.get_recipes_by_keywords(keywords))
+        print("keyword is " + keywords)
+        print(rcps_keywords)
     else:
         rcps_keywords = set(crud.get_recipes())
 
@@ -96,6 +107,15 @@ def get_recipe_details(recipe_id):
 
     recipe['materials'] = materials
 
+    medias = []
+
+    for media in rcp_data.medias:
+        medias.append({'id': media.media_id,
+                        'path': media.file_path,
+                        'type': media.media_type})
+
+    recipe['medias'] = medias
+
     return jsonify(recipe)
 
 
@@ -116,6 +136,15 @@ def get_material_details(material_id):
                         'name': recipe.name.title()})
 
     material['recipes'] = recipes
+
+    medias = []
+
+    for media in mat_data.medias:
+        medias.append({'id': media.media_id,
+                        'path': media.file_path,
+                        'type': media.media_type})
+
+    material['medias'] = medias
 
     return jsonify(material)
 
