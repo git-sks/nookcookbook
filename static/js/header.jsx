@@ -1,11 +1,15 @@
 "use strict";
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
-      <header>
-        <button>Calculator</button>
-      </header>
+      <div>
+        NookCookBook <Link to="/">Search</Link> <Link to="/calculator">Calculator</Link>
+      </div>
     );
   }
 }
