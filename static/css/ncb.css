@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h3 {
+    font-family: 'Acme', sans-serif;
+}
+
+.imgUrl {
+    margin: auto;
+}
+
+.header-wrapper {
+    background-color: #009933;
+}
+
+.site-name {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header-link {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    display: inline-block;
+    float: right;
+}
+
+#search-link, #calc-link {
+    color: white;
+}
+
+.recipe {
+    text-align: center;
+}

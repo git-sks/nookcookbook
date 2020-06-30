@@ -55,9 +55,11 @@ class Recipe extends React.Component {
     }
 
     return (
-      <div>
+      <div className="recipe">
         <h1>{this.state.name}</h1>
-        <img src={imgUrl} />
+        <div className="imgUrl">
+          <img src={imgUrl} />
+        </div>
         <h3>Category</h3>
         <p>{this.state.category}</p>
         {seriesEls}

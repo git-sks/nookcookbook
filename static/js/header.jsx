@@ -7,8 +7,16 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        NookCookBook <Link to="/">Search</Link> <Link to="/calculator">Calculator</Link>
+      <div className="header-wrapper">
+        <div className="site-name">
+          NookCookBook
+        </div>
+        <div className="header-link">
+          <Link id="calc-link" to="/calculator">Calculator</Link>
+        </div>
+        <div className="header-link">
+          <Link id="search-link" to="/">Search</Link>
+        </div>
       </div>
     );
   }
