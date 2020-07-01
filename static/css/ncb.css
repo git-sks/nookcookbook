@@ -1,10 +1,40 @@
 html, body {
     width: 100%;
     height: 100%;
+    background-color: #ECF4EC;
+    color: #006633;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1, h3 {
+h1, h3, h4 {
     font-family: 'Acme', sans-serif;
+    color: #008866;
+}
+
+a {
+    color: #009933;
+}
+
+.btn {
+    background-color: #008866;
+    border-color: #008866;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #007666;
+    border-color: #007666;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
 }
 
 .imgUrl {
@@ -12,11 +42,13 @@ h1, h3 {
 }
 
 .header-wrapper {
-    background-color: #009933;
+    border-bottom: 2px solid #D4ECDC;
+    margin-bottom: 20px;
 }
 
 .site-name {
     font-family: 'Acme', sans-serif;
+    color: #008866;
     font-size: 40px;
     padding: 10px;
     display: inline-block;
@@ -27,20 +59,20 @@ h1, h3 {
     font-size: 30px;
     padding: 15px;
     display: inline-block;
-    float: right;
-}
-
-#search-link, #calc-link {
-    color: white;
 }
 
 .dropdown {
     width: 100%;
 }
 
+.display-wrapper {
+    padding-top: 1.5rem;
+}
+
 .tile-img {
     height: 100px;
     width: 100px;
+    margin-top: .5rem;
 }
 
 .tile-name {
@@ -57,6 +89,15 @@ h1, h3 {
     width: 150px;
     height: 200px;
     text-align: center;
+}
+
+.thead {
+    font-weight: bold;
+}
+
+.table-wrapper {
+    padding-top: .25rem;
+    padding-bottom: 2.5rem;
 }
 
 .recipe {

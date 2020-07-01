@@ -25,9 +25,11 @@ class Display extends React.Component {
     }
 
     return (
-      <div className="container">
-        <div className="row">
-          {tiles}
+      <div className="container-fluid">
+        <div className="display-wrapper">
+          <div className="row">
+            {tiles}
+          </div>
         </div>
       </div>
     );

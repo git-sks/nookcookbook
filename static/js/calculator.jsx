@@ -61,27 +61,34 @@ class Calculator extends React.Component {
     }
 
     return (
-      <div>
-        <h1>Calculator</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Recipes</th>
-              <th>Quantity</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rcpTableRowEls}
-          </tbody>
-        </table>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12">
+            <h1>Calculator</h1>
+            <div className="table-wrapper">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th>Recipes</th>
+                    <th>Quantity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rcpTableRowEls}
+                </tbody>
+              </table>
+              <button className="btn"
+                      onClick={this.props.resetCalc}>Reset calculator</button>
+            </div>
 
-        <br />
-        <button onClick={this.props.resetCalc}>Reset calculator</button>
-
-        <h4>Required Materials</h4>
-        <ul>
-          {matEls}
-        </ul>
+            <div className="mats-list">
+              <h4>Required Materials</h4>
+              <ul>
+                {matEls}
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
