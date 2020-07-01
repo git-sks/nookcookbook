@@ -110,41 +110,64 @@ class Search extends React.Component {
     }
 
     return (
-      <div>
+      <div className="container-fluid">
         <form id="search">
-          <select name="category"
-                value={this.state.selectedCategory}
-                onChange={this.handleCategoryChange}>
 
-            <option value=""
-                    name="category">
-              + category filter
-            </option>
-            {categoryOptions}
+          <div className="row no-gutters">
+            <div className="col-6">
+              <select name="category"
+                    className="form-control"
+                    value={this.state.selectedCategory}
+                    onChange={this.handleCategoryChange}>
 
-          </select>
+                <option value=""
+                        name="category">
+                  + category filter
+                </option>
+                {categoryOptions}
 
-          <select name="series" 
-                  value={this.state.selectedSeries}
-                  onChange={this.handleSeriesChange}>
+              </select>
+            </div>
 
-            <option value=""
-                    name="series">
-              + series filter
-            </option>
-            {seriesOptions}
+            <div className="col-6">
+              <select name="series" 
+                      className="form-control"
+                      value={this.state.selectedSeries}
+                      onChange={this.handleSeriesChange}>
 
-          </select>
-          <br />
-          <input id="keywords"
-                  type="text"
-                  value={this.state.keywords}
-                  onChange={this.handleKeywordsChange}
-                  placeholder="Search..."></input>
-          <br />
-          <button onClick={this.handleSubmit}>Search</button>
+                <option value=""
+                        name="series">
+                  + series filter
+                </option>
+                {seriesOptions}
+
+              </select>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-12">
+              <input id="keywords"
+                      className="form-control"
+                      type="text"
+                      value={this.state.keywords}
+                      onChange={this.handleKeywordsChange}
+                      placeholder="Search..."></input>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <button className="btn btn-primary btn-block"
+                      onClick={this.handleSubmit}>Search</button>
+            </div>
+          </div>
         </form>
-        <button onClick={this.handleReset}>Reset</button>
+        <div className="row">
+          <div className="col-12">
+            <button className="btn btn-secondary btn-block"
+                    onClick={this.handleReset}>Reset</button>
+          </div>
+        </div>
       </div>
     );
   }

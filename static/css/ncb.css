@@ -34,6 +34,31 @@ h1, h3 {
     color: white;
 }
 
+.dropdown {
+    width: 100%;
+}
+
+.tile-img {
+    height: 100px;
+    width: 100px;
+}
+
+.tile-name {
+    text-align: center;
+}
+
+.tile-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.display-tile {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+
 .recipe {
     text-align: center;
 }

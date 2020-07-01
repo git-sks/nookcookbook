@@ -16,15 +16,19 @@ class Display extends React.Component {
 
     for (const recipe of this.props.recipes) {
       tiles.push(
-        <DisplayTile key={recipe['recipe_id']}
-                    recipe={recipe}
-                    addCalcRcp={this.props.addCalcRcp} />
+        <div className="col-sm-4 col-md-3 col-lg-2">
+          <DisplayTile key={recipe['recipe_id']}
+                      recipe={recipe}
+                      addCalcRcp={this.props.addCalcRcp} />
+        </div>
       );
     }
 
     return (
-      <div>
-        {tiles}
+      <div className="container">
+        <div className="row">
+          {tiles}
+        </div>
       </div>
     );
   }
@@ -58,12 +62,16 @@ class DisplayTile extends React.Component {
     }
 
     return (
-      <div name={this.props.recipe.name}>
-        <img src={imgUrl}></img>
-        <br />
-        <Link to={`/recipes/${this.props.recipe.recipe_id}`}>{this.props.recipe.name}</Link>
-        <br />
-        <button onClick={this.updateCalc}>Add to calculator</button>
+      <div className="display-tile">
+        <div name={this.props.recipe.name}>
+          <img className="tile-img" src={imgUrl}></img>
+          <div className="tile-name">
+            <Link to={`/recipes/${this.props.recipe.recipe_id}`}>{this.props.recipe.name}</Link>
+          </div>
+          <div className="tile-btn">
+            <button className="btn" onClick={this.updateCalc}>Add to calculator</button>
+          </div>
+        </div>
       </div>
     );
   }
