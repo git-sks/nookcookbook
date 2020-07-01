@@ -55,18 +55,22 @@ class Recipe extends React.Component {
     }
 
     return (
-      <div className="recipe">
-        <h1>{this.state.name}</h1>
-        <div className="imgUrl">
-          <img src={imgUrl} />
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-4">
+            <h1>{this.state.name}</h1>
+            <img className="detail-img" src={imgUrl} />
+          </div>
+          <div className="col-4 align-self-center">
+            <h3>Category</h3>
+            <p>{this.state.category}</p>
+            {seriesEls}
+            <h3>Materials Required</h3>
+            <ul>
+              {matEls}
+            </ul>
+          </div>
         </div>
-        <h3>Category</h3>
-        <p>{this.state.category}</p>
-        {seriesEls}
-        <h3>Materials Required</h3>
-        <ul>
-          {matEls}
-        </ul>
       </div>
     );
   }

@@ -80,13 +80,17 @@ class Calculator extends React.Component {
               <button className="btn"
                       onClick={this.props.resetCalc}>Reset calculator</button>
             </div>
+          </div>
+        </div>
 
-            <div className="mats-list">
-              <h4>Required Materials</h4>
-              <ul>
-                {matEls}
-              </ul>
-            </div>
+        <div className="row">
+          <div className="col-4">
+            <h4>Required Materials</h4>
+          </div>
+          <div className="col-8">
+            <ul>
+              {matEls}
+            </ul>
           </div>
         </div>
       </div>
