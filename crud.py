@@ -50,7 +50,7 @@ def get_recipes_by_series(series_code):
 def get_recipes_by_keywords(keywords):
     """Return a list of recipes where the name contains the given keywords."""
 
-    return Recipe.query.filter(Recipe.name.match(keywords))
+    return Recipe.query.filter(Recipe.name.like(f'%{keywords}%'))
 
 
 def create_material(name, is_craftable):
