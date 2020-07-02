@@ -36,7 +36,7 @@ class Calculator extends React.Component {
 
         rcpTableRowEls.push(
           <tr>
-            <td>{rcpName}</td>
+            <td><Link to={`/recipes/${rcpID}`}>{rcpName}</Link></td>
             <td>{rcpQty}</td>
           </tr>
         );
@@ -55,7 +55,7 @@ class Calculator extends React.Component {
         const mat = this.props.calcMats[matID];
 
         matEls.push(
-          <li>{mat['name']} x{mat['qty']}</li>
+          <li><Link to={`/materials/${matID}`}>{mat['name']}</Link> x{mat['qty']}</li>
         );
       }
     }
