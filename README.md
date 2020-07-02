@@ -62,6 +62,8 @@ You can now access NookCookBook by going to ```localhost:5000``` in your web bro
 * Finish adding all images to database
 * Add search by materials
 * Add pagination to search results
+* Add visible counter to Calculator in navbar
+* Change "added to calculator" alert to something more friendly
 * Preserve calculator contents in session until reset
 * Further add responsiveness to site
 * Update with ACNH summer content once data is available
