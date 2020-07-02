@@ -114,3 +114,7 @@ a:hover {
     height: 16rem;
     width: 16rem;
 }
+
+.detail-col {
+    padding-bottom: 2.5rem;
+}

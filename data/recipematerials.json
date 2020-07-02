@@ -2978,5 +2978,2700 @@
         "recipe": "leaf campfire",
         "qty": 3,
         "material": "tree branch"
+    },
+    {
+        "recipe": "leaf mask",
+        "qty": 10,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "leaf stool",
+        "qty": 3,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "leaf stool",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "leaf umbrella",
+        "qty": 15,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "leaf-egg outfit",
+        "qty": 3,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "leaf-egg shell",
+        "qty": 2,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "leaf-egg shoes",
+        "qty": 2,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "Leo sculpture",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Leo sculpture",
+        "qty": 2,
+        "material": "Leo fragment"
+    },
+    {
+        "recipe": "Leo sculpture",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "Leo sculpture",
+        "qty": 3,
+        "material": "stone"
+    },
+    {
+        "recipe": "Libra scale",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Libra scale",
+        "qty": 2,
+        "material": "Libra fragment"
+    },
+    {
+        "recipe": "Libra scale",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "light bamboo rug",
+        "qty": 6,
+        "material": "young spring bamboo"
+    },
+    {
+        "recipe": "lily crown",
+        "qty": 2,
+        "material": "red lilies"
+    },
+    {
+        "recipe": "lily crown",
+        "qty": 2,
+        "material": "yellow lilies"
+    },
+    {
+        "recipe": "lily crown",
+        "qty": 2,
+        "material": "white lilies"
+    },
+    {
+        "recipe": "lily record player",
+        "qty": 5,
+        "material": "white lilies"
+    },
+    {
+        "recipe": "lily record player",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "lily record player",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "lily wand",
+        "qty": 1,
+        "material": "white lilies"
+    },
+    {
+        "recipe": "lily wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "lily wreath",
+        "qty": 3,
+        "material": "white lilies"
+    },
+    {
+        "recipe": "lily wreath",
+        "qty": 3,
+        "material": "red lilies"
+    },
+    {
+        "recipe": "lily wreath",
+        "qty": 3,
+        "material": "yellow lilies"
+    },
+    {
+        "recipe": "log bed",
+        "qty": 30,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log bench",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log chair",
+        "qty": 8,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log decorative shelves",
+        "qty": 2,
+        "material": "log bench"
+    },
+    {
+        "recipe": "log decorative shelves",
+        "qty": 3,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log dining table",
+        "qty": 15,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log extra-long sofa",
+        "qty": 2,
+        "material": "log chair"
+    },
+    {
+        "recipe": "log garden lounge",
+        "qty": 12,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log pack",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "log pack",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log round table",
+        "qty": 15,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log stakes",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "log stool",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "log wall-mounted clock",
+        "qty": 2,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "log wall-mounted clock",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "lovely cosmos crown",
+        "qty": 3,
+        "material": "pink cosmos"
+    },
+    {
+        "recipe": "lovely cosmos crown",
+        "qty": 3,
+        "material": "orange cosmos"
+    },
+    {
+        "recipe": "lucky gold cat",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "lucky gold cat",
+        "qty": 1,
+        "material": "lucky cat"
+    },
+    {
+        "recipe": "lunar lander",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "lunar lander",
+        "qty": 15,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "lunar rover",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "lunar rover",
+        "qty": 10,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "lunar rover",
+        "qty": 4,
+        "material": "old tire"
+    },
+    {
+        "recipe": "lunar surface",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "lunar surface",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "magazine rack",
+        "qty": 2,
+        "material": "magazine"
+    },
+    {
+        "recipe": "magazine rack",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "manga-library wall",
+        "qty": 10,
+        "material": "magazine"
+    },
+    {
+        "recipe": "manhole cover",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "maple-leaf pochette",
+        "qty": 6,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "maple-leaf pond stone",
+        "qty": 10,
+        "material": "stone"
+    },
+    {
+        "recipe": "maple-leaf pond stone",
+        "qty": 3,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "maple-leaf umbrella",
+        "qty": 7,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "matryoshka",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "medicine",
+        "qty": 1,
+        "material": "wasp nest"
+    },
+    {
+        "recipe": "medicine",
+        "qty": 3,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "medium cardboard boxes",
+        "qty": 4,
+        "material": "cardboard box"
+    },
+    {
+        "recipe": "mini DIY workbench",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "mini DIY workbench",
+        "qty": 3,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "mini DIY workbench",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "mini DIY workbench",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "modeling clay",
+        "qty": 2,
+        "material": "clay"
+    },
+    {
+        "recipe": "modern wood wall",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "modern wood wall",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "modern wood wall",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "money flooring",
+        "qty": 50000,
+        "material": "bells"
+    },
+    {
+        "recipe": "moon",
+        "qty": 15,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "moon",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "mossy garden rock",
+        "qty": 15,
+        "material": "stone"
+    },
+    {
+        "recipe": "mossy garden rock",
+        "qty": 15,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "mountain standee",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "mountain standee",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "mum crown",
+        "qty": 2,
+        "material": "red mums"
+    },
+    {
+        "recipe": "mum crown",
+        "qty": 2,
+        "material": "yellow mums"
+    },
+    {
+        "recipe": "mum crown",
+        "qty": 2,
+        "material": "white mums"
+    },
+    {
+        "recipe": "mum cushion",
+        "qty": 3,
+        "material": "yellow mums"
+    },
+    {
+        "recipe": "mum cushion",
+        "qty": 10,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "mum wreath",
+        "qty": 3,
+        "material": "white mums"
+    },
+    {
+        "recipe": "mum wreath",
+        "qty": 3,
+        "material": "yellow mums"
+    },
+    {
+        "recipe": "mum wreath",
+        "qty": 3,
+        "material": "red mums"
+    },
+    {
+        "recipe": "mums wand",
+        "qty": 1,
+        "material": "yellow mums"
+    },
+    {
+        "recipe": "mush lamp",
+        "qty": 1,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mush lamp",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "mush log",
+        "qty": 2,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mush log",
+        "qty": 1,
+        "material": "log stool"
+    },
+    {
+        "recipe": "mush low stool",
+        "qty": 2,
+        "material": "round mushroom"
+    },
+    {
+        "recipe": "mush parasol",
+        "qty": 3,
+        "material": "flat mushroom"
+    },
+    {
+        "recipe": "mush partition",
+        "qty": 3,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mush table",
+        "qty": 2,
+        "material": "flat mushroom"
+    },
+    {
+        "recipe": "mush table",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "mush umbrella",
+        "qty": 3,
+        "material": "flat mushroom"
+    },
+    {
+        "recipe": "mush wall",
+        "qty": 1,
+        "material": "elegant mushroom"
+    },
+    {
+        "recipe": "mush wall",
+        "qty": 1,
+        "material": "round mushroom"
+    },
+    {
+        "recipe": "mush wall",
+        "qty": 1,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mush wall",
+        "qty": 1,
+        "material": "flat mushroom"
+    },
+    {
+        "recipe": "mushroom wand",
+        "qty": 3,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mushroom wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "mushroom wreath",
+        "qty": 10,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "mushroom wreath",
+        "qty": 1,
+        "material": "round mushroom"
+    },
+    {
+        "recipe": "mushroom wreath",
+        "qty": 1,
+        "material": "skinny mushroom"
+    },
+    {
+        "recipe": "mushroom wreath",
+        "qty": 1,
+        "material": "flat mushroom"
+    },
+    {
+        "recipe": "music stand",
+        "qty": 8,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "natural garden chair",
+        "qty": 6,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "natural garden chair",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "natural garden table",
+        "qty": 9,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "natural garden table",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "natural mum wreath",
+        "qty": 10,
+        "material": "green mums"
+    },
+    {
+        "recipe": "natural square table",
+        "qty": 4,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "natural square table",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "net",
+        "qty": 1,
+        "material": "flimsy net"
+    },
+    {
+        "recipe": "net",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "nova light",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "ocarina",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "oil-barrel bathtub",
+        "qty": 1,
+        "material": "oil barrel"
+    },
+    {
+        "recipe": "oil-barrel bathtub",
+        "qty": 1,
+        "material": "campfire"
+    },
+    {
+        "recipe": "oil-barrel bathtub",
+        "qty": 2,
+        "material": "stone"
+    },
+    {
+        "recipe": "old-fashioned washtub",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "orange dress",
+        "qty": 8,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange end table",
+        "qty": 10,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange end table",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "orange hat",
+        "qty": 5,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange rug",
+        "qty": 6,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange umbrella",
+        "qty": 7,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange wall",
+        "qty": 20,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange wall-mounted clock",
+        "qty": 10,
+        "material": "orange"
+    },
+    {
+        "recipe": "orange wall-mounted clock",
+        "qty": 2,
+        "material": "wood"
+    },
+    {
+        "recipe": "ornament mobile",
+        "qty": 1,
+        "material": "red ornament"
+    },
+    {
+        "recipe": "ornament mobile",
+        "qty": 1,
+        "material": "blue ornament"
+    },
+    {
+        "recipe": "ornament mobile",
+        "qty": 1,
+        "material": "gold ornament"
+    },
+    {
+        "recipe": "ornament mobile",
+        "qty": 4,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "ornament wreath",
+        "qty": 6,
+        "material": "blue ornament"
+    },
+    {
+        "recipe": "ornament wreath",
+        "qty": 2,
+        "material": "gold ornament"
+    },
+    {
+        "recipe": "outdoor bath",
+        "qty": 20,
+        "material": "stone"
+    },
+    {
+        "recipe": "outdoor bath",
+        "qty": 1,
+        "material": "shovel"
+    },
+    {
+        "recipe": "outdoor picnic set",
+        "qty": 10,
+        "material": "cherry-blossom petal"
+    },
+    {
+        "recipe": "palm-tree lamp",
+        "qty": 4,
+        "material": "coconut"
+    },
+    {
+        "recipe": "palm-tree lamp",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "palm-tree lamp",
+        "qty": 4,
+        "material": "clay"
+    },
+    {
+        "recipe": "pan flute",
+        "qty": 7,
+        "material": "young spring bamboo"
+    },
+    {
+        "recipe": "pansy crown",
+        "qty": 2,
+        "material": "red pansies"
+    },
+    {
+        "recipe": "pansy crown",
+        "qty": 2,
+        "material": "yellow pansies"
+    },
+    {
+        "recipe": "pansy crown",
+        "qty": 2,
+        "material": "white pansies"
+    },
+    {
+        "recipe": "pansy table",
+        "qty": 5,
+        "material": "yellow pansies"
+    },
+    {
+        "recipe": "pansy table",
+        "qty": 3,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "pansy wand",
+        "qty": 1,
+        "material": "yellow pansies"
+    },
+    {
+        "recipe": "pansy wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "pansy wreath",
+        "qty": 3,
+        "material": "yellow pansies"
+    },
+    {
+        "recipe": "pansy wreath",
+        "qty": 3,
+        "material": "white pansies"
+    },
+    {
+        "recipe": "pansy wreath",
+        "qty": 3,
+        "material": "red pansies"
+    },
+    {
+        "recipe": "paw-print doorplate",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "peach chair",
+        "qty": 10,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach chair",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "peach dress",
+        "qty": 8,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach hat",
+        "qty": 5,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach rug",
+        "qty": 6,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach surprise box",
+        "qty": 10,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach surprise box",
+        "qty": 4,
+        "material": "softwood"
+    },
+    {
+        "recipe": "peach umbrella",
+        "qty": 7,
+        "material": "peach"
+    },
+    {
+        "recipe": "peach wall",
+        "qty": 20,
+        "material": "peach"
+    },
+    {
+        "recipe": "pear bed",
+        "qty": 10,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear bed",
+        "qty": 6,
+        "material": "softwood"
+    },
+    {
+        "recipe": "pear dress",
+        "qty": 8,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear hat",
+        "qty": 5,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear rug",
+        "qty": 6,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear umbrella",
+        "qty": 7,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear wall",
+        "qty": 20,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear wardrobe",
+        "qty": 10,
+        "material": "pear"
+    },
+    {
+        "recipe": "pear wardrobe",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "pile of leaves",
+        "qty": 3,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "pile of leaves",
+        "qty": 5,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "pile of zen cushions",
+        "qty": 3,
+        "material": "zen cushion"
+    },
+    {
+        "recipe": "pine bonsai tree",
+        "qty": 8,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "pine bonsai tree",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "Pisces lamp",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Pisces lamp",
+        "qty": 2,
+        "material": "Pisces fragment"
+    },
+    {
+        "recipe": "Pisces lamp",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "Pisces lamp",
+        "qty": 4,
+        "material": "stone"
+    },
+    {
+        "recipe": "pitfall seed",
+        "qty": 4,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "pitfall seed",
+        "qty": 6,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "plain sink",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "plain sink",
+        "qty": 4,
+        "material": "clay"
+    },
+    {
+        "recipe": "plain sink",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "plain wooden shop sign",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "pond stone",
+        "qty": 10,
+        "material": "stone"
+    },
+    {
+        "recipe": "pot",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "potted ivy",
+        "qty": 5,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "potted ivy",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "pretty cosmos wreath",
+        "qty": 3,
+        "material": "orange cosmos"
+    },
+    {
+        "recipe": "pretty cosmos wreath",
+        "qty": 3,
+        "material": "pink cosmos"
+    },
+    {
+        "recipe": "pretty cosmos wreath",
+        "qty": 3,
+        "material": "red cosmos"
+    },
+    {
+        "recipe": "pretty tulip wreath",
+        "qty": 3,
+        "material": "orange tulips"
+    },
+    {
+        "recipe": "pretty tulip wreath",
+        "qty": 3,
+        "material": "pink tulips"
+    },
+    {
+        "recipe": "pretty tulip wreath",
+        "qty": 3,
+        "material": "purple tulips"
+    },
+    {
+        "recipe": "purple hyacinth crown",
+        "qty": 6,
+        "material": "purple hyacinths"
+    },
+    {
+        "recipe": "purple hyacinth wreath",
+        "qty": 10,
+        "material": "purple hyacinths"
+    },
+    {
+        "recipe": "purple pansy crown",
+        "qty": 6,
+        "material": "purple pansies"
+    },
+    {
+        "recipe": "purple windflower crown",
+        "qty": 6,
+        "material": "purple windflowers"
+    },
+    {
+        "recipe": "raccoon figurine",
+        "qty": 6,
+        "material": "clay"
+    },
+    {
+        "recipe": "recycled boots",
+        "qty": 2,
+        "material": "boot"
+    },
+    {
+        "recipe": "recycled-can thumb piano",
+        "qty": 1,
+        "material": "empty can"
+    },
+    {
+        "recipe": "recycled-can thumb piano",
+        "qty": 1,
+        "material": "wood"
+    },
+    {
+        "recipe": "recycled-can thumb piano",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "red-leaf pile",
+        "qty": 3,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "red-leaf pile",
+        "qty": 4,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "ringtoss",
+        "qty": 2,
+        "material": "wood"
+    },
+    {
+        "recipe": "ringtoss",
+        "qty": 2,
+        "material": "softwood"
+    },
+    {
+        "recipe": "robot hero",
+        "qty": 1,
+        "material": "rocket"
+    },
+    {
+        "recipe": "robot hero",
+        "qty": 1,
+        "material": "gold armor"
+    },
+    {
+        "recipe": "robot hero",
+        "qty": 30,
+        "material": "rusted part"
+    },
+    {
+        "recipe": "robot hero",
+        "qty": 90,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "robot hero",
+        "qty": 10,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "rocket",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "rocket",
+        "qty": 20,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "rocking chair",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "rocking chair",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "rocking horse",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "rope fence",
+        "qty": 4,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "rose bed",
+        "qty": 10,
+        "material": "red roses"
+    },
+    {
+        "recipe": "rose bed",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "rose crown",
+        "qty": 2,
+        "material": "red roses"
+    },
+    {
+        "recipe": "rose crown",
+        "qty": 2,
+        "material": "yellow roses"
+    },
+    {
+        "recipe": "rose crown",
+        "qty": 2,
+        "material": "white roses"
+    },
+    {
+        "recipe": "rose wand",
+        "qty": 1,
+        "material": "red roses"
+    },
+    {
+        "recipe": "rose wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "rose wreath",
+        "qty": 3,
+        "material": "red roses"
+    },
+    {
+        "recipe": "rose wreath",
+        "qty": 3,
+        "material": "white roses"
+    },
+    {
+        "recipe": "rose wreath",
+        "qty": 3,
+        "material": "yellow roses"
+    },
+    {
+        "recipe": "rustic-stone wall",
+        "qty": 5,
+        "material": "stone"
+    },
+    {
+        "recipe": "rustic-stone wall",
+        "qty": 5,
+        "material": "clay"
+    },
+    {
+        "recipe": "Sagittarius arrow",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Sagittarius arrow",
+        "qty": 2,
+        "material": "Sagittarius fragment"
+    },
+    {
+        "recipe": "Sagittarius arrow",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "sakura-wood flooring",
+        "qty": 5,
+        "material": "cherry-blossom petal"
+    },
+    {
+        "recipe": "sakura-wood flooring",
+        "qty": 10,
+        "material": "wood"
+    },
+    {
+        "recipe": "sakura-wood wall",
+        "qty": 5,
+        "material": "cherry-blossom petal"
+    },
+    {
+        "recipe": "sakura-wood wall",
+        "qty": 10,
+        "material": "wood"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "sea snail"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "venus comb"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "sand dollar"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "coral"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "sandy-beach flooring",
+        "qty": 1,
+        "material": "cowrie"
+    },
+    {
+        "recipe": "satellite",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "satellite",
+        "qty": 15,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "sauna heater",
+        "qty": 6,
+        "material": "stone"
+    },
+    {
+        "recipe": "sauna heater",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "sauna heater",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "scarecrow",
+        "qty": 3,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "scarecrow",
+        "qty": 5,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "scattered papers",
+        "qty": 1,
+        "material": "document stack"
+    },
+    {
+        "recipe": "sci-fi flooring",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "sci-fi flooring",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "sci-fi wall",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "sci-fi wall",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "Scorpio lamp",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Scorpio lamp",
+        "qty": 2,
+        "material": "Scorpius fragment"
+    },
+    {
+        "recipe": "Scorpio lamp",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "Scorpio lamp",
+        "qty": 5,
+        "material": "stone"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "sea snail"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "venus comb"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "sand dollar"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "coral"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell arch",
+        "qty": 3,
+        "material": "cowrie"
+    },
+    {
+        "recipe": "shell bed",
+        "qty": 5,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell bed",
+        "qty": 3,
+        "material": "clay"
+    },
+    {
+        "recipe": "shell bed",
+        "qty": 4,
+        "material": "stone"
+    },
+    {
+        "recipe": "shell fountain",
+        "qty": 5,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell fountain",
+        "qty": 3,
+        "material": "stone"
+    },
+    {
+        "recipe": "shell lamp",
+        "qty": 2,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell lamp",
+        "qty": 3,
+        "material": "clay"
+    },
+    {
+        "recipe": "shell partition",
+        "qty": 4,
+        "material": "venus comb"
+    },
+    {
+        "recipe": "shell partition",
+        "qty": 4,
+        "material": "conch"
+    },
+    {
+        "recipe": "shell rug",
+        "qty": 3,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell speaker",
+        "qty": 3,
+        "material": "conch"
+    },
+    {
+        "recipe": "shell speaker",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "shell stool",
+        "qty": 5,
+        "material": "cowrie"
+    },
+    {
+        "recipe": "shell table",
+        "qty": 7,
+        "material": "sand dollar"
+    },
+    {
+        "recipe": "shell table",
+        "qty": 3,
+        "material": "clay"
+    },
+    {
+        "recipe": "shell wand",
+        "qty": 3,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "shell wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "sea snail"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "sand dollar"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "coral"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shell wreath",
+        "qty": 1,
+        "material": "cowrie"
+    },
+    {
+        "recipe": "shellfish pochette",
+        "qty": 2,
+        "material": "giant clam"
+    },
+    {
+        "recipe": "shellfish pochette",
+        "qty": 6,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "shovel",
+        "qty": 1,
+        "material": "flimsy shovel"
+    },
+    {
+        "recipe": "shovel",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "signpost",
+        "qty": 2,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "signpost",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "silo",
+        "qty": 12,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "silo",
+        "qty": 6,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "silo",
+        "qty": 12,
+        "material": "clay"
+    },
+    {
+        "recipe": "silo",
+        "qty": 12,
+        "material": "stone"
+    },
+    {
+        "recipe": "simple DIY workbench",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "simple DIY workbench",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "simple mum crown",
+        "qty": 6,
+        "material": "green mums"
+    },
+    {
+        "recipe": "simple well",
+        "qty": 15,
+        "material": "stone"
+    },
+    {
+        "recipe": "simple well",
+        "qty": 1,
+        "material": "flimsy shovel"
+    },
+    {
+        "recipe": "simple wooden fence",
+        "qty": 6,
+        "material": "softwood"
+    },
+    {
+        "recipe": "ski-slope flooring",
+        "qty": 8,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "ski-slope wall",
+        "qty": 8,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "sky-egg outfit",
+        "qty": 3,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "sky-egg shell",
+        "qty": 2,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "sky-egg shoes",
+        "qty": 2,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "sleigh",
+        "qty": 8,
+        "material": "wood"
+    },
+    {
+        "recipe": "slingshot",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "small cardboard boxes",
+        "qty": 2,
+        "material": "cardboard box"
+    },
+    {
+        "recipe": "snazzy pansy wreath",
+        "qty": 3,
+        "material": "orange pansies"
+    },
+    {
+        "recipe": "snazzy pansy wreath",
+        "qty": 3,
+        "material": "blue pansies"
+    },
+    {
+        "recipe": "snazzy pansy wreath",
+        "qty": 3,
+        "material": "yellow pansies"
+    },
+    {
+        "recipe": "snowflake pochette",
+        "qty": 6,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "snowflake wall",
+        "qty": 12,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "snowflake wreath",
+        "qty": 4,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "snowperson head",
+        "qty": 1,
+        "material": "large snowflake"
+    },
+    {
+        "recipe": "snowperson head",
+        "qty": 5,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "space shuttle",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "space shuttle",
+        "qty": 10,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "spiky fence",
+        "qty": 8,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "stack of books",
+        "qty": 5,
+        "material": "book"
+    },
+    {
+        "recipe": "stacked magazines",
+        "qty": 6,
+        "material": "magazine"
+    },
+    {
+        "recipe": "stacked-wood wall",
+        "qty": 15,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "stall",
+        "qty": 12,
+        "material": "wood"
+    },
+    {
+        "recipe": "standard umbrella stand",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "star clock",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "star clock",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "star head",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "star pochette",
+        "qty": 6,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "star wand",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "star wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "starry garland",
+        "qty": 10,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "starry wall",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "starry wall",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "starry-sands flooring",
+        "qty": 3,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "starry-sands flooring",
+        "qty": 1,
+        "material": "sandy-beach flooring"
+    },
+    {
+        "recipe": "starry-sky wall",
+        "qty": 5,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "starry-sky wall",
+        "qty": 1,
+        "material": "large star fragment"
+    },
+    {
+        "recipe": "steamer-basket set",
+        "qty": 6,
+        "material": "young spring bamboo"
+    },
+    {
+        "recipe": "steel flooring",
+        "qty": 7,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "steel-frame wall",
+        "qty": 8,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "stone arch",
+        "qty": 90,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone axe",
+        "qty": 1,
+        "material": "flimsy axe"
+    },
+    {
+        "recipe": "stone axe",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "stone fence",
+        "qty": 4,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone lion-dog",
+        "qty": 24,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone stool",
+        "qty": 3,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone table",
+        "qty": 8,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone tablet",
+        "qty": 12,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone wall",
+        "qty": 10,
+        "material": "stone"
+    },
+    {
+        "recipe": "stone-egg outfit",
+        "qty": 3,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "stone-egg shell",
+        "qty": 2,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "stone-egg shoes",
+        "qty": 2,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "straw fence",
+        "qty": 10,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "straw fence",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "straw umbrella hat",
+        "qty": 10,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "street piano",
+        "qty": 1,
+        "material": "upright piano"
+    },
+    {
+        "recipe": "street piano",
+        "qty": 1,
+        "material": "painting set"
+    },
+    {
+        "recipe": "succulent plant",
+        "qty": 10,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "succulent plant",
+        "qty": 1,
+        "material": "empty can"
+    },
+    {
+        "recipe": "swinging bench",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "swinging bench",
+        "qty": 7,
+        "material": "softwood"
+    },
+    {
+        "recipe": "tabletop festive tree",
+        "qty": 5,
+        "material": "gold ornament"
+    },
+    {
+        "recipe": "tabletop festive tree",
+        "qty": 3,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tabletop festive tree",
+        "qty": 2,
+        "material": "clay"
+    },
+    {
+        "recipe": "tall garden rock",
+        "qty": 60,
+        "material": "stone"
+    },
+    {
+        "recipe": "tall lantern",
+        "qty": 18,
+        "material": "stone"
+    },
+    {
+        "recipe": "Taurus bathtub",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Taurus bathtub",
+        "qty": 2,
+        "material": "Taurus fragment"
+    },
+    {
+        "recipe": "Taurus bathtub",
+        "qty": 1,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "Taurus bathtub",
+        "qty": 8,
+        "material": "stone"
+    },
+    {
+        "recipe": "tea table",
+        "qty": 12,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "terrarium",
+        "qty": 12,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "terrarium",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "three-tiered snowperson",
+        "qty": 1,
+        "material": "large snowflake"
+    },
+    {
+        "recipe": "three-tiered snowperson",
+        "qty": 6,
+        "material": "snowflake"
+    },
+    {
+        "recipe": "three-tiered snowperson",
+        "qty": 2,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tiki torch",
+        "qty": 5,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tiki torch",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "timber doorplate",
+        "qty": 2,
+        "material": "wood"
+    },
+    {
+        "recipe": "timber doorplate",
+        "qty": 1,
+        "material": "pink roses"
+    },
+    {
+        "recipe": "tiny library",
+        "qty": 3,
+        "material": "book"
+    },
+    {
+        "recipe": "tiny library",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "tire stack",
+        "qty": 3,
+        "material": "old tire"
+    },
+    {
+        "recipe": "tire toy",
+        "qty": 1,
+        "material": "old tire"
+    },
+    {
+        "recipe": "traditional balancing toy",
+        "qty": 4,
+        "material": "acorn"
+    },
+    {
+        "recipe": "traditional balancing toy",
+        "qty": 2,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "traditional straw coat",
+        "qty": 8,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "trash bags",
+        "qty": 1,
+        "material": "empty can"
+    },
+    {
+        "recipe": "trash bags",
+        "qty": 1,
+        "material": "boot"
+    },
+    {
+        "recipe": "trash bags",
+        "qty": 1,
+        "material": "old tire"
+    },
+    {
+        "recipe": "tree branch wreath",
+        "qty": 10,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tree standee",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "tree standee",
+        "qty": 8,
+        "material": "softwood"
+    },
+    {
+        "recipe": "tree-branch wand",
+        "qty": 5,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tree-branch wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "tree's bounty arch",
+        "qty": 4,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "tree's bounty arch",
+        "qty": 5,
+        "material": "acorn"
+    },
+    {
+        "recipe": "tree's bounty arch",
+        "qty": 5,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "tree's bounty arch",
+        "qty": 15,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tree's bounty big tree",
+        "qty": 5,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "tree's bounty big tree",
+        "qty": 4,
+        "material": "acorn"
+    },
+    {
+        "recipe": "tree's bounty big tree",
+        "qty": 4,
+        "material": "maple leaf"
+    },
+    {
+        "recipe": "tree's bounty big tree",
+        "qty": 8,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "tree's bounty big tree",
+        "qty": 4,
+        "material": "clay"
+    },
+    {
+        "recipe": "tree's bounty lamp",
+        "qty": 6,
+        "material": "acorn"
+    },
+    {
+        "recipe": "tree's bounty lamp",
+        "qty": 4,
+        "material": "clay"
+    },
+    {
+        "recipe": "tree's bounty little tree",
+        "qty": 6,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "tree's bounty little tree",
+        "qty": 4,
+        "material": "acorn"
+    },
+    {
+        "recipe": "tree's bounty little tree",
+        "qty": 1,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "tree's bounty mobile",
+        "qty": 2,
+        "material": "pine cone"
+    },
+    {
+        "recipe": "tree's bounty mobile",
+        "qty": 3,
+        "material": "acorn"
+    },
+    {
+        "recipe": "tree's bounty mobile",
+        "qty": 3,
+        "material": "tree branch"
+    },
+    {
+        "recipe": "trophy case",
+        "qty": 24,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "trophy case",
+        "qty": 3,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "trophy case",
+        "qty": 6,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "tropical vista",
+        "qty": 5,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "tulip crown",
+        "qty": 2,
+        "material": "red tulips"
+    },
+    {
+        "recipe": "tulip crown",
+        "qty": 2,
+        "material": "yellow tulips"
+    },
+    {
+        "recipe": "tulip crown",
+        "qty": 1,
+        "material": "white tulips"
+    },
+    {
+        "recipe": "tulip surprise box",
+        "qty": 5,
+        "material": "red tulips"
+    },
+    {
+        "recipe": "tulip surprise box",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "tulip wand",
+        "qty": 1,
+        "material": "red tulips"
+    },
+    {
+        "recipe": "tulip wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "tulip wreath",
+        "qty": 3,
+        "material": "red tulips"
+    },
+    {
+        "recipe": "tulip wreath",
+        "qty": 3,
+        "material": "yellow tulips"
+    },
+    {
+        "recipe": "tulip wreath",
+        "qty": 3,
+        "material": "white tulips"
+    },
+    {
+        "recipe": "ukulele",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "underwater flooring",
+        "qty": 3,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "underwater flooring",
+        "qty": 3,
+        "material": "coral"
+    },
+    {
+        "recipe": "underwater wall",
+        "qty": 3,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "underwater wall",
+        "qty": 5,
+        "material": "coral"
+    },
+    {
+        "recipe": "unglazed dish set",
+        "qty": 3,
+        "material": "clay"
+    },
+    {
+        "recipe": "vaulting pole",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "vertical-board fence",
+        "qty": 8,
+        "material": "wood"
+    },
+    {
+        "recipe": "Virgo harp",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "Virgo harp",
+        "qty": 2,
+        "material": "Virgo fragment"
+    },
+    {
+        "recipe": "Virgo harp",
+        "qty": 2,
+        "material": "gold nugget"
+    },
+    {
+        "recipe": "Virgo harp",
+        "qty": 4,
+        "material": "stone"
+    },
+    {
+        "recipe": "wand",
+        "qty": 2,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "water flooring",
+        "qty": 6,
+        "material": "summer shell"
+    },
+    {
+        "recipe": "water pump",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "water pump",
+        "qty": 6,
+        "material": "clay"
+    },
+    {
+        "recipe": "water-egg outfit",
+        "qty": 3,
+        "material": "water egg"
+    },
+    {
+        "recipe": "water-egg shell",
+        "qty": 2,
+        "material": "water egg"
+    },
+    {
+        "recipe": "water-egg shoes",
+        "qty": 2,
+        "material": "water egg"
+    },
+    {
+        "recipe": "watering can",
+        "qty": 1,
+        "material": "flimsy watering can"
+    },
+    {
+        "recipe": "watering can",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wave breaker",
+        "qty": 10,
+        "material": "stone"
+    },
+    {
+        "recipe": "wave breaker",
+        "qty": 10,
+        "material": "clay"
+    },
+    {
+        "recipe": "wedding fence",
+        "qty": 5,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wedding fence",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wedding wand",
+        "qty": 1,
+        "material": "wedding flower stand"
+    },
+    {
+        "recipe": "wedding wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "western-style stone",
+        "qty": 30,
+        "material": "stone"
+    },
+    {
+        "recipe": "wild log bench",
+        "qty": 8,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "wild-wood wall",
+        "qty": 15,
+        "material": "wood"
+    },
+    {
+        "recipe": "windflower crown",
+        "qty": 2,
+        "material": "red windflowers"
+    },
+    {
+        "recipe": "windflower crown",
+        "qty": 2,
+        "material": "orange windflowers"
+    },
+    {
+        "recipe": "windflower crown",
+        "qty": 2,
+        "material": "white windflowers"
+    },
+    {
+        "recipe": "windflower fan",
+        "qty": 3,
+        "material": "red windflowers"
+    },
+    {
+        "recipe": "windflower fan",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "windflower wand",
+        "qty": 1,
+        "material": "orange windflowers"
+    },
+    {
+        "recipe": "windflower wand",
+        "qty": 3,
+        "material": "star fragment"
+    },
+    {
+        "recipe": "windflower wreath",
+        "qty": 3,
+        "material": "red windflowers"
+    },
+    {
+        "recipe": "windflower wreath",
+        "qty": 3,
+        "material": "white windflowers"
+    },
+    {
+        "recipe": "windflower wreath",
+        "qty": 3,
+        "material": "orange windflowers"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "earth egg"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "stone egg"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "leaf egg"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "sky egg"
+    },
+    {
+        "recipe": "Wobbling Zipper toy",
+        "qty": 4,
+        "material": "water egg"
+    },
+    {
+        "recipe": "wood-egg outfit",
+        "qty": 3,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "wood-egg shell",
+        "qty": 2,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "wood-egg shoes",
+        "qty": 2,
+        "material": "wood egg"
+    },
+    {
+        "recipe": "wooden bookshelf",
+        "qty": 5,
+        "material": "book"
+    },
+    {
+        "recipe": "wooden bookshelf",
+        "qty": 10,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden bucket",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden bucket",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden chair",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden chest",
+        "qty": 16,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden double bed",
+        "qty": 30,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden end table",
+        "qty": 8,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden fish",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden full-length mirror",
+        "qty": 5,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden full-length mirror",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden low table",
+        "qty": 10,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden mini table",
+        "qty": 6,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden simple bed",
+        "qty": 18,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden stool",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden table",
+        "qty": 15,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden table mirror",
+        "qty": 3,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden table mirror",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden toolbox",
+        "qty": 4,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden toolbox",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden wardrobe",
+        "qty": 12,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden waste bin",
+        "qty": 4,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden-block bed",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block bed",
+        "qty": 17,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block bench",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block bench",
+        "qty": 4,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block bookshelf",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block bookshelf",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block chair",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block chair",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block chest",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block chest",
+        "qty": 12,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block stereo",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block stereo",
+        "qty": 5,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block stereo",
+        "qty": 2,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden-block stool",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block stool",
+        "qty": 2,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block table",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block table",
+        "qty": 8,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block toy",
+        "qty": 3,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block wall clock",
+        "qty": 1,
+        "material": "wooden-block toy"
+    },
+    {
+        "recipe": "wooden-block wall clock",
+        "qty": 2,
+        "material": "softwood"
+    },
+    {
+        "recipe": "wooden-block wall clock",
+        "qty": 1,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "wooden-knot wall",
+        "qty": 15,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "wooden-mosaic wall",
+        "qty": 15,
+        "material": "wood"
+    },
+    {
+        "recipe": "wooden-plank sign",
+        "qty": 5,
+        "material": "hardwood"
+    },
+    {
+        "recipe": "woodland wall",
+        "qty": 15,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "woodland wall",
+        "qty": 9,
+        "material": "softwood"
+    },
+    {
+        "recipe": "yellow-leaf pile",
+        "qty": 3,
+        "material": "acorn"
+    },
+    {
+        "recipe": "yellow-leaf pile",
+        "qty": 5,
+        "material": "clump of weeds"
+    },
+    {
+        "recipe": "zen fence",
+        "qty": 3,
+        "material": "iron nugget"
+    },
+    {
+        "recipe": "zen fence",
+        "qty": 3,
+        "material": "clay"
+    },
+    {
+        "recipe": "zen fence",
+        "qty": 3,
+        "material": "stone"
+    },
+    {
+        "recipe": "zen-style stone",
+        "qty": 30,
+        "material": "stone"
     }
 ]

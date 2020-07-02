@@ -46,13 +46,15 @@ class Material extends React.Component {
     return (
       <div className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-4">
+          <div className="col-5">
             <h1>{this.state.name}</h1>
             <img className="detail-img" src={imgUrl} />
           </div>
-          <div className="col-4 align-self-center">
-            <h3>Recipes Requiring {this.state.name}:</h3>
-            {rcpEls}
+          <div className="col-5 align-self-center">
+            <div className="detail-col">
+              <h3>Recipes Requiring {this.state.name}:</h3>
+              {rcpEls}
+            </div>
           </div>
         </div>
       </div>
