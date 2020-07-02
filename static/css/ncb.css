@@ -15,6 +15,10 @@ a {
     color: #009933;
 }
 
+a:hover {
+    color: #009933;
+}
+
 .btn {
     background-color: #008866;
     border-color: #008866;
@@ -44,6 +48,7 @@ a {
 .header-wrapper {
     border-bottom: 2px solid #D4ECDC;
     margin-bottom: 20px;
+    background-color: #ECF4EC;
 }
 
 .site-name {
@@ -52,6 +57,11 @@ a {
     font-size: 40px;
     padding: 10px;
     display: inline-block;
+}
+
+.site-name:hover {
+    color: #008866;
+    text-decoration: none;
 }
 
 .header-link {

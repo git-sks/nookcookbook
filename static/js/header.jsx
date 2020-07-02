@@ -7,14 +7,12 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid sticky-top">
         <div className="header-wrapper">
           <div className="row">
 
             <div className="col-12 col-sm-6 col-md-7 col-lg-8 col-xl-9">
-              <div className="site-name">
-                NookCookBook
-              </div>
+              <Link className="site-name" to="/">NookCookBook</Link>
             </div>
 
             <div className="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 align-self-end">
