@@ -1096,217 +1096,288 @@
         "recipes": "frozen tree"
     },
     {
-        "mediapath": "/static/img/FtrIllumiPresent.png"
+        "mediapath": "/static/img/FtrIllumiPresent.png",
+        "recipes": "illuminated present"
     },
     {
-        "mediapath": "/static/img/FtrIllumiReindeer.png"
+        "mediapath": "/static/img/FtrIllumiReindeer.png",
+        "recipes": "illuminated reindeer"
     },
     {
-        "mediapath": "/static/img/FtrIllumiSnow.png"
+        "mediapath": "/static/img/FtrIllumiSnow.png",
+        "recipes": "illuminated snowflakes"
     },
     {
-        "mediapath": "/static/img/FtrIllumiTree.png"
+        "mediapath": "/static/img/FtrIllumiTree.png",
+        "recipes": "illuminated tree"
     },
     {
-        "mediapath": "/static/img/FtrInsectKabutomushiGold.png"
+        "mediapath": "/static/img/FtrInsectKabutomushiGold.png",
+        "recipes": "golden dung beetle"
     },
     {
-        "mediapath": "/static/img/FtrIronClosetLR.png"
+        "mediapath": "/static/img/FtrIronClosetLR.png",
+        "recipes": "iron closet"
     },
     {
-        "mediapath": "/static/img/FtrIronHanger.png"
+        "mediapath": "/static/img/FtrIronHanger.png",
+        "recipes": "iron hanger stand"
     },
     {
-        "mediapath": "/static/img/FtrIronLampW.png"
+        "mediapath": "/static/img/FtrIronLampW.png",
+        "recipes": "iron wall lamp"
     },
     {
-        "mediapath": "/static/img/FtrIronShelf.png"
+        "mediapath": "/static/img/FtrIronShelf.png",
+        "recipes": "iron shelf"
     },
     {
-        "mediapath": "/static/img/FtrIronShelfW.png"
+        "mediapath": "/static/img/FtrIronShelfW.png",
+        "recipes": "iron wall rack"
     },
     {
-        "mediapath": "/static/img/FtrIronTableM.png"
+        "mediapath": "/static/img/FtrIronTableM.png",
+        "recipes": "iron worktable"
     },
     {
-        "mediapath": "/static/img/FtrIronframe.png"
+        "mediapath": "/static/img/FtrIronframe.png",
+        "recipes": "iron frame"
     },
     {
-        "mediapath": "/static/img/FtrIrongardenBench.png"
+        "mediapath": "/static/img/FtrIrongardenBench.png",
+        "recipes": "iron garden bench"
     },
     {
-        "mediapath": "/static/img/FtrIrongardenChair.png"
+        "mediapath": "/static/img/FtrIrongardenChair.png",
+        "recipes": "iron garden chair"
     },
     {
-        "mediapath": "/static/img/FtrIrongardenTable.png"
+        "mediapath": "/static/img/FtrIrongardenTable.png",
+        "recipes": "iron garden table"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodBedS.png"
+        "mediapath": "/static/img/FtrIronwoodBedS.png",
+        "recipes": "ironwood bed"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodChairS.png"
+        "mediapath": "/static/img/FtrIronwoodChairS.png",
+        "recipes": "ironwood chair"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodChest.png"
+        "mediapath": "/static/img/FtrIronwoodChest.png",
+        "recipes": "ironwood dresser"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodClockW.png"
+        "mediapath": "/static/img/FtrIronwoodClockW.png",
+        "recipes": "ironwood clock"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodCupboard.png"
+        "mediapath": "/static/img/FtrIronwoodCupboard.png",
+        "recipes": "ironwood cupboard"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodKitchen.png"
+        "mediapath": "/static/img/FtrIronwoodKitchen.png",
+        "recipes": "ironwood kitchenette"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodServingcart.png"
+        "mediapath": "/static/img/FtrIronwoodServingcart.png",
+        "recipes": "ironwood cart"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodTableL.png"
+        "mediapath": "/static/img/FtrIronwoodTableL.png",
+        "recipes": "ironwood table"
     },
     {
-        "mediapath": "/static/img/FtrIronwoodTableM.png"
+        "mediapath": "/static/img/FtrIronwoodTableM.png",
+        "recipes": "ironwood low table"
     },
     {
-        "mediapath": "/static/img/FtrIrori.png"
+        "mediapath": "/static/img/FtrIrori.png",
+        "recipes": "hearth"
     },
     {
-        "mediapath": "/static/img/FtrKalimbaCan.png"
+        "mediapath": "/static/img/FtrKalimbaCan.png",
+        "recipes": "recycled-can thumb piano"
     },
     {
-        "mediapath": "/static/img/FtrKame.png"
+        "mediapath": "/static/img/FtrKame.png",
+        "recipes": "pot"
     },
     {
-        "mediapath": "/static/img/FtrKatakatatoy.png"
+        "mediapath": "/static/img/FtrKatakatatoy.png",
+        "recipes": "clackercart"
     },
     {
-        "mediapath": "/static/img/FtrKettlebell.png"
+        "mediapath": "/static/img/FtrKettlebell.png",
+        "recipes": "kettlebell"
     },
     {
-        "mediapath": "/static/img/FtrKeyhanger.png"
+        "mediapath": "/static/img/FtrKeyhanger.png",
+        "recipes": "key holder"
     },
     {
-        "mediapath": "/static/img/FtrLeafWall.png"
+        "mediapath": "/static/img/FtrLeafWall.png",
+        "recipes": "potted ivy"
     },
     {
-        "mediapath": "/static/img/FtrLogBedS.png"
+        "mediapath": "/static/img/FtrLogBedS.png",
+        "recipes": "log garden lounge"
     },
     {
-        "mediapath": "/static/img/FtrLogBedW.png"
+        "mediapath": "/static/img/FtrLogBedW.png",
+        "recipes": "log bed"
     },
     {
-        "mediapath": "/static/img/FtrLogClockWall.png"
+        "mediapath": "/static/img/FtrLogClockWall.png",
+        "recipes": "log wall-mounted clock"
     },
     {
-        "mediapath": "/static/img/FtrLogShelf.png"
+        "mediapath": "/static/img/FtrLogShelf.png",
+        "recipes": "log decorative shelves"
     },
     {
-        "mediapath": "/static/img/FtrLogSofaL.png"
+        "mediapath": "/static/img/FtrLogSofaL.png",
+        "recipes": "log extra-long sofa"
     },
     {
-        "mediapath": "/static/img/FtrLogSofaS.png"
+        "mediapath": "/static/img/FtrLogSofaS.png",
+        "recipes": "log chair"
     },
     {
-        "mediapath": "/static/img/FtrLogStoolL.png"
+        "mediapath": "/static/img/FtrLogStoolL.png",
+        "recipes": "log bench"
     },
     {
-        "mediapath": "/static/img/FtrLogStoolS.png"
+        "mediapath": "/static/img/FtrLogStoolS.png",
+        "recipes": "log stool"
     },
     {
-        "mediapath": "/static/img/FtrLogTableL.png"
+        "mediapath": "/static/img/FtrLogTableL.png",
+        "recipes": "log dining table"
     },
     {
-        "mediapath": "/static/img/FtrLogTableLRound.png"
+        "mediapath": "/static/img/FtrLogTableLRound.png",
+        "recipes": "log round table"
     },
     {
-        "mediapath": "/static/img/FtrMagagine.png"
+        "mediapath": "/static/img/FtrMagagine.png",
+        "recipes": "stacked magazines"
     },
     {
-        "mediapath": "/static/img/FtrMagazinerack.png"
+        "mediapath": "/static/img/FtrMagazinerack.png",
+        "recipes": "magazine rack"
     },
     {
-        "mediapath": "/static/img/FtrManekinekoGold.png"
+        "mediapath": "/static/img/FtrManekinekoGold.png",
+        "recipes": "lucky gold cat"
     },
     {
-        "mediapath": "/static/img/FtrManhole.png"
+        "mediapath": "/static/img/FtrManhole.png",
+        "recipes": "manhole cover"
     },
     {
-        "mediapath": "/static/img/FtrMatryoshka.png"
+        "mediapath": "/static/img/FtrMatryoshka.png",
+        "recipes": "matryoshka"
     },
     {
-        "mediapath": "/static/img/FtrMeteo.png"
+        "mediapath": "/static/img/FtrMeteo.png",
+        "recipes": "asteroid"
     },
     {
-        "mediapath": "/static/img/FtrMicrolibrary.png"
+        "mediapath": "/static/img/FtrMicrolibrary.png",
+        "recipes": "tiny library"
     },
     {
-        "mediapath": "/static/img/FtrModule.png"
+        "mediapath": "/static/img/FtrModule.png",
+        "recipes": "lunar lander"
     },
     {
-        "mediapath": "/static/img/FtrMokugyo.png"
+        "mediapath": "/static/img/FtrMokugyo.png",
+        "recipes": "wooden fish"
     },
     {
-        "mediapath": "/static/img/FtrMoon.png"
+        "mediapath": "/static/img/FtrMoon.png",
+        "recipes": "moon"
     },
     {
-        "mediapath": "/static/img/FtrMoonrover.png"
+        "mediapath": "/static/img/FtrMoonrover.png",
+        "recipes": "lunar rover"
     },
     {
-        "mediapath": "/static/img/FtrMovingboxL.png"
+        "mediapath": "/static/img/FtrMovingboxL.png",
+        "recipes": "large cardboard boxes"
     },
     {
-        "mediapath": "/static/img/FtrMovingboxM.png"
+        "mediapath": "/static/img/FtrMovingboxM.png",
+        "recipes": "medium cardboard boxes"
     },
     {
-        "mediapath": "/static/img/FtrMovingboxS.png"
+        "mediapath": "/static/img/FtrMovingboxS.png",
+        "recipes": "small cardboard boxes"
     },
     {
-        "mediapath": "/static/img/FtrMushroomChairS.png"
+        "mediapath": "/static/img/FtrMushroomChairS.png",
+        "recipes": "mush low stool"
     },
     {
-        "mediapath": "/static/img/FtrMushroomLamp.png"
+        "mediapath": "/static/img/FtrMushroomLamp.png",
+        "recipes": "mush lamp"
     },
     {
-        "mediapath": "/static/img/FtrMushroomParasol.png"
+        "mediapath": "/static/img/FtrMushroomParasol.png",
+        "recipes": "mush parasol"
     },
     {
-        "mediapath": "/static/img/FtrMushroomPulpwood.png"
+        "mediapath": "/static/img/FtrMushroomPulpwood.png",
+        "recipes": "mush log"
     },
     {
-        "mediapath": "/static/img/FtrMushroomScreen.png"
+        "mediapath": "/static/img/FtrMushroomScreen.png",
+        "recipes": "mush partition"
     },
     {
-        "mediapath": "/static/img/FtrMushroomTableL.png"
+        "mediapath": "/static/img/FtrMushroomTableL.png",
+        "recipes": "mush table"
     },
     {
-        "mediapath": "/static/img/FtrMusicstand.png"
+        "mediapath": "/static/img/FtrMusicstand.png",
+        "recipes": "music stand"
     },
     {
-        "mediapath": "/static/img/FtrNutArch.png"
+        "mediapath": "/static/img/FtrNutArch.png",
+        "recipes": "tree's bounty arch"
     },
     {
-        "mediapath": "/static/img/FtrNutLamp.png"
+        "mediapath": "/static/img/FtrNutLamp.png",
+        "recipes": "tree's bounty lamp"
     },
     {
-        "mediapath": "/static/img/FtrNutMobile.png"
+        "mediapath": "/static/img/FtrNutMobile.png",
+        "recipes": "tree's bounty mobile"
     },
     {
-        "mediapath": "/static/img/FtrNutTreeL.png"
+        "mediapath": "/static/img/FtrNutTreeL.png",
+        "recipes": "tree's bounty big tree"
     },
     {
-        "mediapath": "/static/img/FtrNutTreeS.png"
+        "mediapath": "/static/img/FtrNutTreeS.png",
+        "recipes": "tree's bounty little tree"
     },
     {
-        "mediapath": "/static/img/FtrOfficePapers.png"
+        "mediapath": "/static/img/FtrOfficePapers.png",
+        "recipes": "document stack"
     },
     {
-        "mediapath": "/static/img/FtrOpenairbath.png"
+        "mediapath": "/static/img/FtrOpenairbath.png",
+        "recipes": "outdoor bath"
     },
     {
-        "mediapath": "/static/img/FtrOrnamentMobile.png"
+        "mediapath": "/static/img/FtrOrnamentMobile.png",
+        "recipes": "ornament mobile"
     },
     {
-        "mediapath": "/static/img/FtrOrnamentTanuki.png"
+        "mediapath": "/static/img/FtrOrnamentTanuki.png",
+        "recipes": "raccoon figurine"
     },
     {
         "mediapath": "/static/img/FtrPalmtreelamp.png"
