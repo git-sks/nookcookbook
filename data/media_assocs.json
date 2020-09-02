@@ -1380,142 +1380,188 @@
         "recipes": "raccoon figurine"
     },
     {
-        "mediapath": "/static/img/FtrPalmtreelamp.png"
+        "mediapath": "/static/img/FtrPalmtreelamp.png",
+        "recipes": "palm-tree lamp"
     },
     {
-        "mediapath": "/static/img/FtrPan.png"
+        "mediapath": "/static/img/FtrPan.png",
+        "recipes": "frying pan"
     },
     {
-        "mediapath": "/static/img/FtrParkbenche.png"
+        "mediapath": "/static/img/FtrParkbenche.png",
+        "recipes": "garden bench"
     },
     {
-        "mediapath": "/static/img/FtrPianoStreet.png"
+        "mediapath": "/static/img/FtrPianoStreet.png",
+        "recipes": "street piano"
     },
     {
-        "mediapath": "/static/img/FtrPirateBarrel.png"
+        "mediapath": "/static/img/FtrPirateBarrel.png",
+        "recipes": "barrel"
     },
     {
-        "mediapath": "/static/img/FtrPlantSucculents.png"
+        "mediapath": "/static/img/FtrPlantSucculents.png",
+        "recipes": "succulent plant"
     },
     {
-        "mediapath": "/static/img/FtrPlanterPalm.png"
+        "mediapath": "/static/img/FtrPlanterPalm.png",
+        "recipes": "coconut wall planter"
     },
     {
-        "mediapath": "/static/img/FtrPlayingtire.png"
+        "mediapath": "/static/img/FtrPlayingtire.png",
+        "recipes": "tire toy"
     },
     {
-        "mediapath": "/static/img/FtrPotteryjug.png"
+        "mediapath": "/static/img/FtrPotteryjug.png",
+        "recipes": "classic pitcher"
     },
     {
-        "mediapath": "/static/img/FtrQuoits.png"
+        "mediapath": "/static/img/FtrQuoits.png",
+        "recipes": "ringtoss"
     },
     {
-        "mediapath": "/static/img/FtrRockArch.png"
+        "mediapath": "/static/img/FtrRockArch.png",
+        "recipes": "stone arch"
     },
     {
-        "mediapath": "/static/img/FtrRockMonument.png"
+        "mediapath": "/static/img/FtrRockMonument.png",
+        "recipes": "stone tablet"
     },
     {
-        "mediapath": "/static/img/FtrRocket.png"
+        "mediapath": "/static/img/FtrRocket.png",
+        "recipes": "rocket"
     },
     {
-        "mediapath": "/static/img/FtrRockingchair.png"
+        "mediapath": "/static/img/FtrRockingchair.png",
+        "recipes": "rocking chair"
     },
     {
-        "mediapath": "/static/img/FtrRockinghorse.png"
+        "mediapath": "/static/img/FtrRockinghorse.png",
+        "recipes": "rocking horse"
     },
     {
-        "mediapath": "/static/img/FtrSakuraBranch.png"
+        "mediapath": "/static/img/FtrSakuraBranch.png",
+        "recipes": "cherry-blossom branches"
     },
     {
-        "mediapath": "/static/img/FtrSakuraClockW.png"
+        "mediapath": "/static/img/FtrSakuraClockW.png",
+        "recipes": "cherry-blossom clock"
     },
     {
-        "mediapath": "/static/img/FtrSakuraLantern.png"
+        "mediapath": "/static/img/FtrSakuraLantern.png",
+        "recipes": "blossom-viewing lantern"
     },
     {
-        "mediapath": "/static/img/FtrSakuraPetal.png"
+        "mediapath": "/static/img/FtrSakuraPetal.png",
+        "recipes": "cherry-blossom-petal-pile"
     },
     {
-        "mediapath": "/static/img/FtrSakuraPicnicset.png"
+        "mediapath": "/static/img/FtrSakuraPicnicset.png",
+        "recipes": "outdoor picnic set"
     },
     {
-        "mediapath": "/static/img/FtrSatellite.png"
+        "mediapath": "/static/img/FtrSatellite.png",
+        "recipes": "satellite"
     },
     {
-        "mediapath": "/static/img/FtrScarecrow.png"
+        "mediapath": "/static/img/FtrScarecrow.png",
+        "recipes": "scarecrow"
     },
     {
-        "mediapath": "/static/img/FtrScreenCage.png"
+        "mediapath": "/static/img/FtrScreenCage.png",
+        "recipes": "jail bars"
     },
     {
-        "mediapath": "/static/img/FtrSekishishi.png"
+        "mediapath": "/static/img/FtrSekishishi.png",
+        "recipes": "stone lion-dog"
     },
     {
-        "mediapath": "/static/img/FtrShellArch.png"
+        "mediapath": "/static/img/FtrShellArch.png",
+        "recipes": "shell arch"
     },
     {
-        "mediapath": "/static/img/FtrShellBedW.png"
+        "mediapath": "/static/img/FtrShellBedW.png",
+        "recipes": "shell bed"
     },
     {
-        "mediapath": "/static/img/FtrShellFountain.png"
+        "mediapath": "/static/img/FtrShellFountain.png",
+        "recipes": "shell fountain"
     },
     {
-        "mediapath": "/static/img/FtrShellLamp.png"
+        "mediapath": "/static/img/FtrShellLamp.png",
+        "recipes": "shell lamp"
     },
     {
-        "mediapath": "/static/img/FtrShellMusic.png"
+        "mediapath": "/static/img/FtrShellMusic.png",
+        "recipes": "shell speaker"
     },
     {
-        "mediapath": "/static/img/FtrShellScreen.png"
+        "mediapath": "/static/img/FtrShellScreen.png",
+        "recipes": "shell partition"
     },
     {
-        "mediapath": "/static/img/FtrShellStoolS.png"
+        "mediapath": "/static/img/FtrShellStoolS.png",
+        "recipes": "shell stool"
     },
     {
-        "mediapath": "/static/img/FtrShellTableL.png"
+        "mediapath": "/static/img/FtrShellTableL.png",
+        "recipes": "shell table"
     },
     {
-        "mediapath": "/static/img/FtrShishiodoshi.png"
+        "mediapath": "/static/img/FtrShishiodoshi.png",
+        "recipes": "deer scare"
     },
     {
-        "mediapath": "/static/img/FtrShuttle.png"
+        "mediapath": "/static/img/FtrShuttle.png",
+        "recipes": "space shuttle"
     },
     {
-        "mediapath": "/static/img/FtrSignWood.png"
+        "mediapath": "/static/img/FtrSignWood.png",
+        "recipes": "plain wooden shop sign"
     },
     {
-        "mediapath": "/static/img/FtrSignboardWood.png"
+        "mediapath": "/static/img/FtrSignboardWood.png",
+        "recipes": "wooden-plank sign"
     },
     {
-        "mediapath": "/static/img/FtrSignpost.png"
+        "mediapath": "/static/img/FtrSignpost.png",
+        "recipes": "signpost"
     },
     {
-        "mediapath": "/static/img/FtrSignpostTilt.png"
+        "mediapath": "/static/img/FtrSignpostTilt.png",
+        "recipes": "angled signpost"
     },
     {
-        "mediapath": "/static/img/FtrSignpostWorld.png"
+        "mediapath": "/static/img/FtrSignpostWorld.png",
+        "recipes": "destinations signpost"
     },
     {
-        "mediapath": "/static/img/FtrSilo.png"
+        "mediapath": "/static/img/FtrSilo.png",
+        "recipes": "silo"
     },
     {
-        "mediapath": "/static/img/FtrSled.png"
+        "mediapath": "/static/img/FtrSled.png",
+        "recipes": "sleigh"
     },
     {
-        "mediapath": "/static/img/FtrSnowman.png"
+        "mediapath": "/static/img/FtrSnowman.png",
+        "recipes": "three-tiered snowperson"
     },
     {
-        "mediapath": "/static/img/FtrSpacecraft.png"
+        "mediapath": "/static/img/FtrSpacecraft.png",
+        "recipes": "crewed spaceship"
     },
     {
-        "mediapath": "/static/img/FtrSpacesuit.png"
+        "mediapath": "/static/img/FtrSpacesuit.png",
+        "recipes": "astronaut suit"
     },
     {
-        "mediapath": "/static/img/FtrStandflower.png"
+        "mediapath": "/static/img/FtrStandflower.png",
+        "recipes": "flower stand"
     },
     {
-        "mediapath": "/static/img/FtrStarClock.png"
+        "mediapath": "/static/img/FtrStarClock.png",
+        "recipes": "star clock"
     },
     {
         "mediapath": "/static/img/FtrStarDecorationWall.png"
